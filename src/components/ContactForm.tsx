@@ -35,11 +35,16 @@ export default function ContactForm() {
 
   if (status === "success") {
     return (
-      <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
-        <h3 className="text-xl font-semibold text-green-800 mb-2">
+      <div className="glass rounded-2xl p-8 text-center border border-brand-cyan/20">
+        <div className="w-16 h-16 rounded-full bg-brand-cyan/10 flex items-center justify-center mx-auto mb-4">
+          <svg className="w-8 h-8 text-brand-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <h3 className="text-xl font-semibold text-white mb-2">
           Vielen Dank!
         </h3>
-        <p className="text-green-700">
+        <p className="text-slate-400">
           Wir haben Ihre Anfrage erhalten und melden uns in Kürze bei Ihnen.
         </p>
       </div>
@@ -50,7 +55,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-1.5">
             Name *
           </label>
           <input
@@ -58,11 +63,12 @@ export default function ContactForm() {
             name="name"
             type="text"
             required
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+            className="w-full px-4 py-2.5 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:ring-2 focus:ring-brand-cyan/50 focus:border-brand-cyan/50 outline-none transition"
+            placeholder="Max Mustermann"
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-1.5">
             E-Mail *
           </label>
           <input
@@ -70,34 +76,37 @@ export default function ContactForm() {
             name="email"
             type="email"
             required
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+            className="w-full px-4 py-2.5 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:ring-2 focus:ring-brand-cyan/50 focus:border-brand-cyan/50 outline-none transition"
+            placeholder="max@unternehmen.at"
           />
         </div>
         <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="phone" className="block text-sm font-medium text-slate-300 mb-1.5">
             Telefon
           </label>
           <input
             id="phone"
             name="phone"
             type="tel"
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+            className="w-full px-4 py-2.5 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:ring-2 focus:ring-brand-cyan/50 focus:border-brand-cyan/50 outline-none transition"
+            placeholder="+43 ..."
           />
         </div>
         <div>
-          <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="company" className="block text-sm font-medium text-slate-300 mb-1.5">
             Unternehmen
           </label>
           <input
             id="company"
             name="company"
             type="text"
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+            className="w-full px-4 py-2.5 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:ring-2 focus:ring-brand-cyan/50 focus:border-brand-cyan/50 outline-none transition"
+            placeholder="Firma GmbH"
           />
         </div>
       </div>
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+        <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-1.5">
           Nachricht *
         </label>
         <textarea
@@ -105,18 +114,19 @@ export default function ContactForm() {
           name="message"
           rows={5}
           required
-          className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition resize-none"
+          className="w-full px-4 py-2.5 bg-white/5 border border-white/10 rounded-lg text-white placeholder-slate-500 focus:ring-2 focus:ring-brand-cyan/50 focus:border-brand-cyan/50 outline-none transition resize-none"
+          placeholder="Wie können wir Ihnen helfen?"
         />
       </div>
       {status === "error" && (
-        <p className="text-red-600 text-sm">
+        <p className="text-red-400 text-sm">
           Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.
         </p>
       )}
       <button
         type="submit"
         disabled={status === "sending"}
-        className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        className="bg-gradient-to-r from-brand-blue to-brand-cyan text-white px-8 py-3 rounded-lg font-medium hover:shadow-lg hover:shadow-brand-cyan/25 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {status === "sending" ? "Wird gesendet..." : "Anfrage senden"}
       </button>

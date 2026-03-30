@@ -1,5 +1,13 @@
-export const metadata = {
+import { metadata as studioMetadata, viewport as studioViewport, NextStudioLayout } from "next-sanity/studio";
+import type { Metadata, Viewport } from "next";
+
+export const metadata: Metadata = {
+  ...studioMetadata,
   title: "Sanity Studio | Glockner AI",
+};
+
+export const viewport: Viewport = {
+  ...studioViewport as Viewport,
 };
 
 export default function StudioLayout({
@@ -7,9 +15,5 @@ export default function StudioLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="de">
-      <body style={{ margin: 0 }}>{children}</body>
-    </html>
-  );
+  return <NextStudioLayout>{children}</NextStudioLayout>;
 }
