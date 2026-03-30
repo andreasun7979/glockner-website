@@ -131,6 +131,73 @@ h1, h2, h3, h4, h5, h6 {
   animation: scroll-left 40s linear infinite;
 }
 
+/* ---------- Use Cases Slider (glockner.ai style) ---------- */
+.use-case-slider {
+  position: relative;
+  width: 100%;
+}
+
+.use-case-slider::before,
+.use-case-slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.use-case-slider::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-brand-dark), transparent);
+}
+
+.use-case-slider::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-brand-dark), transparent);
+}
+
+.slider-row {
+  display: flex;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
+.slider-row-1 { animation: scroll-left 45s linear infinite; }
+.slider-row-2 { animation: scroll-left 55s linear infinite; margin-left: -125px; }
+
+.slide-card {
+  width: 230px;
+  height: 85px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-align: center;
+  padding: 0 15px;
+  flex-shrink: 0;
+  cursor: default;
+}
+
+.slide-card:hover {
+  transform: translateY(-7px) scale(1.02);
+  border-color: var(--color-brand-cyan);
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);
+  color: var(--color-brand-cyan);
+}
+
 /* ---------- Fade animations ---------- */
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(24px); }

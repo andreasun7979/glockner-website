@@ -311,19 +311,24 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Use Cases Marquee */}
-      <section className="py-16 overflow-hidden border-y border-white/5">
-        <FadeIn className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-white">
-            {cms?.useCasesHeading || "Unsere KI Use Cases"}
+      {/* Use Cases Slider */}
+      <section className="py-20 md:py-24 overflow-hidden">
+        <FadeIn className="text-center max-w-3xl mx-auto mb-12 px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-snug">
+            <span className="gradient-text">{cms?.useCasesHeading || "Use Cases AI"}</span><br />
+            Strategisch erstellt und kombiniert,<br />
+            werden Sie der Konkurrenz weit voraus sein.
           </h2>
         </FadeIn>
-        <div className="relative">
-          <div className="flex gap-4 animate-scroll-left w-max">
+        <div className="use-case-slider">
+          <div className="slider-row slider-row-1">
             {[...useCases, ...useCases].map((uc: string, i: number) => (
-              <span key={`${uc}-${i}`} className="glass whitespace-nowrap px-5 py-2.5 rounded-full text-sm text-slate-300 hover:text-brand-cyan hover:border-brand-cyan/20 transition-colors">
-                {uc}
-              </span>
+              <div key={`r1-${uc}-${i}`} className="slide-card">{uc}</div>
+            ))}
+          </div>
+          <div className="slider-row slider-row-2">
+            {[...useCases].reverse().concat([...useCases].reverse()).map((uc: string, i: number) => (
+              <div key={`r2-${uc}-${i}`} className="slide-card">{uc}</div>
             ))}
           </div>
         </div>

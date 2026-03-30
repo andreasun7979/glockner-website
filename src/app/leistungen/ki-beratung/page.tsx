@@ -554,16 +554,24 @@ export default async function KIBeratungPage() {
         </div>
       </section>
 
-      {/* Use Cases */}
-      <section className="py-16 overflow-hidden border-y border-white/5">
-        <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-white">Use Cases AI</h2>
-          <p className="text-slate-400 text-sm mt-2">Strategisch erstellt und kombiniert, werden Sie der Konkurrenz weit voraus sein.</p>
+      {/* Use Cases Slider */}
+      <section className="py-20 md:py-24 overflow-hidden">
+        <div className="text-center max-w-3xl mx-auto mb-12 px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-snug">
+            <span className="gradient-text">Use Cases AI</span><br />
+            Strategisch erstellt und kombiniert,<br />
+            werden Sie der Konkurrenz weit voraus sein.
+          </h2>
         </div>
-        <div className="relative">
-          <div className="flex gap-4 animate-scroll-left w-max">
+        <div className="use-case-slider">
+          <div className="slider-row slider-row-1">
             {[...useCases, ...useCases].map((uc, i) => (
-              <span key={`${uc}-${i}`} className="glass whitespace-nowrap px-5 py-2.5 rounded-full text-sm text-slate-300 hover:text-brand-cyan hover:border-brand-cyan/20 transition-colors">{uc}</span>
+              <div key={`r1-${uc}-${i}`} className="slide-card">{uc}</div>
+            ))}
+          </div>
+          <div className="slider-row slider-row-2">
+            {[...useCases].reverse().concat([...useCases].reverse()).map((uc, i) => (
+              <div key={`r2-${uc}-${i}`} className="slide-card">{uc}</div>
             ))}
           </div>
         </div>
