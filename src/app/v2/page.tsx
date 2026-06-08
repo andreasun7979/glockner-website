@@ -69,7 +69,7 @@ export default function GlocknerV2Page() {
 
           {/* Zwei Säulen */}
           <div className="grid sm:grid-cols-2 gap-5 md:gap-6 max-w-4xl mx-auto">
-            <div className="relative rounded-2xl border border-aurum/30 bg-brand-card/70 p-7 md:p-9 overflow-hidden hover:-translate-y-1 transition-all duration-500">
+            <Link href="/ki-marketing-vertrieb" className="group block relative rounded-2xl border border-aurum/30 hover:border-aurum/60 bg-brand-card/70 p-7 md:p-9 overflow-hidden hover:-translate-y-1 transition-all duration-500">
               <span
                 aria-hidden="true"
                 className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-aurum to-transparent opacity-60"
@@ -80,9 +80,12 @@ export default function GlocknerV2Page() {
               <p className="mt-4 font-serif-display italic text-slate-200 text-lg md:text-xl">
                 Mehr Umsatz mit KI.
               </p>
-            </div>
+              <span className="mt-5 inline-flex items-center gap-1.5 text-aurum text-sm font-semibold opacity-80 group-hover:opacity-100 transition-opacity">
+                Mehr erfahren <ArrowRight />
+              </span>
+            </Link>
 
-            <div className="relative rounded-2xl border border-aurum/30 bg-brand-card/70 p-7 md:p-9 overflow-hidden hover:-translate-y-1 transition-all duration-500">
+            <Link href="/ki-automatisierung" className="group block relative rounded-2xl border border-aurum/30 hover:border-aurum/60 bg-brand-card/70 p-7 md:p-9 overflow-hidden hover:-translate-y-1 transition-all duration-500">
               <span
                 aria-hidden="true"
                 className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-aurum to-transparent opacity-60"
@@ -93,7 +96,10 @@ export default function GlocknerV2Page() {
               <p className="mt-4 font-serif-display italic text-slate-200 text-lg md:text-xl">
                 Effizienz rauf. Kosten runter.
               </p>
-            </div>
+              <span className="mt-5 inline-flex items-center gap-1.5 text-aurum text-sm font-semibold opacity-80 group-hover:opacity-100 transition-opacity">
+                Mehr erfahren <ArrowRight />
+              </span>
+            </Link>
           </div>
 
           <div className="mt-10 mb-8">
