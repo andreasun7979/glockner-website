@@ -1,0 +1,167 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - text:   
+    - generic [ref=e3]:
+      - text: 
+      - generic [ref=e4]:
+        - generic:
+          - link "EASY2" [ref=e6] [cursor=pointer]:
+            - /url: //easy2.de
+            - img "EASY2" [ref=e8]
+          - generic:  
+      - list [ref=e9] [cursor=pointer]:
+        - listitem [ref=e10]
+        - listitem [ref=e11]
+        - listitem [ref=e12]
+    - generic [ref=e13]:
+      - list [ref=e14] [cursor=pointer]:
+        - listitem [ref=e15]
+        - listitem [ref=e16]
+        - listitem [ref=e17]
+      - link "EASY2" [ref=e21] [cursor=pointer]:
+        - /url: //easy2.de
+        - img "EASY2" [ref=e23]
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - navigation:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - link "Home" [ref=e29] [cursor=pointer]:
+                  - /url: /startseite
+              - listitem [ref=e30]:
+                - link "Funktionen " [ref=e31] [cursor=pointer]:
+                  - /url: /funktionen
+                  - text: Funktionen
+                  - generic [ref=e32]: 
+                - text: 
+              - listitem [ref=e33]:
+                - link "Ressourcen " [ref=e34] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Ressourcen
+                  - generic [ref=e35]: 
+                - text: 
+              - listitem [ref=e36]:
+                - link "Kunden Story's" [ref=e37] [cursor=pointer]:
+                  - /url: https://easy2.de/kundenstimmen
+              - listitem [ref=e38]:
+                - link "Preise" [ref=e39] [cursor=pointer]:
+                  - /url: /preise
+              - listitem [ref=e40]:
+                - link "Demo Webinar" [ref=e41] [cursor=pointer]:
+                  - /url: https://easy2.de/demo-webinar
+        - link "Starte Gratis!" [ref=e44] [cursor=pointer]:
+          - /url: /gratis-starten
+        - link " Login" [ref=e47] [cursor=pointer]:
+          - /url: /login-uebersicht
+          - generic [ref=e48]:
+            - generic [ref=e49]: 
+            - generic [ref=e50]: Login
+    - text: 
+    - generic [ref=e51]:
+      - generic [ref=e57]:
+        - heading "Login" [level=1] [ref=e65]
+        - generic [ref=e68]:
+          - paragraph [ref=e69]: Du hast noch keinen Account?
+          - paragraph [ref=e70]:
+            - text: Erstelle dir jetzt einen
+            - link "kostenlosen Testaccount" [ref=e71] [cursor=pointer]:
+              - /url: /kostenlos-testen/kostenlos-testen
+            - text: .
+        - generic [ref=e75]:
+          - textbox "E-Mail Adresse" [ref=e77]
+          - textbox "Passwort" [ref=e79]
+          - generic "Einloggen" [ref=e81] [cursor=pointer]: Login
+          - generic "Passwort vergessen?" [ref=e82] [cursor=pointer]
+      - contentinfo [ref=e88]:
+        - generic [ref=e90]:
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Nutze auch du EASY2 für dein Digitalmarketing. Mit EASY2 hast du ALLES an EINEM Ort, übersichtlich und funktional für optimale Conversions.
+            - paragraph
+          - generic [ref=e116]:
+            - heading "EASY2" [level=5] [ref=e120]
+            - generic [ref=e123]:
+              - paragraph [ref=e124]:
+                - link "Über uns" [ref=e126] [cursor=pointer]:
+                  - /url: /ueber-uns
+              - paragraph [ref=e127]:
+                - link "VIP-Service" [ref=e129] [cursor=pointer]:
+                  - /url: /vip-service
+              - paragraph [ref=e130]:
+                - link "Login" [ref=e132] [cursor=pointer]:
+                  - /url: /login
+              - paragraph [ref=e133]:
+                - link "Gratis starten" [ref=e135] [cursor=pointer]:
+                  - /url: /gratis-starten
+              - paragraph
+              - paragraph
+              - paragraph
+            - heading "Unser Content Magazin" [level=5] [ref=e139]
+            - paragraph [ref=e143]:
+              - link "EASY2 Magazin" [ref=e144] [cursor=pointer]:
+                - /url: /magazin
+          - generic [ref=e145]:
+            - heading "Ressourcen" [level=5] [ref=e153]
+            - generic [ref=e156]:
+              - paragraph [ref=e157]:
+                - link "Updates" [ref=e158] [cursor=pointer]:
+                  - /url: /updates
+              - paragraph [ref=e159]:
+                - link "Help Center" [ref=e161] [cursor=pointer]:
+                  - /url: https://help.easy2.de/
+              - paragraph [ref=e162]:
+                - link "Video Akademie" [ref=e164] [cursor=pointer]:
+                  - /url: https://akademie.easy2.de
+              - paragraph [ref=e165]:
+                - link "API-Dokumentation" [ref=e167] [cursor=pointer]:
+                  - /url: https://easy2api.docs.apiary.io/
+              - paragraph [ref=e168]:
+                - link "Zapier Integration" [ref=e170] [cursor=pointer]:
+                  - /url: https://zapier.com/apps/easy2/integrations
+              - paragraph
+              - paragraph
+              - paragraph
+          - generic [ref=e175]:
+            - heading "Partnerprogramm" [level=5] [ref=e179]
+            - generic [ref=e182]:
+              - paragraph [ref=e183]:
+                - link "Affiliate Programm" [ref=e185] [cursor=pointer]:
+                  - /url: https://easy2.de/affiliate
+              - paragraph [ref=e186]:
+                - link "Affiliate Login" [ref=e187] [cursor=pointer]:
+                  - /url: https://affiliate.easy2.de/login
+              - paragraph
+              - paragraph
+              - paragraph
+            - heading "Folge uns" [level=5] [ref=e195]
+            - generic [ref=e198]:
+              - link "" [ref=e199] [cursor=pointer]:
+                - /url: https://www.youtube.com/@easy2-all-in-one/videos
+                - generic [ref=e200]: 
+              - link "" [ref=e201] [cursor=pointer]:
+                - /url: https://www.instagram.com/easy2_all_in_one/
+                - generic [ref=e202]: 
+              - link "" [ref=e203] [cursor=pointer]:
+                - /url: https://www.facebook.com/easy2gmbh/
+                - generic [ref=e204]: 
+              - link "" [ref=e205] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@easy2_all_in_one
+                - generic [ref=e206]: 
+              - link "" [ref=e207] [cursor=pointer]:
+                - /url: http://linkedin.com/company/easy2-all-in-one/?originalSubdomain=de
+                - generic [ref=e208]: 
+        - generic [ref=e215]:
+          - paragraph [ref=e219]:
+            - generic [ref=e220]:
+              - link "Impressum" [ref=e221] [cursor=pointer]:
+                - /url: /impressum
+              - text: "|"
+              - link "Datenschutzerklärung" [ref=e222] [cursor=pointer]:
+                - /url: /datenschutzerklaerung
+              - text: "|"
+              - link "AGB" [ref=e223] [cursor=pointer]:
+                - /url: /agb
+          - paragraph [ref=e227]: © 2026 EASY2 GmbH - All Rights Reserved
+  - text: ✔
+  - text:  
+  - iframe [ref=e232]:
+    

@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog",
-  description: "Neuigkeiten und Einblicke rund um KI, Automatisierung und digitale Transformation.",
+  title: "Blog: KI, Automatisierung & digitale Transformation",
+  description:
+    "Einblicke und Neuigkeiten rund um Künstliche Intelligenz, Automatisierung und digitale Transformation für KMU in Österreich.",
+  alternates: { canonical: "/blog" },
+  openGraph: {
+    title: "Blog: KI, Automatisierung & digitale Transformation | Glockner AI",
+    description:
+      "Einblicke und Neuigkeiten rund um Künstliche Intelligenz, Automatisierung und digitale Transformation für KMU in Österreich.",
+    url: "/blog",
+  },
 };
 
 export default function BlogPage() {

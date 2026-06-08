@@ -1,0 +1,16 @@
+[     136ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    2599ms] [LOG] [Fast Refresh] done in 2568ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    2874ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    2899ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    7272ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    7589ms] [LOG] [Fast Refresh] done in 421ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   32255ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   32426ms] [LOG] [Fast Refresh] done in 278ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  119916ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  120400ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  120506ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  120870ms] [LOG] [Fast Refresh] done in 467ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  124500ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  125053ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  125170ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  125192ms] [LOG] [Fast Refresh] done in 127ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431

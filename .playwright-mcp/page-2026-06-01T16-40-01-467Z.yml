@@ -1,0 +1,365 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner Digital — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /digital/ecommerce
+        - img "Glockner Digital" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e14]:
+      - img [ref=e16]
+      - generic [ref=e26]: Glockner Digital
+      - generic [ref=e27]: Beratung · Gesundheit
+      - heading "Für Patienten, die vertrauen." [level=1] [ref=e28]:
+        - text: Für Patienten, die
+        - emphasis [ref=e29]: vertrauen
+        - text: .
+      - paragraph [ref=e35]: Digitale Strategie für Ärzte, Kliniken & Apotheken — DSGVO-konform, vertrauensbildend, regional sichtbar.
+      - generic [ref=e36]:
+        - generic [ref=e37]: DSGVO-konform
+        - generic [ref=e38]: EU-Server only
+        - generic [ref=e39]: KMU-Digital Partner
+    - generic [ref=e42]:
+      - img [ref=e44]
+      - generic [ref=e47]: Unser Versprechen
+      - blockquote [ref=e48]:
+        - text: “Gesundheit ist
+        - emphasis [ref=e49]: Vertrauenssache
+        - text: . Wir machen Sie online so
+        - emphasis [ref=e50]: vertrauenswürdig
+        - text: ", wie Sie es"
+        - emphasis [ref=e51]: in der Praxis schon sind
+        - text: .”
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - generic [ref=e60]: Drei Stufen
+        - heading "Bis zu 80 % WKO-Förderung." [level=2] [ref=e61]:
+          - text: Bis zu
+          - emphasis [ref=e62]: 80 %
+          - text: WKO-Förderung.
+        - paragraph [ref=e68]: Vom Status-Audit bis zur Umsetzungs-Begleitung — geförderte Beratung von einem zertifizierten WKO-Berater.
+      - list [ref=e69]:
+        - listitem [ref=e70]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: 80 % WKO-Förderung
+            - generic [ref=e74]: I
+          - generic [ref=e75]:
+            - heading "Status & Potenzial." [level=3] [ref=e76]
+            - paragraph [ref=e77]: Website- & Praxis-Sichtbarkeits-Check. DSGVO-Audit inklusive.
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: € 500
+              - generic [ref=e81]: € 100
+            - generic [ref=e82]: nach Förderung
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - generic [ref=e86]: Website- & SEO-Audit
+            - listitem [ref=e87]:
+              - generic [ref=e89]: DSGVO-Compliance-Check
+            - listitem [ref=e90]:
+              - generic [ref=e92]: Patienten-Pfad analysieren
+            - listitem [ref=e93]:
+              - generic [ref=e95]: 2-stündige Strategie-Session
+          - link "Anfragen" [ref=e96] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e97]: Anfragen
+            - img [ref=e98]
+        - listitem [ref=e100]:
+          - generic [ref=e102]:
+            - generic [ref=e103]: 50 % WKO-Förderung
+            - generic [ref=e104]: II
+          - generic [ref=e105]:
+            - heading "Online-Strategie." [level=3] [ref=e106]
+            - paragraph [ref=e107]: Sichtbarkeits- & Vertrauens-Roadmap, Patienten-Funnel, Bewertungs-Strategie.
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]: € 2.000
+              - generic [ref=e111]: € 1.000
+            - generic [ref=e112]: nach Förderung
+          - list [ref=e113]:
+            - listitem [ref=e114]:
+              - generic [ref=e116]: Patienten-Sichtbarkeits-Roadmap
+            - listitem [ref=e117]:
+              - generic [ref=e119]: Bewertungs- & Empfehlungs-System
+            - listitem [ref=e120]:
+              - generic [ref=e122]: DSGVO-konforme Online-Kommunikation
+            - listitem [ref=e123]:
+              - generic [ref=e125]: Schriftliche Strategie-Dokumentation
+          - link "Anfragen" [ref=e126] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e127]: Anfragen
+            - img [ref=e128]
+        - listitem [ref=e130]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: WKO-Förderung
+            - generic [ref=e134]: III
+          - generic [ref=e135]:
+            - heading "Umsetzung." [level=3] [ref=e136]
+            - paragraph [ref=e137]: Praxis-Website, Buchungssystem, Bewertungen — begleitete Implementierung.
+          - generic [ref=e138]:
+            - generic [ref=e139]: bis zu
+            - generic [ref=e140]: € 6.000
+            - generic [ref=e141]: Förderung möglich
+          - list [ref=e142]:
+            - listitem [ref=e143]:
+              - generic [ref=e145]: Praxis-Website neu
+            - listitem [ref=e146]:
+              - generic [ref=e148]: Online-Termin-Buchung
+            - listitem [ref=e149]:
+              - generic [ref=e151]: Patienten-Bewertungs-Outreach
+            - listitem [ref=e152]:
+              - generic [ref=e154]: DSGVO-konforme Integration
+          - link "Anfragen" [ref=e155] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e156]: Anfragen
+            - img [ref=e157]
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - img [ref=e164]
+          - generic [ref=e167]: Was Sie davon haben
+        - heading "Drei Hebel, die ziehen." [level=2] [ref=e168]:
+          - text: Drei Hebel,
+          - emphasis [ref=e169]: die ziehen
+          - text: .
+      - list [ref=e170]:
+        - listitem [ref=e171]:
+          - generic [ref=e173]: N° 01
+          - heading "Vertrauen vor dem ersten Termin." [level=3] [ref=e174]
+          - paragraph [ref=e175]: Eine Online-Präsenz, die Patienten überzeugt, bevor sie das Wartezimmer betreten — Bewertungen, Kompetenz, Klarheit.
+        - listitem [ref=e176]:
+          - generic [ref=e178]: N° 02
+          - heading "Sichtbar in der Region." [level=3] [ref=e179]
+          - paragraph [ref=e180]: Wenn jemand in Ihrer Stadt nach Hausarzt, Apotheke oder Ihrem Fachgebiet sucht — werden Sie zuerst gefunden.
+        - listitem [ref=e181]:
+          - generic [ref=e183]: N° 03
+          - heading "Weniger Telefonarbeit, mehr Patientenzeit." [level=3] [ref=e184]
+          - paragraph [ref=e185]: Online-Buchung, automatische Erinnerungen, Bewertungs-Outreach &mdash; Ihr Team kann sich auf das konzentrieren, was zählt.
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - img [ref=e191]
+        - generic [ref=e201]: Kundenstimmen
+        - heading "Was unsere Kunden sagen." [level=2] [ref=e202]:
+          - text: Was unsere Kunden
+          - emphasis [ref=e203]: sagen
+          - text: .
+      - list [ref=e204]:
+        - listitem [ref=e205]:
+          - generic "5 von 5 Sternen" [ref=e207]:
+            - img [ref=e208]
+            - img [ref=e210]
+            - img [ref=e212]
+            - img [ref=e214]
+            - img [ref=e216]
+          - blockquote [ref=e218]: “Ein besonderes Dankeschön für deine wertvolle und geschätzte Unterstützung bei der Strategie-Ausarbeitung.”
+          - generic [ref=e219]:
+            - generic [ref=e220]: Katharina
+            - generic [ref=e221]: Steuerberaterin · Klagenfurt
+        - listitem [ref=e222]:
+          - generic "5 von 5 Sternen" [ref=e224]:
+            - img [ref=e225]
+            - img [ref=e227]
+            - img [ref=e229]
+            - img [ref=e231]
+            - img [ref=e233]
+          - blockquote [ref=e235]: “Professionell organisierter Workshop, immer erreichbar — fundierte Einschätzungen, die wir sofort umsetzen konnten.”
+          - generic [ref=e236]:
+            - generic [ref=e237]: Dana
+            - generic [ref=e238]: Social-Media-Agentur · Wien
+        - listitem [ref=e239]:
+          - generic "5 von 5 Sternen" [ref=e241]:
+            - img [ref=e242]
+            - img [ref=e244]
+            - img [ref=e246]
+            - img [ref=e248]
+            - img [ref=e250]
+          - blockquote [ref=e252]: “Sehr hochwertige Inhalte, die wirklich auf unsere Webshop-Realität zugeschnitten waren. Klarer Mehrwert.”
+          - generic [ref=e253]:
+            - generic [ref=e254]: Kirsten
+            - generic [ref=e255]: Webshop-Betreiberin · Wien
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - img [ref=e261]
+        - generic [ref=e271]: Erstberatung sichern
+        - heading "30 Minuten reichen, um zu sehen, wo bei Ihnen der größte Hebel liegt." [level=2] [ref=e272]:
+          - text: 30 Minuten reichen, um zu sehen, wo bei Ihnen der
+          - emphasis [ref=e273]: größte Hebel
+          - text: liegt.
+        - paragraph [ref=e279]: Kostenlos und unverbindlich. WKO-zertifiziert, KMU-Digital-Partner.
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - generic [ref=e284]:
+            - text: Schritt 1 von 2
+            - heading "Datum & Zeit wählen." [level=3] [ref=e285]
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - button "Vorheriger Monat" [disabled] [ref=e289]:
+                  - img [ref=e290]
+                - generic [ref=e292]: Juni 2026
+                - button "Nächster Monat" [ref=e293]:
+                  - img [ref=e294]
+              - generic [ref=e296]:
+                - generic [ref=e297]: Mo
+                - generic [ref=e298]: Di
+                - generic [ref=e299]: Mi
+                - generic [ref=e300]: Do
+                - generic [ref=e301]: Fr
+                - generic [ref=e302]: Sa
+                - generic [ref=e303]: So
+              - generic [ref=e304]:
+                - button "1" [disabled] [ref=e305]: "1"
+                - button "2" [ref=e307] [cursor=pointer]
+                - button "3" [ref=e308] [cursor=pointer]
+                - button "4" [ref=e309] [cursor=pointer]
+                - button "5" [ref=e310] [cursor=pointer]
+                - button "6" [disabled] [ref=e311]
+                - button "7" [disabled] [ref=e312]
+                - button "8" [ref=e313] [cursor=pointer]
+                - button "9" [ref=e314] [cursor=pointer]
+                - button "10" [ref=e315] [cursor=pointer]
+                - button "11" [ref=e316] [cursor=pointer]
+                - button "12" [ref=e317] [cursor=pointer]
+                - button "13" [disabled] [ref=e318]
+                - button "14" [disabled] [ref=e319]
+                - button "15" [ref=e320] [cursor=pointer]
+                - button "16" [ref=e321] [cursor=pointer]
+                - button "17" [ref=e322] [cursor=pointer]
+                - button "18" [ref=e323] [cursor=pointer]
+                - button "19" [ref=e324] [cursor=pointer]
+                - button "20" [disabled] [ref=e325]
+                - button "21" [disabled] [ref=e326]
+                - button "22" [ref=e327] [cursor=pointer]
+                - button "23" [ref=e328] [cursor=pointer]
+                - button "24" [ref=e329] [cursor=pointer]
+                - button "25" [ref=e330] [cursor=pointer]
+                - button "26" [ref=e331] [cursor=pointer]
+                - button "27" [disabled] [ref=e332]
+                - button "28" [disabled] [ref=e333]
+                - button "29" [ref=e334] [cursor=pointer]
+                - button "30" [ref=e335] [cursor=pointer]
+                - button "1" [disabled] [ref=e336]
+                - button "2" [disabled] [ref=e337]
+                - button "3" [disabled] [ref=e338]
+                - button "4" [disabled] [ref=e339]
+                - button "5" [disabled] [ref=e340]
+              - paragraph [ref=e341]: Mitteleuropäische Zeit · GMT+02:00
+            - paragraph [ref=e344]: Wählen Sie zunächst ein Datum.
+        - complementary [ref=e345]:
+          - generic [ref=e347]: Erstberatung
+          - heading "mit Glockner Digital." [level=4] [ref=e348]
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - img [ref=e352]
+              - generic [ref=e355]:
+                - generic [ref=e356]: Dauer
+                - generic [ref=e357]: 30 Minuten
+            - generic [ref=e358]:
+              - img [ref=e360]
+              - generic [ref=e363]:
+                - generic [ref=e364]: Format
+                - generic [ref=e365]: Online · Google Meet
+            - generic [ref=e366]:
+              - img [ref=e368]
+              - generic [ref=e371]:
+                - generic [ref=e372]: Datum
+                - generic [ref=e373]: —
+            - generic [ref=e374]:
+              - img [ref=e376]
+              - generic [ref=e379]:
+                - generic [ref=e380]: Uhrzeit
+                - generic [ref=e381]: —
+          - paragraph [ref=e383]: Wir analysieren in 30 Minuten, wie Ihre Praxis online so vertrauenswürdig wird, wie Sie es vor Ort schon sind.
+  - contentinfo [ref=e384]:
+    - generic [ref=e387]:
+      - generic [ref=e388]:
+        - generic [ref=e389]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e390]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e391]: direkt
+          - text: .
+        - paragraph [ref=e392]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e393]:
+        - complementary [ref=e394]:
+          - generic [ref=e396]: Direkter Draht
+          - generic [ref=e397]:
+            - generic [ref=e398]:
+              - generic [ref=e399]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e400] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e401]:
+              - generic [ref=e402]: Telefon
+              - link "+43 650 660 5000" [ref=e403] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e404]:
+              - generic [ref=e405]: Standorte
+              - generic [ref=e406]:
+                - generic [ref=e407]:
+                  - generic [ref=e408]: Wien
+                  - generic [ref=e409]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e410]:
+                  - generic [ref=e411]: Klagenfurt
+                  - generic [ref=e412]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e414]:
+          - generic [ref=e416]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e417]
+          - generic [ref=e418]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e419]
+          - generic [ref=e420]:
+            - generic [ref=e421]:
+              - generic [ref=e422]: Name*
+              - textbox "Name*" [ref=e423]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e424]:
+              - generic [ref=e425]: E-Mail*
+              - textbox "E-Mail*" [ref=e426]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e428]:
+            - generic [ref=e429]: Nachricht*
+            - textbox "Nachricht*" [ref=e430]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e431]:
+            - paragraph [ref=e432]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e433]:
+              - generic [ref=e434]: Nachricht senden
+              - img [ref=e435]
+    - generic [ref=e439]:
+      - generic [ref=e440]:
+        - link "Glockner.ai — Startseite" [ref=e441] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e442]
+        - paragraph [ref=e443]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e444]:
+        - heading "Glockner AI" [level=3] [ref=e445]
+        - generic [ref=e446]:
+          - link "Money Making AI" [ref=e447] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "KI-Beratung" [ref=e448] [cursor=pointer]:
+            - /url: /leistungen-lux3#schulungen
+      - generic [ref=e449]:
+        - heading "Glockner Digital" [level=3] [ref=e450]
+        - generic [ref=e451]:
+          - link "E-Commerce" [ref=e452] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e453] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e454] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e456]:
+      - paragraph [ref=e457]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e458]:
+        - link "Impressum" [ref=e459] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e460] [cursor=pointer]:
+          - /url: /datenschutz
+  - alert [ref=e461]

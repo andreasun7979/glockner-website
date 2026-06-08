@@ -1,0 +1,366 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /v2
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic:
+          - img
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - generic [ref=e24]: Weg I · Training
+          - heading "Wir bringen Ihnen das Angeln bei." [level=1] [ref=e25]:
+            - text: Wir bringen Ihnen das
+            - emphasis [ref=e26]: Angeln
+            - text: bei.
+          - paragraph [ref=e32]: Ihr eigenes KI-Betriebssystem — aufgesetzt, eingerichtet und an Sie übergeben.
+          - paragraph [ref=e33]: Wir installieren Claude Code, bauen Ihr Agenten-System und schulen Sie auf die Workflows. Danach bauen Sie selbst — in Tagen, nicht Monaten. Inklusive 3 Monate Begleitung (oder länger), damit Sie nie feststecken.
+          - generic [ref=e34]:
+            - link "Kostenloses Erstgespräch" [ref=e35] [cursor=pointer]:
+              - /url: "#termin"
+              - generic [ref=e36]: Kostenloses Erstgespräch
+              - img [ref=e37]
+            - link "Paket ansehen" [ref=e39] [cursor=pointer]:
+              - /url: "#paket"
+              - generic [ref=e40]: Paket ansehen
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - img [ref=e43]
+              - text: Setup vor Ort oder remote
+            - generic [ref=e45]:
+              - img [ref=e46]
+              - text: 3 Monate Begleitung
+            - generic [ref=e48]:
+              - img [ref=e49]
+              - text: Bis zu 80 % WKO-Förderung
+      - generic [ref=e53]:
+        - generic [ref=e54]: Für wen das ist
+        - heading "Für Unternehmer und Gründer, die selbst die Hand am Steuer wollen." [level=2] [ref=e55]:
+          - text: Für Unternehmer und Gründer, die
+          - emphasis [ref=e56]: selbst die Hand
+          - text: am Steuer wollen.
+        - paragraph [ref=e57]: Sie sind technisch neugierig, wollen unabhängig sein und das volle Potenzial selbst heben? Dann geben wir Ihnen die Plattform, die Werkzeuge und das Wissen an die Hand — damit Sie eigenständig bauen und Ihr KI-System jederzeit selbst weiterentwickeln können.
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - img [ref=e63]
+          - heading "Was wir für Sie aufsetzen." [level=2] [ref=e66]:
+            - text: Was wir für Sie
+            - emphasis [ref=e67]: aufsetzen
+            - text: .
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - generic [ref=e71]: "01"
+            - heading "KI-Betriebssystem" [level=3] [ref=e72]
+            - paragraph [ref=e73]: "Ihre kontextualisierte Basis (Context OS): Wissen, Struktur, Historie — alles an einem Ort."
+          - listitem [ref=e74]:
+            - generic [ref=e76]: "02"
+            - heading "Claude Code & Agents" [level=3] [ref=e77]
+            - paragraph [ref=e78]: Installation und Konfiguration Ihrer KI-Entwicklungs-Engine inkl. Agenten-System.
+          - listitem [ref=e79]:
+            - generic [ref=e81]: "03"
+            - heading "Integrationen" [level=3] [ref=e82]
+            - paragraph [ref=e83]: Anbindung Ihrer Systeme — Website, Warenwirtschaft, Buchhaltung, Marketing & Verkauf.
+          - listitem [ref=e84]:
+            - generic [ref=e86]: "04"
+            - heading "Workflow-Schulung" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Wir bringen Ihnen die Befehle & Abläufe bei — von der Idee zum getesteten System.
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - generic [ref=e96]: § Wissenstransfer
+          - generic [ref=e97]:
+            - heading "Schulungen, die Ihr Team KI-fähig machen." [level=2] [ref=e98]:
+              - text: Schulungen, die Ihr Team
+              - emphasis [ref=e99]: KI-fähig
+              - text: machen.
+            - paragraph [ref=e100]:
+              - text: Vom Basis-Einsatz in Marketing & Sales bis zum Deep-Dive in Agentic AI. Wir zeigen die richtigen Tools — und wie Ihr Team
+              - emphasis [ref=e101]: eigene KI-Assistenten
+              - text: baut.
+        - list [ref=e102]:
+          - listitem [ref=e103]:
+            - generic: I
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - generic [ref=e107]: Strategie · Workshop
+                - generic [ref=e108]: Schulung I
+              - heading "Agentic AI." [level=3] [ref=e109]
+              - paragraph [ref=e110]:
+                - text: Wie autonome KI-Agents in Ihrem Unternehmen
+                - emphasis [ref=e111]: Prozesse selbst übernehmen
+                - text: — vom Sales-Outreach bis zum Customer Service. Architektur, Use-Cases, Risiken, Roadmap.
+              - generic [ref=e112]: Tagesworkshop · in-house oder remote
+          - listitem [ref=e113]:
+            - generic: II
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - generic [ref=e117]: Hands-on · Tech
+                - generic [ref=e118]: Schulung II
+              - heading "Claude Code." [level=3] [ref=e119]
+              - paragraph [ref=e120]:
+                - text: "Praxis-Training für Entwickler & technisch affine Teams: Wie Sie mit"
+                - emphasis [ref=e121]: Claude Code
+                - text: in Stunden bauen, wofür Sie früher Wochen gebraucht haben — von Scripts bis zu kompletten Agents.
+              - generic [ref=e122]: 1–2 Tage · Hands-on Sprint
+          - listitem [ref=e123]:
+            - generic: III
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - generic [ref=e127]: Praxis · Marketing & Sales
+                - generic [ref=e128]: Schulung III
+              - heading "AI im Unternehmen." [level=3] [ref=e129]
+              - paragraph [ref=e130]:
+                - text: "KI im Daily Doing: Content-Generierung, Lead-Qualifizierung, E-Mail-Sequenzen, Sales-Calls, Reports. Ihr Team verlässt den Workshop mit"
+                - emphasis [ref=e131]: sofort einsetzbaren Workflows
+                - text: .
+              - generic [ref=e132]: Halbtags oder ganztags · Praxis-Sprint
+        - link "Schulung anfragen" [ref=e134] [cursor=pointer]:
+          - /url: "#termin"
+          - generic [ref=e135]: Schulung anfragen
+          - img [ref=e136]
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - img [ref=e143]
+          - generic [ref=e147]: Das Paket
+          - heading "Setup & 3 Monate Begleitung." [level=2] [ref=e148]
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - heading "KI-Enablement-Paket" [level=3] [ref=e154]
+              - paragraph [ref=e155]: Setup + Schulung + Begleitung
+            - generic [ref=e156]: 3-Monats-Paket
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - img [ref=e159]
+              - generic [ref=e161]:
+                - generic [ref=e162]: Komplettes AI-OS Setup
+                - generic [ref=e163]: Context OS, Claude Code, Agenten-System — einsatzbereit
+            - listitem [ref=e164]:
+              - img [ref=e165]
+              - generic [ref=e167]:
+                - generic [ref=e168]: Vor-Ort- oder Remote-Installation
+                - generic [ref=e169]: Wir lösen direkt ein dringendes Problem mit — sofortiger ROI
+            - listitem [ref=e170]:
+              - img [ref=e171]
+              - generic [ref=e173]:
+                - generic [ref=e174]: System-Integrationen
+                - generic [ref=e175]: Website, Warenwirtschaft, Buchhaltung, Marketing & Verkauf angebunden
+            - listitem [ref=e176]:
+              - img [ref=e177]
+              - generic [ref=e179]:
+                - generic [ref=e180]: Workflow-Schulung für Ihr Team
+                - generic [ref=e181]: Von der Idee zum getesteten System — selbst gebaut
+            - listitem [ref=e182]:
+              - img [ref=e183]
+              - generic [ref=e185]:
+                - generic [ref=e186]: 3 Monate Begleitung (oder länger)
+                - generic [ref=e187]: Fragen, Reviews, Optimierung — Sie stecken nie fest
+          - generic [ref=e188]:
+            - text: Investition
+            - generic [ref=e189]:
+              - generic [ref=e190]: ab
+              - generic [ref=e191]: € 1.500
+              - generic [ref=e192]: / Monat
+            - paragraph [ref=e193]: Setupkosten extra · zzgl. USt.
+            - link "Erstgespräch buchen" [ref=e194] [cursor=pointer]:
+              - /url: "#termin"
+              - generic [ref=e195]: Erstgespräch buchen
+              - img [ref=e196]
+        - paragraph [ref=e198]:
+          - text: Lieber bauen lassen statt selbst bauen? Dann ist der
+          - link "Service-Retainer" [ref=e199] [cursor=pointer]:
+            - /url: /retainer
+          - text: der richtige Weg für Sie.
+      - generic [ref=e202]:
+        - generic [ref=e203]:
+          - img [ref=e205]
+          - generic [ref=e209]: Termin sichern
+          - heading "30 Minuten. Klarheit." [level=2] [ref=e210]:
+            - text: 30 Minuten.
+            - emphasis [ref=e211]: Klarheit.
+          - paragraph [ref=e217]: Wählen Sie ein Datum und eine Uhrzeit — kostenlos und unverbindlich.
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - generic [ref=e221]:
+              - text: Schritt 1 von 2
+              - heading "Datum & Zeit wählen." [level=3] [ref=e222]
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - button "Vorheriger Monat" [disabled] [ref=e226]:
+                    - img [ref=e227]
+                  - generic [ref=e229]: Juni 2026
+                  - button "Nächster Monat" [ref=e230]:
+                    - img [ref=e231]
+                - generic [ref=e233]:
+                  - generic [ref=e234]: Mo
+                  - generic [ref=e235]: Di
+                  - generic [ref=e236]: Mi
+                  - generic [ref=e237]: Do
+                  - generic [ref=e238]: Fr
+                  - generic [ref=e239]: Sa
+                  - generic [ref=e240]: So
+                - generic [ref=e241]:
+                  - button "1" [disabled] [ref=e242]
+                  - button "2" [disabled] [ref=e243]
+                  - button "3" [disabled] [ref=e244]
+                  - button "4" [disabled] [ref=e245]
+                  - button "5" [ref=e246] [cursor=pointer]: "5"
+                  - button "6" [disabled] [ref=e248]
+                  - button "7" [disabled] [ref=e249]
+                  - button "8" [ref=e250] [cursor=pointer]
+                  - button "9" [ref=e251] [cursor=pointer]
+                  - button "10" [ref=e252] [cursor=pointer]
+                  - button "11" [ref=e253] [cursor=pointer]
+                  - button "12" [ref=e254] [cursor=pointer]
+                  - button "13" [disabled] [ref=e255]
+                  - button "14" [disabled] [ref=e256]
+                  - button "15" [ref=e257] [cursor=pointer]
+                  - button "16" [ref=e258] [cursor=pointer]
+                  - button "17" [ref=e259] [cursor=pointer]
+                  - button "18" [ref=e260] [cursor=pointer]
+                  - button "19" [ref=e261] [cursor=pointer]
+                  - button "20" [disabled] [ref=e262]
+                  - button "21" [disabled] [ref=e263]
+                  - button "22" [ref=e264] [cursor=pointer]
+                  - button "23" [ref=e265] [cursor=pointer]
+                  - button "24" [ref=e266] [cursor=pointer]
+                  - button "25" [ref=e267] [cursor=pointer]
+                  - button "26" [ref=e268] [cursor=pointer]
+                  - button "27" [disabled] [ref=e269]
+                  - button "28" [disabled] [ref=e270]
+                  - button "29" [ref=e271] [cursor=pointer]
+                  - button "30" [ref=e272] [cursor=pointer]
+                  - button "1" [disabled] [ref=e273]
+                  - button "2" [disabled] [ref=e274]
+                  - button "3" [disabled] [ref=e275]
+                  - button "4" [disabled] [ref=e276]
+                  - button "5" [disabled] [ref=e277]
+                - paragraph [ref=e278]: Mitteleuropäische Zeit · GMT+02:00
+              - paragraph [ref=e281]: Wählen Sie zunächst ein Datum.
+          - complementary [ref=e282]:
+            - generic [ref=e284]: Training-Erstgespräch
+            - heading "mit Glockner AI." [level=4] [ref=e285]
+            - generic [ref=e286]:
+              - generic [ref=e287]:
+                - img [ref=e289]
+                - generic [ref=e292]:
+                  - generic [ref=e293]: Dauer
+                  - generic [ref=e294]: 30 Minuten
+              - generic [ref=e295]:
+                - img [ref=e297]
+                - generic [ref=e300]:
+                  - generic [ref=e301]: Format
+                  - generic [ref=e302]: Online · Google Meet
+              - generic [ref=e303]:
+                - img [ref=e305]
+                - generic [ref=e308]:
+                  - generic [ref=e309]: Datum
+                  - generic [ref=e310]: —
+              - generic [ref=e311]:
+                - img [ref=e313]
+                - generic [ref=e316]:
+                  - generic [ref=e317]: Uhrzeit
+                  - generic [ref=e318]: —
+            - paragraph [ref=e320]: Wir klären in 30 Minuten, wie Ihr KI-Betriebssystem aussehen sollte und welches dringende Problem wir beim Setup gleich mitlösen.
+  - contentinfo [ref=e321]:
+    - generic [ref=e324]:
+      - generic [ref=e325]:
+        - generic [ref=e326]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e327]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e328]: direkt
+          - text: .
+        - paragraph [ref=e329]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e330]:
+        - complementary [ref=e331]:
+          - generic [ref=e333]: Direkter Draht
+          - generic [ref=e334]:
+            - generic [ref=e335]:
+              - generic [ref=e336]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e337] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e338]:
+              - generic [ref=e339]: Telefon
+              - link "+43 650 660 5000" [ref=e340] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e341]:
+              - generic [ref=e342]: Standorte
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - generic [ref=e345]: Wien
+                  - generic [ref=e346]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e347]:
+                  - generic [ref=e348]: Klagenfurt
+                  - generic [ref=e349]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e351]:
+          - generic [ref=e353]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e354]
+          - generic [ref=e355]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e356]
+          - generic [ref=e357]:
+            - generic [ref=e358]:
+              - generic [ref=e359]: Name*
+              - textbox "Name*" [ref=e360]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e361]:
+              - generic [ref=e362]: E-Mail*
+              - textbox "E-Mail*" [ref=e363]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e365]:
+            - generic [ref=e366]: Nachricht*
+            - textbox "Nachricht*" [ref=e367]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e368]:
+            - paragraph [ref=e369]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e370]:
+              - generic [ref=e371]: Nachricht senden
+              - img [ref=e372]
+    - generic [ref=e376]:
+      - generic [ref=e377]:
+        - link "Glockner.ai — Startseite" [ref=e378] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e379]
+        - paragraph [ref=e380]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e381]:
+        - heading "Glockner AI" [level=3] [ref=e382]
+        - generic [ref=e383]:
+          - link "Money Making AI" [ref=e384] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "Kosten-Killing AI" [ref=e385] [cursor=pointer]:
+            - /url: /retainer
+          - link "Training" [ref=e386] [cursor=pointer]:
+            - /url: /training
+      - generic [ref=e387]:
+        - heading "Glockner Digital" [level=3] [ref=e388]
+        - generic [ref=e389]:
+          - link "E-Commerce" [ref=e390] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e391] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e392] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e394]:
+      - paragraph [ref=e395]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e396]:
+        - link "Impressum" [ref=e397] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e398] [cursor=pointer]:
+          - /url: /datenschutz
+  - iframe [ref=e399]:
+    
+  - button "Open Next.js Dev Tools" [ref=e405] [cursor=pointer]:
+    - img [ref=e406]
+  - alert [ref=e409]

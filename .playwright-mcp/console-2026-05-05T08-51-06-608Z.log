@@ -1,0 +1,63 @@
+[    2773ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    4107ms] [LOG] [Fast Refresh] done in 1438ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    4856ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    5110ms] [LOG] [Fast Refresh] done in 359ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    6848ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[    6986ms] [LOG] [Fast Refresh] done in 253ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   10257ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   10275ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   11982ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   12180ms] [LOG] [Fast Refresh] done in 313ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   21418ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   21666ms] [LOG] [Fast Refresh] done in 349ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   23915ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[   24144ms] [LOG] [Fast Refresh] done in 335ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  116833ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  123472ms] [LOG] [Fast Refresh] done in 6749ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  123679ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  125934ms] [LOG] [Fast Refresh] done in 2360ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  126080ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  126269ms] [LOG] [Fast Refresh] done in 297ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  126826ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  126827ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  132883ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  134569ms] [LOG] [Fast Refresh] done in 1790ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  134938ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  135112ms] [LOG] [Fast Refresh] done in 286ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  259036ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  259637ms] [LOG] [Fast Refresh] done in 215ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  259762ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  260853ms] [LOG] [Fast Refresh] done in 1191ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  260995ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  261837ms] [LOG] [Fast Refresh] done in 945ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  262093ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  262692ms] [LOG] [Fast Refresh] done in 711ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  262766ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Montserrat:wght@600;700;800;900&display=swap was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/leistungen:0
+[  263179ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  263233ms] [LOG] [Fast Refresh] done in 158ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  263520ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  263734ms] [LOG] [Fast Refresh] done in 327ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  263979ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  264071ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  264189ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  264232ms] [LOG] [Fast Refresh] done in 157ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  265467ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  266107ms] [LOG] [Fast Refresh] done in 713ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  276681ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  277010ms] [LOG] [Fast Refresh] done in 411ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  459742ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  460933ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  460941ms] [LOG] [Fast Refresh] done in 1285ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  461069ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  461355ms] [LOG] [Fast Refresh] done in 390ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  461492ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  462343ms] [LOG] [Fast Refresh] done in 952ms @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  462937ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431
+[  462970ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/09xr_next_dist_0l6pyu~._.js:2431

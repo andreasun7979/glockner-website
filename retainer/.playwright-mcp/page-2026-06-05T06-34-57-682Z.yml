@@ -1,0 +1,301 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /v2
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic:
+          - img
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - generic [ref=e24]: Weg III · Produkt
+          - heading "Sie bekommen den fertigen Fisch." [level=1] [ref=e25]:
+            - text: Sie bekommen den
+            - emphasis [ref=e26]: fertigen Fisch
+            - text: .
+          - paragraph [ref=e32]: Maßgeschneiderte KI-Software für Ihr Unternehmen — fertig programmiert und übergeben.
+          - paragraph [ref=e33]: Kein Werkzeug, das Sie selbst bedienen müssen. Sie erzählen uns von Ihrem Business — wir bauen die App, das Dashboard oder die interne Anwendung, die genau zu Ihren Prozessen passt.
+          - generic [ref=e34]:
+            - link "Projekt besprechen" [ref=e35] [cursor=pointer]:
+              - /url: "#termin"
+              - generic [ref=e36]: Projekt besprechen
+              - img [ref=e37]
+            - link "Was wir bauen" [ref=e39] [cursor=pointer]:
+              - /url: "#beispiele"
+              - generic [ref=e40]: Was wir bauen
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - img [ref=e43]
+              - text: Maßgeschneidert
+            - generic [ref=e45]:
+              - img [ref=e46]
+              - text: Fertig geliefert
+            - generic [ref=e48]:
+              - img [ref=e49]
+              - text: Bis zu 80 % WKO-Förderung
+      - generic [ref=e53]:
+        - generic [ref=e54]: Für wen das ist
+        - heading "Für Unternehmer, die einfach das Ergebnis wollen." [level=2] [ref=e55]:
+          - text: Für Unternehmer, die einfach das
+          - emphasis [ref=e56]: Ergebnis
+          - text: wollen.
+        - paragraph [ref=e57]: Sie wollen nicht lernen, wie KI-Entwicklung funktioniert — und das müssen Sie auch nicht. Sie erzählen uns Ihr Geschäft, wir kümmern uns um Konzept, Entwicklung, Tests und Übergabe. Am Ende steht ein fertiges Produkt, das Zeit und Geld spart.
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - img [ref=e63]
+          - heading "Was wir für Sie programmieren." [level=2] [ref=e66]:
+            - text: Was wir für Sie
+            - emphasis [ref=e67]: programmieren
+            - text: .
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - heading "Interne KI-Apps" [level=3] [ref=e71]
+            - paragraph [ref=e72]: Maßgeschneiderte Anwendungen, die Ihre eigenen Prozesse abbilden — kein Standard-Tool, das nie ganz passt.
+          - listitem [ref=e73]:
+            - heading "Dashboards" [level=3] [ref=e75]
+            - paragraph [ref=e76]: Live-Übersichten, die Zeit und Geld sparen — Ihre Zahlen, automatisch zusammengeführt.
+          - listitem [ref=e77]:
+            - heading "Produktisiertes AI-OS" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Ein komplettes KI-Betriebssystem für Ihre Nische, fertig konfiguriert übergeben.
+          - listitem [ref=e81]:
+            - heading "Automatisierungs-Engines" [level=3] [ref=e83]
+            - paragraph [ref=e84]: Workflows, die im Hintergrund laufen und mehrere Tools verbinden.
+          - listitem [ref=e85]:
+            - heading "KI-Agents nach Maß" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Spezialisierte Agents für Sales, Service oder Operations — in Ihrer Markenstimme.
+          - listitem [ref=e89]:
+            - heading "Integrationen" [level=3] [ref=e91]
+            - paragraph [ref=e92]: Verbindungen zwischen Ihren bestehenden Systemen — Website, Shop, Warenwirtschaft, Buchhaltung.
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e100]: So läuft es ab
+          - heading "Von der Idee zum fertigen Produkt." [level=2] [ref=e102]:
+            - text: Von der Idee zum fertigen
+            - emphasis [ref=e103]: Produkt
+            - text: .
+        - list [ref=e104]:
+          - listitem [ref=e105]:
+            - generic [ref=e107]: "01"
+            - heading "Sie erzählen" [level=3] [ref=e108]
+            - paragraph [ref=e109]: Wir hören zu und verstehen Ihr Business, Ihre Prozesse, Ihr Ziel.
+          - listitem [ref=e110]:
+            - generic [ref=e112]: "02"
+            - heading "Wir konzipieren" [level=3] [ref=e113]
+            - paragraph [ref=e114]: Technischer Plan & Festpreis. Sie wissen vorab genau, was Sie bekommen.
+          - listitem [ref=e115]:
+            - generic [ref=e117]: "03"
+            - heading "Wir bauen & testen" [level=3] [ref=e118]
+            - paragraph [ref=e119]: Entwicklung in der KI-Pipeline — schnell, gründlich getestet.
+          - listitem [ref=e120]:
+            - generic [ref=e122]: "04"
+            - heading "Übergabe" [level=3] [ref=e123]
+            - paragraph [ref=e124]: Fertiges Produkt, Einschulung, optional Wartung & Optimierung.
+      - generic [ref=e127]:
+        - img [ref=e129]
+        - generic [ref=e133]: Investition
+        - generic [ref=e135]: Individueller Preis
+        - paragraph [ref=e136]: Festpreis pro Projekt · zzgl. USt. · bis zu 80 % WKO-förderfähig
+        - paragraph [ref=e137]: Jedes Produkt ist anders — den genauen Festpreis legen wir nach dem Erstgespräch fest. Keine laufende Bindung nötig, optionale Wartung auf Wunsch.
+        - link "Projekt besprechen" [ref=e138] [cursor=pointer]:
+          - /url: "#termin"
+          - generic [ref=e139]: Projekt besprechen
+          - img [ref=e140]
+        - paragraph [ref=e142]:
+          - text: Lieber laufend statt einmalig? Der
+          - link "Service-Retainer" [ref=e143] [cursor=pointer]:
+            - /url: /retainer
+          - text: liefert jeden Monat neue Systeme.
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - img [ref=e149]
+          - generic [ref=e153]: Termin sichern
+          - heading "30 Minuten. Klarheit." [level=2] [ref=e154]:
+            - text: 30 Minuten.
+            - emphasis [ref=e155]: Klarheit.
+          - paragraph [ref=e161]: Wählen Sie ein Datum und eine Uhrzeit — kostenlos und unverbindlich.
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]:
+              - text: Schritt 1 von 2
+              - heading "Datum & Zeit wählen." [level=3] [ref=e166]
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - button "Vorheriger Monat" [disabled] [ref=e170]:
+                    - img [ref=e171]
+                  - generic [ref=e173]: Juni 2026
+                  - button "Nächster Monat" [ref=e174]:
+                    - img [ref=e175]
+                - generic [ref=e177]:
+                  - generic [ref=e178]: Mo
+                  - generic [ref=e179]: Di
+                  - generic [ref=e180]: Mi
+                  - generic [ref=e181]: Do
+                  - generic [ref=e182]: Fr
+                  - generic [ref=e183]: Sa
+                  - generic [ref=e184]: So
+                - generic [ref=e185]:
+                  - button "1" [disabled] [ref=e186]
+                  - button "2" [disabled] [ref=e187]
+                  - button "3" [disabled] [ref=e188]
+                  - button "4" [disabled] [ref=e189]
+                  - button "5" [ref=e190] [cursor=pointer]: "5"
+                  - button "6" [disabled] [ref=e192]
+                  - button "7" [disabled] [ref=e193]
+                  - button "8" [ref=e194] [cursor=pointer]
+                  - button "9" [ref=e195] [cursor=pointer]
+                  - button "10" [ref=e196] [cursor=pointer]
+                  - button "11" [ref=e197] [cursor=pointer]
+                  - button "12" [ref=e198] [cursor=pointer]
+                  - button "13" [disabled] [ref=e199]
+                  - button "14" [disabled] [ref=e200]
+                  - button "15" [ref=e201] [cursor=pointer]
+                  - button "16" [ref=e202] [cursor=pointer]
+                  - button "17" [ref=e203] [cursor=pointer]
+                  - button "18" [ref=e204] [cursor=pointer]
+                  - button "19" [ref=e205] [cursor=pointer]
+                  - button "20" [disabled] [ref=e206]
+                  - button "21" [disabled] [ref=e207]
+                  - button "22" [ref=e208] [cursor=pointer]
+                  - button "23" [ref=e209] [cursor=pointer]
+                  - button "24" [ref=e210] [cursor=pointer]
+                  - button "25" [ref=e211] [cursor=pointer]
+                  - button "26" [ref=e212] [cursor=pointer]
+                  - button "27" [disabled] [ref=e213]
+                  - button "28" [disabled] [ref=e214]
+                  - button "29" [ref=e215] [cursor=pointer]
+                  - button "30" [ref=e216] [cursor=pointer]
+                  - button "1" [disabled] [ref=e217]
+                  - button "2" [disabled] [ref=e218]
+                  - button "3" [disabled] [ref=e219]
+                  - button "4" [disabled] [ref=e220]
+                  - button "5" [disabled] [ref=e221]
+                - paragraph [ref=e222]: Mitteleuropäische Zeit · GMT+02:00
+              - paragraph [ref=e225]: Wählen Sie zunächst ein Datum.
+          - complementary [ref=e226]:
+            - generic [ref=e228]: Produkt-Erstgespräch
+            - heading "mit Glockner AI." [level=4] [ref=e229]
+            - generic [ref=e230]:
+              - generic [ref=e231]:
+                - img [ref=e233]
+                - generic [ref=e236]:
+                  - generic [ref=e237]: Dauer
+                  - generic [ref=e238]: 30 Minuten
+              - generic [ref=e239]:
+                - img [ref=e241]
+                - generic [ref=e244]:
+                  - generic [ref=e245]: Format
+                  - generic [ref=e246]: Online · Google Meet
+              - generic [ref=e247]:
+                - img [ref=e249]
+                - generic [ref=e252]:
+                  - generic [ref=e253]: Datum
+                  - generic [ref=e254]: —
+              - generic [ref=e255]:
+                - img [ref=e257]
+                - generic [ref=e260]:
+                  - generic [ref=e261]: Uhrzeit
+                  - generic [ref=e262]: —
+            - paragraph [ref=e264]: Erzählen Sie uns von Ihrem Business — wir skizzieren in 30 Minuten, welches Produkt den größten Hebel bringt und was es kostet.
+  - contentinfo [ref=e265]:
+    - generic [ref=e268]:
+      - generic [ref=e269]:
+        - generic [ref=e270]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e271]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e272]: direkt
+          - text: .
+        - paragraph [ref=e273]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e274]:
+        - complementary [ref=e275]:
+          - generic [ref=e277]: Direkter Draht
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - generic [ref=e280]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e281] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e282]:
+              - generic [ref=e283]: Telefon
+              - link "+43 650 660 5000" [ref=e284] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e285]:
+              - generic [ref=e286]: Standorte
+              - generic [ref=e287]:
+                - generic [ref=e288]:
+                  - generic [ref=e289]: Wien
+                  - generic [ref=e290]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e291]:
+                  - generic [ref=e292]: Klagenfurt
+                  - generic [ref=e293]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e295]:
+          - generic [ref=e297]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e298]
+          - generic [ref=e299]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e300]
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - generic [ref=e303]: Name*
+              - textbox "Name*" [ref=e304]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e305]:
+              - generic [ref=e306]: E-Mail*
+              - textbox "E-Mail*" [ref=e307]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e309]:
+            - generic [ref=e310]: Nachricht*
+            - textbox "Nachricht*" [ref=e311]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e312]:
+            - paragraph [ref=e313]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e314]:
+              - generic [ref=e315]: Nachricht senden
+              - img [ref=e316]
+    - generic [ref=e320]:
+      - generic [ref=e321]:
+        - link "Glockner.ai — Startseite" [ref=e322] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e323]
+        - paragraph [ref=e324]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e325]:
+        - heading "Glockner AI" [level=3] [ref=e326]
+        - generic [ref=e327]:
+          - link "Money Making AI" [ref=e328] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "Kosten-Killing AI" [ref=e329] [cursor=pointer]:
+            - /url: /retainer
+          - link "Training" [ref=e330] [cursor=pointer]:
+            - /url: /training
+      - generic [ref=e331]:
+        - heading "Glockner Digital" [level=3] [ref=e332]
+        - generic [ref=e333]:
+          - link "E-Commerce" [ref=e334] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e335] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e336] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e338]:
+      - paragraph [ref=e339]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e340]:
+        - link "Impressum" [ref=e341] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e342] [cursor=pointer]:
+          - /url: /datenschutz
+  - iframe [ref=e343]:
+    
+  - button "Open Next.js Dev Tools" [ref=e349] [cursor=pointer]:
+    - img [ref=e350]
+  - alert [ref=e353]

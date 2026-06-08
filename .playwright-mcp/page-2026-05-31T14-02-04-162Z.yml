@@ -1,0 +1,391 @@
+- generic [active]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - complementary [ref=e4]:
+        - button "g glocknerdigital" [ref=e6] [cursor=pointer]:
+          - generic [ref=e8]:
+            - generic [ref=e10]:
+              - img [ref=e11]
+              - text: g
+            - generic [ref=e26]: glocknerdigital
+          - img [ref=e28]
+        - navigation [ref=e31]:
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "Emails" [ref=e34] [cursor=pointer]:
+                - /url: /emails
+                - text: Emails
+            - listitem [ref=e36]:
+              - link "Broadcasts" [ref=e37] [cursor=pointer]:
+                - /url: /broadcasts
+                - text: Broadcasts
+            - listitem [ref=e39]:
+              - link "Automations" [ref=e40] [cursor=pointer]:
+                - /url: /automations
+                - text: Automations
+            - listitem [ref=e42]:
+              - link "Templates" [ref=e43] [cursor=pointer]:
+                - /url: /templates
+                - text: Templates
+            - listitem [ref=e45]:
+              - link "Audience" [ref=e46] [cursor=pointer]:
+                - /url: /audience
+                - text: Audience
+            - listitem [ref=e48]:
+              - link "Metrics" [ref=e49] [cursor=pointer]:
+                - /url: /metrics
+                - text: Metrics
+            - listitem [ref=e51]:
+              - link "Domains" [ref=e52] [cursor=pointer]:
+                - /url: /domains
+                - text: Domains
+            - listitem [ref=e54]:
+              - link "Logs" [ref=e55] [cursor=pointer]:
+                - /url: /logs
+                - text: Logs
+            - listitem [ref=e57]:
+              - link "API keys" [ref=e58] [cursor=pointer]:
+                - /url: /api-keys
+                - text: API keys
+            - listitem [ref=e60]:
+              - link "Webhooks" [ref=e61] [cursor=pointer]:
+                - /url: /webhooks
+                - text: Webhooks
+            - listitem [ref=e63]:
+              - link "Settings" [ref=e64] [cursor=pointer]:
+                - /url: /settings
+                - text: Settings
+        - button "a a.unterkofler@glocknerdigital.at" [ref=e66] [cursor=pointer]:
+          - generic [ref=e68]:
+            - generic [ref=e70]: a
+            - generic [ref=e71]: a.unterkofler@glocknerdigital.at
+          - img [ref=e73]
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - link "Docs" [ref=e80] [cursor=pointer]:
+          - /url: https://resend.com/docs/dashboard/emails/introduction
+        - button "Need help? H" [ref=e81] [cursor=pointer]:
+          - generic [ref=e83]: Need help?
+          - generic [ref=e85]: H
+      - generic [ref=e87]:
+        - heading "Emails" [level=1] [ref=e89]
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - tablist [ref=e93]:
+              - tab "Sending" [selected] [ref=e94] [cursor=pointer]
+              - tab "Receiving" [ref=e95] [cursor=pointer]
+            - button "Open API drawer" [ref=e97] [cursor=pointer]
+          - generic [ref=e99]:
+            - textbox "Search..." [ref=e102]
+            - generic [ref=e103]:
+              - button "Last 15 days" [ref=e104] [cursor=pointer]:
+                - generic [ref=e105]: Last 15 days
+                - img [ref=e107]
+              - button "All Statuses" [ref=e109] [cursor=pointer]:
+                - generic [ref=e110]: All Statuses
+                - img [ref=e112]
+              - combobox [ref=e114] [cursor=pointer]:
+                - img [ref=e115]
+              - combobox [ref=e117]
+            - button [ref=e118] [cursor=pointer]
+          - table [ref=e123]:
+            - rowgroup [ref=e124]:
+              - row "To Status Subject Sent" [ref=e125]:
+                - columnheader "To" [ref=e126]
+                - columnheader "Status" [ref=e127]
+                - columnheader "Subject" [ref=e128]
+                - columnheader "Sent" [ref=e129]
+                - columnheader [ref=e130]
+            - rowgroup [ref=e131]:
+              - 'row "a.unterkofler@glocknerdigital.at delivered Neue Anfrage: Live Test less than a minute ago More actions" [ref=e132]':
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e133]:
+                  - generic [ref=e134]:
+                    - link [ref=e135] [cursor=pointer]:
+                      - /url: /emails/94303ea8-242f-4e89-8bfd-6ac325145651
+                      - generic [ref=e136]:
+                        - img [ref=e137]
+                        - img [ref=e176]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e179] [cursor=pointer]:
+                      - /url: /emails/94303ea8-242f-4e89-8bfd-6ac325145651
+                - cell "delivered" [ref=e180]:
+                  - generic [ref=e182]: delivered
+                - 'cell "Neue Anfrage: Live Test" [ref=e183]':
+                  - generic [ref=e184]: "Neue Anfrage: Live Test"
+                - cell "less than a minute ago" [ref=e185]:
+                  - time [ref=e187]: less than a minute ago
+                - cell "More actions" [ref=e188]:
+                  - button "More actions" [ref=e189] [cursor=pointer]:
+                    - img [ref=e190]
+              - row "a.unterkofler@glocknerdigital.at delivered Wir haben Ihre Nachricht erhalten less than a minute ago More actions" [ref=e194]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e195]:
+                  - generic [ref=e196]:
+                    - link [ref=e197] [cursor=pointer]:
+                      - /url: /emails/045e0b83-a2d8-4d43-8289-1a17357111ce
+                      - generic [ref=e198]:
+                        - img [ref=e199]
+                        - img [ref=e238]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e241] [cursor=pointer]:
+                      - /url: /emails/045e0b83-a2d8-4d43-8289-1a17357111ce
+                - cell "delivered" [ref=e242]:
+                  - generic [ref=e244]: delivered
+                - cell "Wir haben Ihre Nachricht erhalten" [ref=e245]:
+                  - generic [ref=e246]: Wir haben Ihre Nachricht erhalten
+                - cell "less than a minute ago" [ref=e247]:
+                  - time [ref=e249]: less than a minute ago
+                - cell "More actions" [ref=e250]:
+                  - button "More actions" [ref=e251] [cursor=pointer]:
+                    - img [ref=e252]
+              - 'row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Neue Chat-Konversation: Habt ihr eine grüne Tischleuchte? 1 day ago More actions" [ref=e256]':
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e257]:
+                  - generic [ref=e258]:
+                    - link [ref=e259] [cursor=pointer]:
+                      - /url: /emails/9d1e48fa-0384-41fc-966a-b257178dd3b3
+                      - generic [ref=e260]:
+                        - img [ref=e261]
+                        - img [ref=e300]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e303] [cursor=pointer]:
+                      - /url: /emails/9d1e48fa-0384-41fc-966a-b257178dd3b3
+                - cell "delivered" [ref=e304]:
+                  - generic [ref=e306]: delivered
+                - 'cell "[Lunatre] Neue Chat-Konversation: Habt ihr eine grüne Tischleuchte?" [ref=e307]':
+                  - generic [ref=e308]: "[Lunatre] Neue Chat-Konversation: Habt ihr eine grüne Tischleuchte?"
+                - cell "1 day ago" [ref=e309]:
+                  - time [ref=e311]: 1 day ago
+                - cell "More actions" [ref=e312]:
+                  - button "More actions" [ref=e313] [cursor=pointer]:
+                    - img [ref=e314]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 5 days ago More actions" [ref=e318]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e319]:
+                  - generic [ref=e320]:
+                    - link [ref=e321] [cursor=pointer]:
+                      - /url: /emails/30adfeba-7ba4-46eb-9cb4-6e3c496824ab
+                      - generic [ref=e322]:
+                        - img [ref=e323]
+                        - img [ref=e362]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e365] [cursor=pointer]:
+                      - /url: /emails/30adfeba-7ba4-46eb-9cb4-6e3c496824ab
+                - cell "delivered" [ref=e366]:
+                  - generic [ref=e368]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e369]:
+                  - generic [ref=e370]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "5 days ago" [ref=e371]:
+                  - time [ref=e373]: 5 days ago
+                - cell "More actions" [ref=e374]:
+                  - button "More actions" [ref=e375] [cursor=pointer]:
+                    - img [ref=e376]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 9 days ago More actions" [ref=e380]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e381]:
+                  - generic [ref=e382]:
+                    - link [ref=e383] [cursor=pointer]:
+                      - /url: /emails/082d0eae-3582-4a14-aa92-2a6e98dfae7f
+                      - generic [ref=e384]:
+                        - img [ref=e385]
+                        - img [ref=e424]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e427] [cursor=pointer]:
+                      - /url: /emails/082d0eae-3582-4a14-aa92-2a6e98dfae7f
+                - cell "delivered" [ref=e428]:
+                  - generic [ref=e430]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e431]:
+                  - generic [ref=e432]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "9 days ago" [ref=e433]:
+                  - time [ref=e435]: 9 days ago
+                - cell "More actions" [ref=e436]:
+                  - button "More actions" [ref=e437] [cursor=pointer]:
+                    - img [ref=e438]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 10 days ago More actions" [ref=e442]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e443]:
+                  - generic [ref=e444]:
+                    - link [ref=e445] [cursor=pointer]:
+                      - /url: /emails/cd43bbf0-6307-4ce6-8c55-8b5a46180845
+                      - generic [ref=e446]:
+                        - img [ref=e447]
+                        - img [ref=e486]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e489] [cursor=pointer]:
+                      - /url: /emails/cd43bbf0-6307-4ce6-8c55-8b5a46180845
+                - cell "delivered" [ref=e490]:
+                  - generic [ref=e492]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e493]:
+                  - generic [ref=e494]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "10 days ago" [ref=e495]:
+                  - time [ref=e497]: 10 days ago
+                - cell "More actions" [ref=e498]:
+                  - button "More actions" [ref=e499] [cursor=pointer]:
+                    - img [ref=e500]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 10 days ago More actions" [ref=e504]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e505]:
+                  - generic [ref=e506]:
+                    - link [ref=e507] [cursor=pointer]:
+                      - /url: /emails/472364b8-485c-43c4-a40c-702b3a6755f5
+                      - generic [ref=e508]:
+                        - img [ref=e509]
+                        - img [ref=e548]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e551] [cursor=pointer]:
+                      - /url: /emails/472364b8-485c-43c4-a40c-702b3a6755f5
+                - cell "delivered" [ref=e552]:
+                  - generic [ref=e554]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e555]:
+                  - generic [ref=e556]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "10 days ago" [ref=e557]:
+                  - time [ref=e559]: 10 days ago
+                - cell "More actions" [ref=e560]:
+                  - button "More actions" [ref=e561] [cursor=pointer]:
+                    - img [ref=e562]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 10 days ago More actions" [ref=e566]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e567]:
+                  - generic [ref=e568]:
+                    - link [ref=e569] [cursor=pointer]:
+                      - /url: /emails/4a71256b-a309-4d3f-bced-af9c19d43292
+                      - generic [ref=e570]:
+                        - img [ref=e571]
+                        - img [ref=e610]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e613] [cursor=pointer]:
+                      - /url: /emails/4a71256b-a309-4d3f-bced-af9c19d43292
+                - cell "delivered" [ref=e614]:
+                  - generic [ref=e616]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e617]:
+                  - generic [ref=e618]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "10 days ago" [ref=e619]:
+                  - time [ref=e621]: 10 days ago
+                - cell "More actions" [ref=e622]:
+                  - button "More actions" [ref=e623] [cursor=pointer]:
+                    - img [ref=e624]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 11 days ago More actions" [ref=e628]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e629]:
+                  - generic [ref=e630]:
+                    - link [ref=e631] [cursor=pointer]:
+                      - /url: /emails/c994f234-6a42-4a9c-a854-17b2752a9657
+                      - generic [ref=e632]:
+                        - img [ref=e633]
+                        - img [ref=e672]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e675] [cursor=pointer]:
+                      - /url: /emails/c994f234-6a42-4a9c-a854-17b2752a9657
+                - cell "delivered" [ref=e676]:
+                  - generic [ref=e678]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e679]:
+                  - generic [ref=e680]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "11 days ago" [ref=e681]:
+                  - time [ref=e683]: 11 days ago
+                - cell "More actions" [ref=e684]:
+                  - button "More actions" [ref=e685] [cursor=pointer]:
+                    - img [ref=e686]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 11 days ago More actions" [ref=e690]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e691]:
+                  - generic [ref=e692]:
+                    - link [ref=e693] [cursor=pointer]:
+                      - /url: /emails/0e58ec49-98eb-47c7-8d77-d5ba38959e1e
+                      - generic [ref=e694]:
+                        - img [ref=e695]
+                        - img [ref=e734]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e737] [cursor=pointer]:
+                      - /url: /emails/0e58ec49-98eb-47c7-8d77-d5ba38959e1e
+                - cell "delivered" [ref=e738]:
+                  - generic [ref=e740]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e741]:
+                  - generic [ref=e742]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "11 days ago" [ref=e743]:
+                  - time [ref=e745]: 11 days ago
+                - cell "More actions" [ref=e746]:
+                  - button "More actions" [ref=e747] [cursor=pointer]:
+                    - img [ref=e748]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 11 days ago More actions" [ref=e752]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e753]:
+                  - generic [ref=e754]:
+                    - link [ref=e755] [cursor=pointer]:
+                      - /url: /emails/1b2ca8c9-ead3-45e4-80ae-37e75891d108
+                      - generic [ref=e756]:
+                        - img [ref=e757]
+                        - img [ref=e796]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e799] [cursor=pointer]:
+                      - /url: /emails/1b2ca8c9-ead3-45e4-80ae-37e75891d108
+                - cell "delivered" [ref=e800]:
+                  - generic [ref=e802]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e803]:
+                  - generic [ref=e804]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "11 days ago" [ref=e805]:
+                  - time [ref=e807]: 11 days ago
+                - cell "More actions" [ref=e808]:
+                  - button "More actions" [ref=e809] [cursor=pointer]:
+                    - img [ref=e810]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 12 days ago More actions" [ref=e814]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e815]:
+                  - generic [ref=e816]:
+                    - link [ref=e817] [cursor=pointer]:
+                      - /url: /emails/edc9c9ea-b876-4b12-910d-2798384c2061
+                      - generic [ref=e818]:
+                        - img [ref=e819]
+                        - img [ref=e858]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e861] [cursor=pointer]:
+                      - /url: /emails/edc9c9ea-b876-4b12-910d-2798384c2061
+                - cell "delivered" [ref=e862]:
+                  - generic [ref=e864]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e865]:
+                  - generic [ref=e866]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "12 days ago" [ref=e867]:
+                  - time [ref=e869]: 12 days ago
+                - cell "More actions" [ref=e870]:
+                  - button "More actions" [ref=e871] [cursor=pointer]:
+                    - img [ref=e872]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 12 days ago More actions" [ref=e876]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e877]:
+                  - generic [ref=e878]:
+                    - link [ref=e879] [cursor=pointer]:
+                      - /url: /emails/c05b4f49-699f-45b9-9945-eef95ba2049d
+                      - generic [ref=e880]:
+                        - img [ref=e881]
+                        - img [ref=e920]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e923] [cursor=pointer]:
+                      - /url: /emails/c05b4f49-699f-45b9-9945-eef95ba2049d
+                - cell "delivered" [ref=e924]:
+                  - generic [ref=e926]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e927]:
+                  - generic [ref=e928]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "12 days ago" [ref=e929]:
+                  - time [ref=e931]: 12 days ago
+                - cell "More actions" [ref=e932]:
+                  - button "More actions" [ref=e933] [cursor=pointer]:
+                    - img [ref=e934]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 12 days ago More actions" [ref=e938]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e939]:
+                  - generic [ref=e940]:
+                    - link [ref=e941] [cursor=pointer]:
+                      - /url: /emails/7eeaf419-aefc-46c2-bf62-76f522c7073f
+                      - generic [ref=e942]:
+                        - img [ref=e943]
+                        - img [ref=e982]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e985] [cursor=pointer]:
+                      - /url: /emails/7eeaf419-aefc-46c2-bf62-76f522c7073f
+                - cell "delivered" [ref=e986]:
+                  - generic [ref=e988]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e989]:
+                  - generic [ref=e990]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "12 days ago" [ref=e991]:
+                  - time [ref=e993]: 12 days ago
+                - cell "More actions" [ref=e994]:
+                  - button "More actions" [ref=e995] [cursor=pointer]:
+                    - img [ref=e996]
+              - row "a.unterkofler@glocknerdigital.at delivered [Lunatre] Anruf · Kundendaten erhalten 12 days ago More actions" [ref=e1000]:
+                - cell "a.unterkofler@glocknerdigital.at" [ref=e1001]:
+                  - generic [ref=e1002]:
+                    - link [ref=e1003] [cursor=pointer]:
+                      - /url: /emails/ea5021e6-64fb-44f4-adc6-51331458a7e3
+                      - generic [ref=e1004]:
+                        - img [ref=e1005]
+                        - img [ref=e1044]
+                    - link "a.unterkofler@glocknerdigital.at" [ref=e1047] [cursor=pointer]:
+                      - /url: /emails/ea5021e6-64fb-44f4-adc6-51331458a7e3
+                - cell "delivered" [ref=e1048]:
+                  - generic [ref=e1050]: delivered
+                - cell "[Lunatre] Anruf · Kundendaten erhalten" [ref=e1051]:
+                  - generic [ref=e1052]: "[Lunatre] Anruf · Kundendaten erhalten"
+                - cell "12 days ago" [ref=e1053]:
+                  - time [ref=e1055]: 12 days ago
+                - cell "More actions" [ref=e1056]:
+                  - button "More actions" [ref=e1057] [cursor=pointer]:
+                    - img [ref=e1058]
+          - generic [ref=e1063]:
+            - button "Newer" [disabled] [ref=e1064]:
+              - generic [ref=e1065]: Newer
+            - button "Older" [ref=e1066] [cursor=pointer]:
+              - generic [ref=e1067]: Older
+  - region "Notifications alt+T"
+  - alert [ref=e1068]

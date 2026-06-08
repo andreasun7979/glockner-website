@@ -1,0 +1,172 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Hauptmenü" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - link "Google Search Console" [ref=e12] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Aglockner.ai
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - search [ref=e16]:
+          - generic [ref=e22]:
+            - textbox [disabled] [ref=e23]: Jede URL in "glockner.ai" prüfen
+            - combobox "Jede URL unter glockner.ai prüfen" [ref=e24]
+          - button "Suche" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - button "Hilfe" [ref=e33] [cursor=pointer]:
+              - generic [ref=e36]: 
+            - button "Nutzereinstellungen" [ref=e38] [cursor=pointer]:
+              - img [ref=e41]
+          - 'button "Ungelesene Nachrichten: 1" [ref=e45] [cursor=pointer]':
+            - generic [ref=e47]:
+              - generic [ref=e48]: 
+              - generic [ref=e50]: "1"
+      - generic [ref=e52]:
+        - button "Google-Apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - 'button "Google-Konto: Andreas Unterkofler (a.unterkofler@glocknerdigital.at)" [ref=e62] [cursor=pointer]':
+          - img [ref=e64]
+  - dialog "navigational drawer" [ref=e68]:
+    - navigation "Primär" [ref=e71]:
+      - button "Property suchen" [ref=e75] [cursor=pointer]:
+        - img "favicon" [ref=e77]
+        - combobox "glockner.ai" [ref=e84]
+        - generic [ref=e85]: 
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - link "Übersicht" [ref=e90] [cursor=pointer]:
+              - /url: ./search-console?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e92]: home
+              - generic [ref=e94]: Übersicht
+            - link "Statistiken" [ref=e97] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e99]: lightbulb_2
+              - generic [ref=e101]: Statistiken
+            - link "Leistung" [ref=e104] [cursor=pointer]:
+              - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e106]: trending_up
+              - generic [ref=e108]: Leistung
+            - button "URL-Prüfung" [ref=e111] [cursor=pointer]:
+              - generic [ref=e113]: search
+              - generic [ref=e115]: URL-Prüfung
+          - generic [ref=e119]:
+            - button "Berichtsbereich „Indexierung“" [expanded] [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]:
+                - generic [ref=e124]: Indexierung
+                - img [ref=e128]
+            - generic [ref=e133]:
+              - link "Seiten" [ref=e135] [cursor=pointer]:
+                - /url: ./search-console/index?resource_id=sc-domain%3Aglockner.ai
+                - generic [ref=e137]: file_copy
+                - generic [ref=e139]: Seiten
+              - link "Sitemaps" [ref=e142] [cursor=pointer]:
+                - /url: ./search-console/sitemaps?resource_id=sc-domain%3Aglockner.ai
+                - generic [ref=e144]: account_tree
+                - generic [ref=e146]: Sitemaps
+              - link "Entfernen" [ref=e149] [cursor=pointer]:
+                - /url: ./search-console/removals?resource_id=sc-domain%3Aglockner.ai
+                - generic [ref=e151]: visibility_off
+                - generic [ref=e153]: Entfernen
+          - generic [ref=e157]:
+            - button "Berichtsbereich „Nutzerfreundlichkeit“" [expanded] [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]:
+                - generic [ref=e162]: Nutzerfreundlichkeit
+                - img [ref=e166]
+            - link "Core Web Vitals" [ref=e173] [cursor=pointer]:
+              - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e175]: speed
+              - generic [ref=e177]: Core Web Vitals
+          - button "Berichtsbereich „Sicherheit & manuelle Maßnahmen“" [ref=e182] [cursor=pointer]:
+            - generic [ref=e183]:
+              - generic [ref=e186]: Sicherheit & manuelle Maßnahmen
+              - img [ref=e190]
+          - generic [ref=e192]:
+            - link "Bericht „Links“" [ref=e194] [cursor=pointer]:
+              - /url: ./search-console/links?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e196]: link_2
+              - generic [ref=e198]: Links
+            - link "Erfolge" [ref=e201] [cursor=pointer]:
+              - /url: ./search-console/achievements?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e203]: trophy
+              - generic [ref=e205]: Erfolge
+            - link "Einstellungen" [ref=e208] [cursor=pointer]:
+              - /url: ./search-console/settings?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e210]: settings
+              - generic [ref=e212]: Einstellungen
+        - generic [ref=e214]:
+          - generic [ref=e216]:
+            - button "Feedback geben" [ref=e218] [cursor=pointer]:
+              - generic [ref=e220]: feedback
+              - generic [ref=e222]: Feedback geben
+            - button "Informationen zur Search Console" [ref=e225] [cursor=pointer]:
+              - generic [ref=e227]: info
+              - generic [ref=e229]: Informationen zur Search Console
+          - generic [ref=e233]:
+            - link "Datenschutz" [ref=e234] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=de
+            - link "Nutzungsbedingungen" [ref=e235] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=de
+  - generic [ref=e237]:
+    - navigation "Navigationspfade" [ref=e242]:
+      - heading "Sitemaps" [level=1] [ref=e245]
+    - main [ref=e249]:
+      - generic [ref=e252]:
+        - generic [ref=e253]: Neue Sitemap hinzufügen
+        - generic [ref=e254]:
+          - generic [ref=e260]:
+            - textbox "Sitemap-URL eingeben" [active] [ref=e261]
+            - generic: Sitemap-URL eingeben
+          - button "Senden" [disabled] [ref=e264]:
+            - generic [ref=e267]: Senden
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - heading "Eingereichte Sitemaps" [level=1] [ref=e273]:
+            - generic [ref=e274]: Eingereichte Sitemaps
+          - button "Tabellenzeilen filtern" [ref=e277] [cursor=pointer]:
+            - generic [ref=e280]: 
+        - table [ref=e282]:
+          - rowgroup [ref=e283]:
+            - row "Sitemap Typ Eingereicht Zuletzt gelesen Status Erkannte Seiten Erkannte Videos" [ref=e284]:
+              - columnheader "Sitemap" [ref=e285]:
+                - text: Sitemap
+                - img [ref=e287] [cursor=pointer]
+              - columnheader "Typ" [ref=e289]:
+                - text: Typ
+                - img [ref=e291] [cursor=pointer]
+              - columnheader "Eingereicht" [ref=e293]:
+                - text: Eingereicht
+                - img [ref=e295] [cursor=pointer]
+              - columnheader "Zuletzt gelesen" [ref=e297]:
+                - text: Zuletzt gelesen
+                - img [ref=e299] [cursor=pointer]
+              - columnheader "Status" [ref=e301]:
+                - text: Status
+                - img [ref=e303] [cursor=pointer]
+              - columnheader "Erkannte Seiten" [ref=e305]:
+                - img [ref=e307] [cursor=pointer]
+                - text: Erkannte Seiten
+              - columnheader "Erkannte Videos" [ref=e309]:
+                - img [ref=e311] [cursor=pointer]
+                - text: Erkannte Videos
+              - columnheader [ref=e313]
+          - rowgroup
+        - generic [ref=e316]:
+          - generic [ref=e318]:
+            - generic [ref=e319]: "Zeilen pro Seite:"
+            - listbox "Anzahl der Zeilen pro Seite" [ref=e320] [cursor=pointer]:
+              - option "5"
+              - option "10" [selected] [ref=e321]
+              - option "25"
+              - option "50"
+              - option "100"
+              - option "250"
+              - option "500"
+          - generic [ref=e322]:
+            - generic [ref=e323]: 0 bis 0 von 0
+            - generic [ref=e324]:
+              - generic [ref=e326]: 
+              - generic [ref=e328]: 

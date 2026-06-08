@@ -1,0 +1,160 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - article [ref=e11]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: Rechtliches
+          - heading "Impressum." [level=1] [ref=e16]
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - heading "Medieninhaber, Herausgeber & Verantwortlich für den Inhalt" [level=2] [ref=e20]
+            - generic [ref=e21]:
+              - paragraph [ref=e22]:
+                - text: Glockner Digital — eCommerce Consulting
+                - text: Mag. Andreas Unterkofler
+              - paragraph [ref=e23]:
+                - text: Blumauergasse 23/12
+                - text: 1020 Wien
+                - text: Österreich
+          - generic [ref=e24]:
+            - heading "Kontakt" [level=2] [ref=e25]
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - text: "E-Mail:"
+                - link "support@glocknerdigital.at" [ref=e29] [cursor=pointer]:
+                  - /url: mailto:support@glocknerdigital.at
+              - listitem [ref=e30]:
+                - text: "Telefon:"
+                - link "+43 650 660 5000" [ref=e31] [cursor=pointer]:
+                  - /url: tel:+436506605000
+              - listitem [ref=e32]:
+                - text: "WhatsApp:"
+                - link "+43 676 369 5642" [ref=e33] [cursor=pointer]:
+                  - /url: tel:+436763695642
+          - generic [ref=e34]:
+            - heading "Unternehmensgegenstand" [level=2] [ref=e35]
+            - paragraph [ref=e37]: Unternehmensberatung mit Schwerpunkt KI-Beratung, eCommerce- Consulting sowie digitale Vermarktung für Klein- und Mittelbetriebe in Österreich.
+          - generic [ref=e38]:
+            - heading "Rechtsform & Mitgliedschaften" [level=2] [ref=e39]
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: "Rechtsform: Einzelunternehmen"
+              - paragraph [ref=e42]: Mitglied der Wirtschaftskammer Österreich (WKO)
+          - generic [ref=e43]:
+            - heading "Anwendbares Recht & Gerichtsstand" [level=2] [ref=e44]
+            - paragraph [ref=e46]: Es gilt österreichisches Recht unter Ausschluss aller Verweisungs- normen. Erfüllungsort und ausschließlicher Gerichtsstand für alle Streitigkeiten ist Wien.
+          - generic [ref=e47]:
+            - heading "Online-Streitbeilegung gemäß Art. 14 Abs. 1 ODR-VO" [level=2] [ref=e48]
+            - generic [ref=e49]:
+              - paragraph [ref=e50]:
+                - text: "Die Europäische Kommission stellt eine Plattform zur Online- Streitbeilegung (OS) bereit, die Sie hier finden:"
+                - link "https://ec.europa.eu/odr" [ref=e51] [cursor=pointer]:
+                  - /url: https://ec.europa.eu/odr
+                - text: .
+              - paragraph [ref=e52]: Wir sind weder verpflichtet noch bereit, an einem Streitbeilegungs- verfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+          - generic [ref=e53]:
+            - heading "Haftung für Inhalte dieser Website" [level=2] [ref=e54]
+            - paragraph [ref=e56]: Wir entwickeln die Inhalte dieser Website mit größter Sorgfalt und bemühen uns um die Bereitstellung zutreffender und aktueller Informationen. Für Schäden, die im Zusammenhang mit der Nutzung der Informationen auf dieser Website entstehen, übernehmen wir keine Haftung, sofern diese nicht auf grob fahrlässigem oder vorsätzlichem Verhalten beruhen.
+          - generic [ref=e57]:
+            - heading "Haftung für Links auf dieser Website" [level=2] [ref=e58]
+            - paragraph [ref=e60]: Unsere Website enthält Links zu anderen Websites, für deren Inhalt wir nicht verantwortlich sind. Sollten Ihnen rechtswidrige Links auf unserer Website auffallen, ersuchen wir um Hinweis; diese werden umgehend entfernt.
+          - generic [ref=e61]:
+            - heading "Urheberrechtshinweis" [level=2] [ref=e62]
+            - paragraph [ref=e64]: Alle Inhalte dieser Website (Texte, Bilder, Grafiken, Layout) unterliegen, soweit nicht anders gekennzeichnet, dem österreichischen Urheberrecht. Eine Verwertung außerhalb der Grenzen des Urheberrechtsgesetzes bedarf der vorherigen schriftlichen Zustimmung.
+  - contentinfo [ref=e65]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e71]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e72]: direkt
+          - text: .
+        - paragraph [ref=e73]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e74]:
+        - complementary [ref=e75]:
+          - generic [ref=e77]: Direkter Draht
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e81] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e82]:
+              - generic [ref=e83]: Telefon
+              - link "+43 650 660 5000" [ref=e84] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e85]:
+              - generic [ref=e86]: Standorte
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: Wien
+                  - generic [ref=e90]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Klagenfurt
+                  - generic [ref=e93]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e95]:
+          - generic [ref=e97]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e98]
+          - generic [ref=e99]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e100]
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: Name*
+              - textbox "Name*" [ref=e104]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e105]:
+              - generic [ref=e106]: E-Mail*
+              - textbox "E-Mail*" [ref=e107]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e109]:
+            - generic [ref=e110]: Nachricht*
+            - textbox "Nachricht*" [ref=e111]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e112]:
+            - paragraph [ref=e113]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e114]:
+              - generic [ref=e115]: Nachricht senden
+              - img [ref=e116]
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - link "Glockner.ai — Startseite" [ref=e122] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e123]
+        - paragraph [ref=e124]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e125]:
+        - heading "Glockner AI" [level=3] [ref=e126]
+        - generic [ref=e127]:
+          - link "Money Making AI" [ref=e128] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "KI-Beratung" [ref=e129] [cursor=pointer]:
+            - /url: /leistungen-lux3#schulungen
+      - generic [ref=e130]:
+        - heading "Glockner Digital" [level=3] [ref=e131]
+        - generic [ref=e132]:
+          - link "E-Commerce" [ref=e133] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e134] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e135] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e137]:
+      - paragraph [ref=e138]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e139]:
+        - link "Impressum" [ref=e140] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e141] [cursor=pointer]:
+          - /url: /datenschutz
+  - alert [ref=e142]

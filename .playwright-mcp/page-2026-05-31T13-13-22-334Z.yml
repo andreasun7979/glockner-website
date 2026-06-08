@@ -1,0 +1,687 @@
+- generic [active] [ref=e1]:
+  - link "Zum Inhalt springen" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "Startseite domaindiscount24 Logo" [ref=e6] [cursor=pointer]:
+        - /url: https://www.domaindiscount24.com
+        - generic [ref=e7]: Startseite
+        - img "domaindiscount24 Logo" [ref=e8]
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Warenkorb" [ref=e12] [cursor=pointer]:
+            - /url: "#floatingcart"
+            - img [ref=e13]
+            - generic [ref=e15]: Warenkorb
+        - listitem [ref=e16]:
+          - link "Login" [ref=e17] [cursor=pointer]:
+            - /url: https://login.domaindiscount24.com/login
+          - link "Registrieren" [ref=e18] [cursor=pointer]:
+            - /url: https://login.domaindiscount24.com/signup
+      - list [ref=e20]:
+        - listitem [ref=e21]:
+          - generic [ref=e22]:
+            - img [ref=e23]
+            - generic [ref=e25]: Domains
+        - listitem [ref=e26]:
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - generic [ref=e30]: Hosting
+        - listitem [ref=e31]:
+          - link "Easy Email" [ref=e32] [cursor=pointer]:
+            - /url: https://www.domaindiscount24.com/easy-email
+        - listitem [ref=e33]:
+          - link "SSL" [ref=e34] [cursor=pointer]:
+            - /url: https://www.domaindiscount24.com/ssl-zertifikate
+        - listitem [ref=e35]:
+          - link "Support" [ref=e36] [cursor=pointer]:
+            - /url: https://support.domaindiscount24.com/hc/de
+        - listitem [ref=e37]:
+          - link "Über uns" [ref=e38] [cursor=pointer]:
+            - /url: https://www.domaindiscount24.com/ueber-uns
+        - listitem [ref=e39]:
+          - link "Blog" [ref=e40] [cursor=pointer]:
+            - /url: https://www.domaindiscount24.com/blog
+  - main [ref=e41]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - heading "Starten Sie mit Ihrem Domainnamen" [level=1] [ref=e45]
+        - generic [ref=e46]: Egal, ob Sie einen Online-Shop gründen, auf Ihren Laden aufmerksam machen oder Ihre Ideen teilen möchten - Was auch immer der Grund für Ihre Website ist, wir haben die Domain!
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Domain Search
+            - textbox "Domain Search" [ref=e51]:
+              - /placeholder: Finden Sie Ihren Wunschnamen
+            - button "Suchen" [ref=e53] [cursor=pointer]
+          - generic [ref=e54]:
+            - link "Transfer" [ref=e55] [cursor=pointer]:
+              - /url: https://www.domaindiscount24.com/domains/domains-transferieren
+            - link "Bulk Suche" [ref=e56] [cursor=pointer]:
+              - /url: https://www.domaindiscount24.com/domains/bulk-domainsuche
+      - figure [ref=e58]
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]: 30 Tage kostenlos testen
+        - heading "Easy Email" [level=2] [ref=e63]
+        - generic [ref=e64]: "Es war noch nie so einfach: Ihre professionelle E-Mail-Adresse, passend zu Ihrer Domain!"
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - img [ref=e69]
+            - paragraph [ref=e71]: Erstellen Sie Ihre eigene E-Mail-Adresse wie hallo@ihredomain.com
+          - listitem [ref=e72]:
+            - img [ref=e74]
+            - paragraph [ref=e76]: Für die geschäftliche und private Nutzung geeignet
+          - listitem [ref=e77]:
+            - img [ref=e79]
+            - paragraph [ref=e81]: Intelligente, KI-gesteuerte Produktivitätstools inklusive
+          - listitem [ref=e82]:
+            - img [ref=e84]
+            - paragraph [ref=e86]: Sichere 2-Faktor-Authentifizierung; Webmail & Mobil-App
+        - link "Kostenlos testen" [ref=e88] [cursor=pointer]:
+          - /url: https://www.domaindiscount24.com/easy-email
+      - figure [ref=e90]
+    - generic [ref=e91]:
+      - generic [ref=e93]:
+        - heading "Domains & Hosting" [level=2] [ref=e94]
+        - paragraph [ref=e95]: Mit unseren All-in-one-Paketen erhalten Sie eine sinnvolle Kombination aus Domain, Hosting und SSL-Zertifikat. Erstellen Sie Ihre Website in nur wenigen Klicks.
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - heading "Professional" [level=3] [ref=e105]
+              - paragraph [ref=e106]:
+                - generic [ref=e107]: € 8,56
+                - text: /Monat*
+            - generic [ref=e108]:
+              - list [ref=e109]:
+                - listitem [ref=e110]:
+                  - img [ref=e112]
+                  - paragraph [ref=e114]: 1 Domain inklusive
+                - listitem [ref=e115]:
+                  - img [ref=e117]
+                  - paragraph [ref=e119]: 30 GB Speicherplatz
+                - listitem [ref=e120]:
+                  - img [ref=e122]
+                  - paragraph [ref=e124]: 50 E-Mail-Accounts
+                - listitem [ref=e125]:
+                  - img [ref=e127]
+                  - paragraph [ref=e129]: SSL Zertifikat
+                - listitem [ref=e130]:
+                  - img [ref=e132]
+                  - paragraph [ref=e134]: 10 MySQL Datenbanken
+                - listitem [ref=e135]:
+                  - img [ref=e137]
+                  - paragraph [ref=e139]: 10 Oneclick-Installationen
+                - listitem [ref=e140]:
+                  - img [ref=e142]
+                  - paragraph [ref=e144]: Cronjobs
+                - listitem [ref=e145]:
+                  - img [ref=e147]
+                  - paragraph [ref=e149]: Addon Domains¹
+                - listitem [ref=e150]:
+                  - img [ref=e152]
+                  - paragraph [ref=e154]: Jährlicher Kauf
+              - link "In den Warenkorb" [ref=e157] [cursor=pointer]:
+                - /url: /cart/add?producttype=bundle&orderID=6a1c33f03b6ab&
+                - generic [ref=e158]: In den Warenkorb
+                - img [ref=e159]
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - heading "Premium" [level=3] [ref=e166]
+              - paragraph [ref=e167]:
+                - generic [ref=e168]: € 16,13
+                - text: /Monat*
+            - generic [ref=e169]:
+              - list [ref=e170]:
+                - listitem [ref=e171]:
+                  - img [ref=e173]
+                  - paragraph [ref=e175]: 2 Domains inklusive
+                - listitem [ref=e176]:
+                  - img [ref=e178]
+                  - paragraph [ref=e180]: 100 GB Speicherplatz
+                - listitem [ref=e181]:
+                  - img [ref=e183]
+                  - paragraph [ref=e185]: Unbegrenzt E-Mail-Accounts
+                - listitem [ref=e186]:
+                  - img [ref=e188]
+                  - paragraph [ref=e190]: SSL Zertifikat
+                - listitem [ref=e191]:
+                  - img [ref=e193]
+                  - paragraph [ref=e195]: 25 MySQL Datenbanken
+                - listitem [ref=e196]:
+                  - img [ref=e198]
+                  - paragraph [ref=e200]: 25 Oneclick-Installationen
+                - listitem [ref=e201]:
+                  - img [ref=e203]
+                  - paragraph [ref=e205]: Cronjobs
+                - listitem [ref=e206]:
+                  - img [ref=e208]
+                  - paragraph [ref=e210]: 4 Addon Domains¹
+                - listitem [ref=e211]:
+                  - img [ref=e213]
+                  - paragraph [ref=e215]: Jährlicher Kauf
+              - link "In den Warenkorb" [ref=e218] [cursor=pointer]:
+                - /url: /cart/add?producttype=bundle&orderID=6a1c33f03d81b&
+                - generic [ref=e219]: In den Warenkorb
+                - img [ref=e220]
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - heading "Elite" [level=3] [ref=e227]
+              - paragraph [ref=e228]:
+                - generic [ref=e229]: € 24,70
+                - text: /Monat*
+            - generic [ref=e230]:
+              - list [ref=e231]:
+                - listitem [ref=e232]:
+                  - img [ref=e234]
+                  - paragraph [ref=e236]: 3 Domains inklusive
+                - listitem [ref=e237]:
+                  - img [ref=e239]
+                  - paragraph [ref=e241]: Speicherplatz unbegrenzt
+                - listitem [ref=e242]:
+                  - img [ref=e244]
+                  - paragraph [ref=e246]: Unbegrenzt E-Mail-Accounts
+                - listitem [ref=e247]:
+                  - img [ref=e249]
+                  - paragraph [ref=e251]: SSL Zertifikat
+                - listitem [ref=e252]:
+                  - img [ref=e254]
+                  - paragraph [ref=e256]: 50 MySQL Datenbanken
+                - listitem [ref=e257]:
+                  - img [ref=e259]
+                  - paragraph [ref=e261]: Unbegrenzt Oneclick-Installationen
+                - listitem [ref=e262]:
+                  - img [ref=e264]
+                  - paragraph [ref=e266]: Cronjobs
+                - listitem [ref=e267]:
+                  - img [ref=e269]
+                  - paragraph [ref=e271]: 9 Addon Domains¹
+                - listitem [ref=e272]:
+                  - img [ref=e274]
+                  - paragraph [ref=e276]: Jährlicher Kauf
+              - link "In den Warenkorb" [ref=e279] [cursor=pointer]:
+                - /url: /cart/add?producttype=bundle&orderID=6a1c33f040513&
+                - generic [ref=e280]: In den Warenkorb
+                - img [ref=e281]
+        - generic [ref=e284]: ¹Jeder Hosting-Plan muss einer Domain zugeordnet werden. Addon-Domains sind die Anzahl der zusätzlichen Domains, die genutzt werden können.
+    - generic [ref=e286]:
+      - generic [ref=e287]:
+        - heading "Warum domaindiscount24?" [level=2] [ref=e288]
+        - generic [ref=e289]: Wir wissen, dass die beste Technologie nur so gut ist wie die Menschen, die dahinter stehen. Bei domaindiscount24 ist es unser Ziel Ihnen die bestmögliche Erfahrung zu bieten.
+        - list [ref=e291]:
+          - listitem [ref=e292]:
+            - img [ref=e294]
+            - paragraph [ref=e296]:
+              - strong [ref=e297]: "Vertrauen:"
+              - text: Mehr als 100.000 Kunden nutzen bereits täglich unsere Dienste.
+          - listitem [ref=e298]:
+            - img [ref=e300]
+            - paragraph [ref=e302]:
+              - strong [ref=e303]: "Erfahrung:"
+              - text: Wir sehen noch lange nicht alt aus, sind jedoch schon seit über zwei Jahrzehnten in der Branche.
+          - listitem [ref=e304]:
+            - img [ref=e306]
+            - paragraph [ref=e308]:
+              - strong [ref=e309]: "Support:"
+              - text: Ihre Probleme sind unsere Probleme. Unser lokales Support-Team ist für Sie da.
+      - figure [ref=e311]
+    - generic [ref=e313]:
+      - generic [ref=e314]:
+        - generic [ref=e315]: Rasmin van Kessel, Deutschland
+        - generic [ref=e316]: Trustpilot
+        - blockquote [ref=e317]:
+          - generic [ref=e318]:
+            - img [ref=e319]
+            - paragraph [ref=e321]: Ich registriere seit Jahren Domains bei DD24, aktuell sind hier 48 im Portfolio, und bin absolut zufrieden. Die Registrierung erfolgt umgehend und zuverlässig, die Preise sind gut, der Support - wenn er denn tatsächlich mal benötigt wird - kompetent, freundlich und schnell. Änderungen an DNS, Whois oder Nameserver-Einstellungen werden umgehend umgesetzt.
+            - img [ref=e322]
+      - generic [ref=e324]:
+        - generic [ref=e325]: Tina Moser, Deutschland
+        - generic [ref=e326]: Trustpilot
+        - blockquote [ref=e327]:
+          - generic [ref=e328]:
+            - img [ref=e329]
+            - paragraph [ref=e331]: Wir sind seit ca. 8 Jahren Kunde bei Domaindiscount und haben bis heute bestimmt um die 120 Domains registriert. Dies auch für einige unserer Kunden und es gibt selten Dienstleister die derart konstant zuverlässig erreichbar sind und nach einem Kontakt die Fragen oder Probleme tatsächlich kurzfristig gelöst sind.
+            - img [ref=e332]
+    - generic [ref=e336]:
+      - heading "Frequently Asked Questions Wir haben die Antworten" [level=2] [ref=e337]:
+        - text: Frequently Asked Questions
+        - generic [ref=e338]: Wir haben die Antworten
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - term [ref=e342]: Warum brauche ich eine Website?
+          - definition [ref=e343]: Eine Website stärkt Ihre Glaubwürdigkeit als legitimes Unternehmen und öffnet Ihnen die Tür zum World Wide Web. Stellen Sie Ihre Vision einem globalen Publikum vor, demonstrieren Sie Ihr Fachwissen und vermarkten Sie Ihre Marke. Mit einer Wegbeschreibung zu Ihrem Offline-Standort, finden Ihre Kunden leicht zu Ihnen - oder Sie verkaufen Ihre Produkte direkt mit einer E-Commerce-Lösung.
+        - generic [ref=e344]:
+          - term [ref=e345]: Was brauche ich, um meine eigene Website zu erstellen?
+          - definition [ref=e346]: Zunächst müssen Sie einen Domainnamen registrieren, der zu Ihrem Unternehmen passt. Finden Sie anschließend einen Webhosting-Provider, um mit Ihrer Domain online zu gehen. Bereiten Sie Ihre Inhalte vor und erstellen Sie Ihre Website mit Hilfe von einsteigerfreundlichen Website-Baukästen. Stellen Sie schließlich sicher, dass Ihr Webspace sicher ist, indem Sie z. B. ein SSL-Zertifikat installieren.
+        - generic [ref=e347]:
+          - term [ref=e348]: Welche Domains können bei domaindiscount24 registriert werden?
+          - definition [ref=e349]: Auf domaindiscount24 können Sie aus über 1.000 Domainendungen wählen. Wir bieten sowohl länderspezifische Domainendungen wie .de oder .us als auch generische Domainendungen wie .blog, .online oder .site. Spielen Sie mit den Möglichkeiten für Ihre Domain und finden Sie Ihren Wunschnamen.
+    - generic [ref=e350]:
+      - generic [ref=e354]:
+        - generic [ref=e355]:
+          - heading "Das könnte Sie interessieren" [level=2] [ref=e356]
+          - paragraph [ref=e357]: Wir vermitteln grundlegende Kenntnisse und Tipps zum Aufbau Ihrer Webpräsenz.
+        - list [ref=e358]:
+          - listitem [ref=e359]:
+            - 'link "Neues Produkt für Sie: Easy Email Unser neues Easy Email Produkt ist einfach zu bedienen und erfordert keine technischen Kenntnisse. Heben Sie sich mit einer E-Mail-Adresse ab, die zu Ihrer Domain passt." [ref=e360] [cursor=pointer]':
+              - /url: https://www.domaindiscount24.com/blog/neues-produkt-fuer-sie-easy-email
+              - generic [ref=e364]:
+                - paragraph [ref=e365]: "Neues Produkt für Sie: Easy Email"
+                - paragraph [ref=e366]: Unser neues Easy Email Produkt ist einfach zu bedienen und erfordert keine technischen Kenntnisse. Heben Sie sich mit einer E-Mail-Adresse ab, die zu Ihrer Domain passt.
+          - listitem [ref=e367]:
+            - link "Kostenlose vs. kostenpflichtige E-Mail - Was ist der Unterschied? Es gibt so viele kostenlose E-Mail-Anbieter. Warum sollte ich mich für einen kostenpflichtigen Dienst entscheiden? In diesem Blog-Artikel erklären wir die Vor- und Nachteile der beiden Varianten." [ref=e368] [cursor=pointer]:
+              - /url: https://www.domaindiscount24.com/blog/kostenlose-vs-kostenpflichtige-e-mail-was-ist-der-unterschied
+              - generic [ref=e372]:
+                - paragraph [ref=e373]: Kostenlose vs. kostenpflichtige E-Mail - Was ist der Unterschied?
+                - paragraph [ref=e374]: Es gibt so viele kostenlose E-Mail-Anbieter. Warum sollte ich mich für einen kostenpflichtigen Dienst entscheiden? In diesem Blog-Artikel erklären wir die Vor- und Nachteile der beiden Varianten.
+          - listitem [ref=e375]:
+            - link "Was ist eine .kids Domain? Es gibt einen neuen Stern am Domainhimmel - .kids. Wie Sie sich schon denken können, wird mit .kids ein Online-Raum geschaffen, bei dem die Interessen von Kindern im Vordergrund stehen." [ref=e376] [cursor=pointer]:
+              - /url: https://www.domaindiscount24.com/blog/was-ist-eine-kids-domain
+              - generic [ref=e380]:
+                - paragraph [ref=e381]: Was ist eine .kids Domain?
+                - paragraph [ref=e382]: Es gibt einen neuen Stern am Domainhimmel - .kids. Wie Sie sich schon denken können, wird mit .kids ein Online-Raum geschaffen, bei dem die Interessen von Kindern im Vordergrund stehen.
+      - generic [ref=e386]:
+        - heading "Noch Fragen?" [level=2] [ref=e387]
+        - paragraph [ref=e388]: Wir sind für Sie da
+        - paragraph [ref=e389]: Wenn Sie weitere Fragen haben oder Hilfe benötigen, besuchen Sie unser Hilfe-Center, wo wir häufig gestellte Fragen beantworten. Sie können sich auch mit unserem lokalen Support-Team in Verbindung setzen, um eine 1:1-Beratung zu erhalten.
+        - link "Zum Hilfe-Center" [ref=e392] [cursor=pointer]:
+          - /url: https://support.domaindiscount24.com/hc/de-de
+  - generic [ref=e394]:
+    - generic [ref=e396]:
+      - img [ref=e398]
+      - generic [ref=e401]:
+        - text: "Im Warenkorb:"
+        - link [ref=e402] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e403]
+    - generic [ref=e405]:
+      - generic [ref=e406]: "Total:"
+      - link "Zur Kasse" [ref=e407] [cursor=pointer]:
+        - /url: https://login.domaindiscount24.com/checkout
+  - contentinfo "Footer" [ref=e408]:
+    - heading "Footer" [level=2] [ref=e409]
+    - generic [ref=e410]:
+      - generic [ref=e411]:
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - generic [ref=e414]:
+              - heading "Schnellstart" [level=3] [ref=e415]
+              - list [ref=e416]:
+                - listitem [ref=e417]:
+                  - link "So sichern Sie sich Ihren Domainnamen" [ref=e418] [cursor=pointer]:
+                    - /url: /blog/so-sichern-sie-sich-ihren-domainnamen
+                - listitem [ref=e419]:
+                  - link "Wie Sie Cyber-Attacken vorbeugen können" [ref=e420] [cursor=pointer]:
+                    - /url: /blog/wie-sie-cyber-attacken-vorbeugen-koennen
+                - listitem [ref=e421]:
+                  - link "Was macht eine gute Website aus?" [ref=e422] [cursor=pointer]:
+                    - /url: /blog/was-macht-eine-gute-webseite-aus
+            - generic [ref=e423]:
+              - heading "Produkte" [level=3] [ref=e424]
+              - list [ref=e425]:
+                - listitem [ref=e426]:
+                  - link "Domains" [ref=e427] [cursor=pointer]:
+                    - /url: /domains
+                - listitem [ref=e428]:
+                  - link "Hosting" [ref=e429] [cursor=pointer]:
+                    - /url: /hosting
+                - listitem [ref=e430]:
+                  - link "All-in-one Pakete" [ref=e431] [cursor=pointer]:
+                    - /url: /hosting/dd24-komplettpakete
+                - listitem [ref=e432]:
+                  - link "SSL Zertifikate" [ref=e433] [cursor=pointer]:
+                    - /url: /ssl-zertifikate
+          - generic [ref=e434]:
+            - generic [ref=e435]:
+              - heading "Services" [level=3] [ref=e436]
+              - list [ref=e437]:
+                - listitem [ref=e438]:
+                  - link "Hilfe & Support" [ref=e439] [cursor=pointer]:
+                    - /url: https://support.domaindiscount24.com/hc/de
+                - listitem [ref=e440]:
+                  - link "Service Status" [ref=e441] [cursor=pointer]:
+                    - /url: https://status.domaindiscount24.com/posts/dashboard
+                - listitem [ref=e442]:
+                  - link "Account Login" [ref=e443] [cursor=pointer]:
+                    - /url: https://login.domaindiscount24.com/login
+                - listitem [ref=e444]:
+                  - link "Whois Suche" [ref=e445] [cursor=pointer]:
+                    - /url: /service/whois-search
+                - listitem [ref=e446]:
+                  - link "Währungen" [ref=e447] [cursor=pointer]:
+                    - /url: /waehrung
+            - generic [ref=e448]:
+              - heading "Unternehmen" [level=3] [ref=e449]
+              - list [ref=e450]:
+                - listitem [ref=e451]:
+                  - link "Über uns" [ref=e452] [cursor=pointer]:
+                    - /url: /ueber-uns
+                - listitem [ref=e453]:
+                  - link "Blog" [ref=e454] [cursor=pointer]:
+                    - /url: /blog
+                - listitem [ref=e455]:
+                  - link "Impressum" [ref=e456] [cursor=pointer]:
+                    - /url: /rechtliches/impressum
+                - listitem [ref=e457]:
+                  - link "Datenschutz" [ref=e458] [cursor=pointer]:
+                    - /url: /rechtliches/datenschutz
+                - listitem [ref=e459]:
+                  - link "AGB" [ref=e460] [cursor=pointer]:
+                    - /url: /rechtliches/agb
+        - generic [ref=e461]:
+          - heading "Sprache & Währung" [level=3] [ref=e462]
+          - generic [ref=e463]:
+            - generic [ref=e464]:
+              - generic [ref=e465]: Sprache
+              - generic [ref=e466]:
+                - combobox "Sprache" [ref=e467]:
+                  - option "Deutsch" [selected]
+                  - option "English"
+                - generic:
+                  - img
+            - generic [ref=e468]:
+              - generic [ref=e469]: Währung
+              - generic [ref=e470]:
+                - combobox "Währung" [ref=e471]:
+                  - option "AED - VAE Dirham (aed)"
+                  - option "AUD - Australischer Dollar (AU$)"
+                  - option "BRL - Brasilianischer Real (R$)"
+                  - option "CAD - Kanadischer Dollar (CA$)"
+                  - option "CHF - Schweizer Franken (Fr.)"
+                  - option "CNY - Chinesischer Renminbi Yuan (CN¥)"
+                  - option "CZK - Tschechische Krone (Kč)"
+                  - option "DKK - Dänische Krone (Dkr)"
+                  - option "EUR - Euro (€)" [selected]
+                  - option "GBP - Pfund Sterling (£)"
+                  - option "HKD - Hongkong-Dollar (HK$)"
+                  - option "HUF - Ungarischer Forint (Ft)"
+                  - option "IDR - Indonesische Rupiah (Rp)"
+                  - option "ILS - Israelischer Schekel (₪)"
+                  - option "INR - Indische Rupie (Rs)"
+                  - option "ISK - Isländische Krone (Ikr)"
+                  - option "JPY - Japanischer Yen (¥)"
+                  - option "KRW - Südkoreanischer Won (₩)"
+                  - option "MXN - Mexikanischer Peso (MXN)"
+                  - option "MYR - Malaysischer Ringgit (RM)"
+                  - option "NOK - Norwegische Krone (Nkr)"
+                  - option "NZD - Neuseeland-Dollar (NZ$)"
+                  - option "PHP - Philippinischer Peso (₱)"
+                  - option "PLN - Polnischer Zloty (zł)"
+                  - option "RON - Rumänischer Leu (RON)"
+                  - option "RUB - Russischer Rubel (RUB)"
+                  - option "SEK - Schwedische Krone (Skr)"
+                  - option "SGD - Singapur-Dollar (S$)"
+                  - option "THB - Thailändischer Baht (฿)"
+                  - option "TRY - Türkische Lira (TL)"
+                  - option "USD - US-Dollar ($)"
+                  - option "ZAR - Südafrikanischer Rand (R)"
+                - generic:
+                  - img
+          - heading "Herkunftsland" [level=3] [ref=e472]
+          - generic [ref=e475]:
+            - generic [ref=e476]: Herkunftsland
+            - combobox "Herkunftsland" [ref=e477]:
+              - option "AD - Andorra"
+              - option "AE - Vereinigte arabische Emirate"
+              - option "AF - Afghanistan"
+              - option "AG - Antigua und Barbuda"
+              - option "AI - Anguilla"
+              - option "AL - Albanien"
+              - option "AM - Armenien"
+              - option "AO - Angola"
+              - option "AQ - Antarktika"
+              - option "AR - Argentinien"
+              - option "AS - Amerikanisch-Samoa"
+              - option "AT - Österreich" [selected]
+              - option "AU - Australien"
+              - option "AW - Aruba"
+              - option "AX - Insel Åland"
+              - option "AZ - Aserbaidschan"
+              - option "BA - Bosnien und Herzegowina"
+              - option "BB - Barbados"
+              - option "BD - Bangladesh"
+              - option "BE - Belgien"
+              - option "BF - Burkina Faso"
+              - option "BG - Bulgarien"
+              - option "BH - Bahrain"
+              - option "BI - Burundi"
+              - option "BJ - Benin"
+              - option "BL - Saint Barth"
+              - option "BM - Bermuda"
+              - option "BN - Brunei Darussalam"
+              - option "BO - Bolivien"
+              - option "BQ - Bonaire, Sint Eustatius und Saba"
+              - option "BR - Brasilien"
+              - option "BS - Bahamas"
+              - option "BT - Bhutan"
+              - option "BV - Bouvetinsel"
+              - option "BW - Botswana"
+              - option "BY - Weißrussland"
+              - option "BZ - Belize"
+              - option "CA - Kanada"
+              - option "CC - Kokosinseln"
+              - option "CD - Kongo (Demokratische Republik)"
+              - option "CF - Zentralafrikanische Republik"
+              - option "CG - Kongo"
+              - option "CH - Schweiz"
+              - option "CI - Elfenbeinküste"
+              - option "CK - Cookinseln"
+              - option "CL - Chile"
+              - option "CM - Kamerun"
+              - option "CN - China"
+              - option "CO - Kolumbien"
+              - option "CR - Costa Rica"
+              - option "CV - Kap Verde"
+              - option "CW - Curacao"
+              - option "CX - Weihnachtsinsel"
+              - option "CY - Zypern"
+              - option "CZ - Tschechische Republik"
+              - option "DE - Deutschland"
+              - option "DJ - Dschibuti"
+              - option "DK - Dänemark"
+              - option "DM - Dominica"
+              - option "DO - Dominikanische Republik"
+              - option "DZ - Algerien"
+              - option "EC - Ecuador"
+              - option "EE - Estland"
+              - option "EG - Ägypten"
+              - option "EH - Westsahara"
+              - option "ER - Eritrea"
+              - option "ES - Spanien"
+              - option "ET - Äthiopien"
+              - option "FI - Finnland"
+              - option "FJ - Fidschi"
+              - option "FK - Falklandinseln"
+              - option "FM - Mikronesien (Föderierte Staaten von)"
+              - option "FO - Färöer-Inseln"
+              - option "FR - Frankreich"
+              - option "GA - Gabun"
+              - option "GB - Großbritannien"
+              - option "GD - Grenada"
+              - option "GE - Georgien"
+              - option "GF - Französisch-Guayana"
+              - option "GG - Vogtei Guernsey"
+              - option "GH - Ghana"
+              - option "GI - Gibraltar"
+              - option "GL - Grönland"
+              - option "GM - Gambia"
+              - option "GN - Guinea"
+              - option "GP - Guadeloupe"
+              - option "GQ - Äquatorialguinea"
+              - option "GR - Griechenland"
+              - option "GS - Südgeorgien und die Südlichen Sandwichinseln"
+              - option "GT - Guatemala"
+              - option "GU - Guam"
+              - option "GW - Guinea-Bissau"
+              - option "GY - Guyana"
+              - option "HK - Hong Kong"
+              - option "HM - Heard und McDonaldinseln"
+              - option "HN - Honduras"
+              - option "HR - Kroatien"
+              - option "HT - Haiti"
+              - option "HU - Ungarn"
+              - option "ID - Indonesien"
+              - option "IE - Irland"
+              - option "IL - Israel"
+              - option "IM - Isle Of Man"
+              - option "IN - Indien"
+              - option "IO - Britisches Territorium im Indischen Ozean"
+              - option "IQ - Irak"
+              - option "IS - Island"
+              - option "IT - Italien"
+              - option "JE - Jersey"
+              - option "JM - Jamaika"
+              - option "JO - Jordanien"
+              - option "JP - Japan"
+              - option "KE - Kenia"
+              - option "KG - Kirgisistan"
+              - option "KH - Kambodscha"
+              - option "KI - Kiribati"
+              - option "KM - Komoren"
+              - option "KN - St. Kitts und Nevis"
+              - option "KR - Korea (Republik, Südkorea)"
+              - option "KW - Kuwait"
+              - option "KY - Kaimaninseln"
+              - option "KZ - Kasachstan"
+              - option "LA - Laos (Demokratische Volksrepublik)"
+              - option "LB - Libanon"
+              - option "LC - St. Lucia"
+              - option "LI - Liechtenstein"
+              - option "LK - Sri Lanka"
+              - option "LR - Liberia"
+              - option "LS - Lesotho"
+              - option "LT - Litauen"
+              - option "LU - Luxemburg"
+              - option "LV - Lettland"
+              - option "LY - Libyen"
+              - option "MA - Marokko"
+              - option "MC - Monaco"
+              - option "MD - Moldawien (Republik Moldau)"
+              - option "ME - Montenegro"
+              - option "MF - Saint-Martin (französischer Teil)"
+              - option "MG - Madagaskar"
+              - option "MH - Marshallinseln"
+              - option "MK - Mazedonien, ehem. jugoslawische Republik"
+              - option "ML - Mali"
+              - option "MM - Myanmar"
+              - option "MN - Mongolei"
+              - option "MO - Macao"
+              - option "MP - Nördliche Marianeninseln"
+              - option "MQ - Martinique"
+              - option "MR - Mauretanien"
+              - option "MS - Montserrat"
+              - option "MT - Malta"
+              - option "MU - Mauritius"
+              - option "MV - Malediven"
+              - option "MW - Malawi"
+              - option "MX - Mexiko"
+              - option "MY - Malaysia"
+              - option "MZ - Mosambik"
+              - option "NA - Namibia"
+              - option "NC - Neukaledonien"
+              - option "NE - Niger"
+              - option "NF - Norfolkinsel"
+              - option "NG - Nigeria"
+              - option "NI - Nicaragua"
+              - option "NL - Niederlande"
+              - option "NO - Norwegen"
+              - option "NP - Nepal"
+              - option "NR - Nauru"
+              - option "NU - Niue"
+              - option "NZ - Neuseeland"
+              - option "OM - Oman"
+              - option "PA - Panama"
+              - option "PE - Peru"
+              - option "PF - Französisch-Polynesien"
+              - option "PG - Papua-Neuguinea"
+              - option "PH - Philippinen"
+              - option "PK - Pakistan"
+              - option "PL - Polen"
+              - option "PM - Saint Pierre und Miquelon"
+              - option "PN - Pitcairn"
+              - option "PR - Puerto Rico"
+              - option "PS - Palästinensisches Gebiet, Besetztes"
+              - option "PT - Portugal"
+              - option "PW - Palau"
+              - option "PY - Paraguay"
+              - option "QA - Qatar"
+              - option "RE - Réunion"
+              - option "RO - Rumänien"
+              - option "RS - Serbien"
+              - option "RU - Russische Föderation"
+              - option "RW - Ruanda"
+              - option "SA - Saudi-Arabien"
+              - option "SB - Salomonen"
+              - option "SC - Seychellen"
+              - option "SE - Schweden"
+              - option "SG - Singapur"
+              - option "SH - St. Helena, Ascension und Tristan da Cunha"
+              - option "SI - Slovenien"
+              - option "SJ - Svalbard und Jan Mayen Inseln"
+              - option "SK - Slovakei"
+              - option "SL - Sierra Leone"
+              - option "SM - San Marino"
+              - option "SN - Senegal"
+              - option "SO - Somalia"
+              - option "SR - Surinam"
+              - option "SS - Südsudan"
+              - option "ST - Sao Tome und Principe"
+              - option "SV - El Salvador"
+              - option "SX - Sint Maarten (niederländischer Teil)"
+              - option "SZ - Swasiland"
+              - option "TC - Turks- und Caicosinseln"
+              - option "TD - Tschad"
+              - option "TF - Französische Süd- und Antarktisgebiete"
+              - option "TG - Togo"
+              - option "TH - Thailand"
+              - option "TJ - Tadschikistan"
+              - option "TK - Tokelau"
+              - option "TL - Timor-Leste (Osttimor)"
+              - option "TM - Turkmenistan"
+              - option "TN - Tunesien"
+              - option "TO - Tonga"
+              - option "TR - Türkei"
+              - option "TT - Trinidad und Tobago"
+              - option "TV - Tuvalu"
+              - option "TW - Taiwan, Chinesische Provinz"
+              - option "TZ - Tansania (Vereinigte Republik von)"
+              - option "UA - Ukraine"
+              - option "UG - Uganda"
+              - option "UM - United States Minor Outlying Islands"
+              - option "US - Vereinigte Staaten von Amerika"
+              - option "UY - Uruguay"
+              - option "UZ - Usbekistan"
+              - option "VA - Vatikanstadt"
+              - option "VC - St. Vincent und die Grenadinen"
+              - option "VE - Venezuela"
+              - option "VG - Jungferninseln (Britische)"
+              - option "VI - Jungferninseln (Amerikanische)"
+              - option "VN - Vietnam"
+              - option "VU - Vanuatu"
+              - option "WF - Wallis und Futuna"
+              - option "WS - Samoa"
+              - option "YE - Jemen"
+              - option "YT - Mayotte"
+              - option "ZA - Südafrika"
+              - option "ZM - Sambia"
+              - option "ZW - Simbabwe"
+            - generic:
+              - img
+      - generic [ref=e478]:
+        - generic [ref=e479]:
+          - link "Facebook" [ref=e480] [cursor=pointer]:
+            - /url: https://www.facebook.com/domaindiscount24
+            - generic [ref=e481]: Facebook
+            - img [ref=e482]
+          - link "X" [ref=e484] [cursor=pointer]:
+            - /url: https://twitter.com/dd24
+            - generic [ref=e485]: X
+            - img [ref=e486]
+        - paragraph [ref=e488]:
+          - text: "* Preise in EUR inkl. 20% MwSt., Herkunftsland: Österreich"
+          - text: © 2026 Key-Systems GmbH, Inc. Alle Rechte vorbehalten. Illustrationen von Freepik
+      - link "domaindiscount24 Logo" [ref=e490] [cursor=pointer]:
+        - /url: https://teaminternet.com/?__hstc=183471673.791031cda446af6f0788b0619267555f.1780233202177.1780233202177.1780233202177.1&__hssc=183471673.1.1780233202177&__hsfp=6aa53841d1146313a6e846ac77d5c1d8
+        - img "domaindiscount24 Logo" [ref=e491]
+  - img:
+    - generic: <

@@ -1,0 +1,151 @@
+- generic [active]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - complementary [ref=e4]:
+        - button "g glocknerdigital" [ref=e6] [cursor=pointer]:
+          - generic [ref=e8]:
+            - generic [ref=e10]:
+              - img [ref=e11]
+              - text: g
+            - generic [ref=e26]: glocknerdigital
+          - img [ref=e28]
+        - navigation [ref=e31]:
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "Emails" [ref=e34] [cursor=pointer]:
+                - /url: /emails
+                - img [ref=e36]
+                - text: Emails
+            - listitem [ref=e42]:
+              - link "Broadcasts" [ref=e43] [cursor=pointer]:
+                - /url: /broadcasts
+                - img [ref=e45]
+                - text: Broadcasts
+            - listitem [ref=e51]:
+              - link "Automations" [ref=e52] [cursor=pointer]:
+                - /url: /automations
+                - img [ref=e54]
+                - text: Automations
+            - listitem [ref=e66]:
+              - link "Templates" [ref=e67] [cursor=pointer]:
+                - /url: /templates
+                - img [ref=e69]
+                - text: Templates
+            - listitem [ref=e75]:
+              - link "Audience" [ref=e76] [cursor=pointer]:
+                - /url: /audience
+                - img [ref=e78]
+                - text: Audience
+            - listitem [ref=e94]:
+              - link "Metrics" [ref=e95] [cursor=pointer]:
+                - /url: /metrics
+                - img [ref=e97]
+                - text: Metrics
+            - listitem [ref=e107]:
+              - link "Domains" [ref=e108] [cursor=pointer]:
+                - /url: /domains
+                - img [ref=e110]
+                - text: Domains
+            - listitem [ref=e116]:
+              - link "Logs" [ref=e117] [cursor=pointer]:
+                - /url: /logs
+                - img [ref=e119]
+                - text: Logs
+            - listitem [ref=e129]:
+              - link "API keys" [ref=e130] [cursor=pointer]:
+                - /url: /api-keys
+                - img [ref=e132]
+                - text: API keys
+            - listitem [ref=e140]:
+              - link "Webhooks" [ref=e141] [cursor=pointer]:
+                - /url: /webhooks
+                - img [ref=e143]
+                - text: Webhooks
+            - listitem [ref=e152]:
+              - link "Settings" [ref=e153] [cursor=pointer]:
+                - /url: /settings
+                - img [ref=e155]
+                - text: Settings
+        - button "a a.unterkofler@glocknerdigital.at" [ref=e165] [cursor=pointer]:
+          - generic [ref=e167]:
+            - generic [ref=e169]: a
+            - generic [ref=e170]: a.unterkofler@glocknerdigital.at
+          - img [ref=e172]
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - link "Docs" [ref=e179] [cursor=pointer]:
+          - /url: https://resend.com/docs/dashboard/domains/introduction
+        - button "Need help? H" [ref=e180] [cursor=pointer]:
+          - generic [ref=e182]: Need help?
+          - generic [ref=e184]: H
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - heading "Domains" [level=1] [ref=e188]
+          - generic [ref=e189]:
+            - button "Add domain" [ref=e190] [cursor=pointer]:
+              - img [ref=e192]
+              - generic [ref=e193]: Add domain
+            - button "Open API drawer" [ref=e194] [cursor=pointer]:
+              - img [ref=e196]
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - textbox "Search..." [ref=e209]
+            - generic [ref=e210]:
+              - combobox [ref=e211] [cursor=pointer]:
+                - img [ref=e212]
+              - combobox [ref=e214]
+              - combobox [ref=e215] [cursor=pointer]:
+                - img [ref=e216]
+              - combobox [ref=e218]
+            - button [ref=e219] [cursor=pointer]
+          - generic [ref=e222]:
+            - table [ref=e225]:
+              - rowgroup [ref=e226]:
+                - row "Domain Status Region Created" [ref=e227]:
+                  - columnheader "Domain" [ref=e228]:
+                    - generic [ref=e229]:
+                      - generic [ref=e230]:
+                        - checkbox [ref=e231]
+                        - checkbox [ref=e232]
+                      - text: Domain
+                  - columnheader "Status" [ref=e233]
+                  - columnheader "Region" [ref=e234]
+                  - columnheader "Created" [ref=e235]
+                  - columnheader [ref=e236]
+              - rowgroup [ref=e237]:
+                - row "glockner.ai verified eu-west-1 Ireland (eu-west-1) 20 days ago More actions" [ref=e238]:
+                  - cell "glockner.ai" [ref=e239]:
+                    - generic [ref=e240]:
+                      - generic [ref=e241]:
+                        - checkbox [ref=e242]
+                        - checkbox [ref=e243]
+                      - link [ref=e244] [cursor=pointer]:
+                        - /url: /domains/9a947afd-162f-46d3-9169-2ae54d44029b
+                        - generic [ref=e245]:
+                          - img [ref=e246]
+                          - img [ref=e285]
+                      - link "glockner.ai" [ref=e288] [cursor=pointer]:
+                        - /url: /domains/9a947afd-162f-46d3-9169-2ae54d44029b
+                  - cell "verified" [ref=e289]:
+                    - generic [ref=e291]: verified
+                  - cell "eu-west-1 Ireland (eu-west-1)" [ref=e292]:
+                    - generic [ref=e293]:
+                      - img "eu-west-1" [ref=e294]
+                      - generic [ref=e295]:
+                        - text: Ireland
+                        - generic [ref=e296]: (eu-west-1)
+                  - cell "20 days ago" [ref=e297]:
+                    - time [ref=e298]: 20 days ago
+                  - cell "More actions" [ref=e299]:
+                    - button "More actions" [ref=e300] [cursor=pointer]:
+                      - img [ref=e301]
+            - generic [ref=e306]:
+              - text: Page 1 – 1 of 1 domains –
+              - generic [ref=e307]:
+                - combobox "Items per page" [ref=e308] [cursor=pointer]:
+                  - option "40 items" [selected]
+                  - option "80 items"
+                  - option "120 items"
+                - img
+  - region "Notifications alt+T"
+  - alert [ref=e309]

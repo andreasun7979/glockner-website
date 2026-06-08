@@ -3,6 +3,8 @@ import Link from "next/link";
 import { getServicePageById } from "../../../../sanity/lib/queries";
 
 export const metadata: Metadata = {
+  // Ältere Service-Seite, durch /digital/ecommerce abgelöst — aus dem Index halten (Duplicate Content).
+  robots: { index: false, follow: true },
   title: "Beratung eCommerce",
   description:
     "eCommerce Beratung & Webshop Optimierung. Bis zu 7.400 EUR WKO-Förderung. Shopify, Amazon & mehr.",

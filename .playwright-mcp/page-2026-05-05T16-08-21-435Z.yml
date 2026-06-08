@@ -1,0 +1,518 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Glockner.ai" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Dienstleistungen" [ref=e9] [cursor=pointer]:
+          - /url: /leistungen
+          - text: Dienstleistungen
+          - img [ref=e10]
+        - link "Über uns" [ref=e12] [cursor=pointer]:
+          - /url: /ueber-uns
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: /blog
+        - link "Kontakt" [ref=e14] [cursor=pointer]:
+          - /url: /kontakt
+        - link "Beratung sichern" [ref=e15] [cursor=pointer]:
+          - /url: /leistungen-lux3#termin
+  - main [ref=e16]:
+    - generic [ref=e20]:
+      - img [ref=e22]
+      - generic [ref=e24]: Glockner Digital
+      - generic [ref=e25]: Beratung · E-Commerce
+      - heading "Für Webshops, die verkaufen." [level=1] [ref=e26]:
+        - text: Für Webshops, die
+        - emphasis [ref=e27]: verkaufen
+        - text: .
+      - paragraph [ref=e33]: Strategische E-Commerce-Beratung für Webshops, Marken & Händler — 15 Jahre hands-on Erfahrung von einem Operator, der selbst ein Multi-Millionen-Geschäft aufgebaut hat.
+      - generic [ref=e34]:
+        - generic [ref=e35]: WKO eCommerce Consultant
+        - generic [ref=e36]: CeCC Certified
+        - generic [ref=e37]: KMU-Digital Partner
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - img "Andreas Unterkofler — Gründer Glockner Digital" [ref=e45]
+        - generic [ref=e48]:
+          - generic [ref=e49]: Andreas Unterkofler
+          - generic [ref=e50]: Gründer · Glockner Digital
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - img [ref=e53]
+          - generic [ref=e56]: Wer hinter Glockner Digital steht
+        - heading "Andreas Unterkofler." [level=2] [ref=e57]
+        - paragraph [ref=e58]: Gründer · WKO-Berater · E-Commerce-Operator
+        - paragraph [ref=e59]:
+          - text: 15 Jahre lang habe ich selbst E-Commerce gemacht — vom ersten Shopify-Shop bis zum
+          - emphasis [ref=e60]: Multi-Millionen-Multi-Channel-Geschäft
+          - text: . Heute gebe ich genau dieses Operator-Wissen als zertifizierter WKO-Berater an Marken weiter, die jetzt skalieren wollen.
+        - paragraph [ref=e61]: "Mein Versprechen: Sie bekommen keine Theorie aus der Beraterbubble — sondern Empfehlungen, die ich mit eigenem Geld validiert habe. Hinter mir steht ein 30-köpfiges Spezialisten-Team für Umsetzung, Tech und Performance."
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]: 15+
+            - generic [ref=e65]: Jahre Operator
+          - generic [ref=e66]:
+            - generic [ref=e67]: 7-stellig
+            - generic [ref=e68]: Eigener Umsatz
+          - generic [ref=e69]:
+            - generic [ref=e70]: "30"
+            - generic [ref=e71]: Team-Experten
+    - generic [ref=e74]:
+      - img [ref=e76]
+      - generic [ref=e79]: Unser Versprechen
+      - blockquote [ref=e80]:
+        - text: “Wir setzen auf nachhaltige Strategien, die
+        - emphasis [ref=e81]: neue Kunden
+        - text: bringen,
+        - emphasis [ref=e82]: Umsätze steigern
+        - text: und Beziehungen zu Stammkunden
+        - emphasis [ref=e83]: vertiefen
+        - text: .”
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - img [ref=e89]
+        - generic [ref=e92]: Drei Stufen
+        - heading "Bis zu 80 % WKO-Förderung." [level=2] [ref=e93]:
+          - text: Bis zu
+          - emphasis [ref=e94]: 80 %
+          - text: WKO-Förderung.
+        - paragraph [ref=e100]: Vom Status-Audit bis zur Umsetzungs-Begleitung — geförderte Beratung von einem zertifizierten WKO-Berater.
+      - list [ref=e101]:
+        - listitem [ref=e102]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: 80 % WKO-Förderung
+            - generic [ref=e106]: I
+          - generic [ref=e107]:
+            - heading "Status & Potenzial." [level=3] [ref=e108]
+            - paragraph [ref=e109]: Website-Audit mit Optimierungs-Roadmap. 2-stündige Beratung.
+          - generic [ref=e110]:
+            - generic [ref=e111]: € 500
+            - generic [ref=e112]: € 100
+          - generic [ref=e113]: nach Förderung
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - generic [ref=e117]: Website- & Shop-Audit
+            - listitem [ref=e118]:
+              - generic [ref=e120]: Optimierungs-Empfehlungen
+            - listitem [ref=e121]:
+              - generic [ref=e123]: Conversion-Hebel identifizieren
+            - listitem [ref=e124]:
+              - generic [ref=e126]: 2-stündige Strategie-Session
+          - link "Anfragen" [ref=e127] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e128]: Anfragen
+            - img [ref=e129]
+        - listitem [ref=e131]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: 50 % WKO-Förderung
+            - generic [ref=e135]: II
+          - generic [ref=e136]:
+            - heading "Online-Strategie." [level=3] [ref=e137]
+            - paragraph [ref=e138]: Tagesworkshop oder zwei 4-Stunden-Sessions. Strategie-Dokument inkl.
+          - generic [ref=e139]:
+            - generic [ref=e140]: € 2.000
+            - generic [ref=e141]: € 1.000
+          - generic [ref=e142]: nach Förderung
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - generic [ref=e146]: Individuelle Online-Roadmap
+            - listitem [ref=e147]:
+              - generic [ref=e149]: Channel- & Funnel-Konzept
+            - listitem [ref=e150]:
+              - generic [ref=e152]: Marketing- & Sales-Setup
+            - listitem [ref=e153]:
+              - generic [ref=e155]: Schriftliche Strategie-Dokumentation
+          - link "Anfragen" [ref=e156] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e157]: Anfragen
+            - img [ref=e158]
+        - listitem [ref=e160]:
+          - generic [ref=e162]:
+            - generic [ref=e163]: WKO-Förderung
+            - generic [ref=e164]: III
+          - generic [ref=e165]:
+            - heading "Umsetzung." [level=3] [ref=e166]
+            - paragraph [ref=e167]: Begleitete Strategie-Umsetzung — mit unserem Team oder Ihrem Wunsch-Partner.
+          - generic [ref=e168]:
+            - generic [ref=e169]: bis zu
+            - generic [ref=e170]: € 6.000
+            - generic [ref=e171]: Förderung möglich
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - generic [ref=e175]: Technische Umsetzung
+            - listitem [ref=e176]:
+              - generic [ref=e178]: Shop- & CMS-Integration
+            - listitem [ref=e179]:
+              - generic [ref=e181]: Conversion-Optimierung
+            - listitem [ref=e182]:
+              - generic [ref=e184]: Marketing- & Sales-Aktivierung
+          - link "Anfragen" [ref=e185] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e186]: Anfragen
+            - img [ref=e187]
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - generic [ref=e193]:
+          - img [ref=e194]
+          - generic [ref=e197]: Was Sie davon haben
+        - heading "Drei Hebel, die ziehen." [level=2] [ref=e198]:
+          - text: Drei Hebel,
+          - emphasis [ref=e199]: die ziehen
+          - text: .
+      - list [ref=e200]:
+        - listitem [ref=e201]:
+          - generic [ref=e203]: N° 01
+          - heading "Neue Kunden, planbar." [level=3] [ref=e204]
+          - paragraph [ref=e205]: Wir bauen den Funnel, der konstant qualifizierte Neukunden generiert — statt Glücks-Kampagnen.
+        - listitem [ref=e206]:
+          - generic [ref=e208]: N° 02
+          - heading "Höhere Umsätze pro Besucher." [level=3] [ref=e209]
+          - paragraph [ref=e210]: "Jeder Klick aufs Maximum ausgereizt: Conversion, Warenkorbwert, Wiederkäufe."
+        - listitem [ref=e211]:
+          - generic [ref=e213]: N° 03
+          - heading "Bestandskunden, die bleiben." [level=3] [ref=e214]
+          - paragraph [ref=e215]: "Funnel-Logik nach dem Kauf: Reaktivierung, Bewertungen, Cross-Sell — automatisiert."
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - img [ref=e221]
+        - generic [ref=e223]: Was uns unterscheidet
+        - heading "Wir sind keine reine E-Commerce-Agentur. Wir sind eine AI-Agentur, die E-Commerce baut." [level=2] [ref=e224]:
+          - text: Wir sind keine reine E-Commerce-Agentur. Wir sind eine
+          - emphasis [ref=e225]: AI-Agentur
+          - text: ", die E-Commerce baut."
+        - paragraph [ref=e231]:
+          - text: Unsere Schwester-Marke
+          - emphasis [ref=e232]: Glockner AI
+          - text: baut KI-Software, KI-Agents und Marketing-Maschinen für KMU. Dieser Stack fließt direkt in Ihren Webshop — vom ersten Visual bis zum letzten Verkaufs-Funnel.
+      - list [ref=e233]:
+        - listitem [ref=e234]:
+          - generic [ref=e236]:
+            - generic [ref=e237]: "01"
+            - generic [ref=e238]: Stack
+          - heading "AI-Agentur als DNA" [level=3] [ref=e239]
+          - paragraph [ref=e240]: Glockner AI ist unsere Schwester-Marke. Wir bauen täglich KI-Software, Agents und Automationen — und bringen genau dieses Wissen in Ihren Shop.
+        - listitem [ref=e241]:
+          - generic [ref=e243]:
+            - generic [ref=e244]: "02"
+            - generic [ref=e245]: Design
+          - heading "Webshop-Design mit AI" [level=3] [ref=e246]
+          - paragraph [ref=e247]: Konzept, Visuals, UX-Iterationen mit KI-Tools entwickelt. Schneller, datengetrieben, getestet bevor es online geht.
+        - listitem [ref=e248]:
+          - generic [ref=e250]:
+            - generic [ref=e251]: "03"
+            - generic [ref=e252]: Marketing
+          - heading "AI-Performance Marketing" [level=3] [ref=e253]
+          - paragraph [ref=e254]: Kampagnen, Creatives, Copy und Audiences mit AI-Pipelines. Was Mitbewerber in 2 Wochen testen, drehen wir an einem Tag.
+        - listitem [ref=e255]:
+          - generic [ref=e257]:
+            - generic [ref=e258]: "04"
+            - generic [ref=e259]: Tech
+          - heading "Modernste Technologie" [level=3] [ref=e260]
+          - paragraph [ref=e261]: Plenty One Multi-Channel, Headless Shopify, AI-Customer-Service-Agents — Stand 2026, nicht 2018.
+    - generic [ref=e264]:
+      - generic [ref=e265]:
+        - img [ref=e267]
+        - generic [ref=e269]: Sales-Channels & Plattformen
+        - heading "Verkaufen, wo Ihre Kunden wirklich kaufen." [level=2] [ref=e270]:
+          - text: Verkaufen, wo Ihre Kunden
+          - emphasis [ref=e271]: wirklich kaufen
+          - text: .
+        - paragraph [ref=e277]: Ein zentrales System — alle Kanäle. Inventar, Preise, Bestellungen synchron.
+      - list [ref=e278]:
+        - listitem [ref=e279]:
+          - generic [ref=e281]:
+            - generic [ref=e282]: Eigener Shop
+            - generic [ref=e283]: I
+          - heading "Shopify." [level=3] [ref=e284]
+          - paragraph [ref=e285]: Ihr eigener Webshop — eigene Marke, eigener Checkout, eigene Kundendaten. Volle Kontrolle, kein Marktplatz-Mittelsmann.
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - generic [ref=e289]: Theme-Setup & Conversion-Tuning
+            - listitem [ref=e290]:
+              - generic [ref=e292]: App- & Payment-Integration
+            - listitem [ref=e293]:
+              - generic [ref=e295]: Internationaler Multi-Store-Aufbau
+        - listitem [ref=e296]:
+          - generic [ref=e298]:
+            - generic [ref=e299]: Marktplatz
+            - generic [ref=e300]: II
+          - heading "Amazon." [level=3] [ref=e301]
+          - paragraph [ref=e302]: Der größte Marktplatz Europas — täglich Millionen Suchanfragen mit Kaufabsicht. Wir bringen Ihre Produkte sichtbar nach oben.
+          - list [ref=e303]:
+            - listitem [ref=e304]:
+              - generic [ref=e306]: Listing-Optimierung & A+ Content
+            - listitem [ref=e307]:
+              - generic [ref=e309]: PPC-Kampagnen & ACoS-Tuning
+            - listitem [ref=e310]:
+              - generic [ref=e312]: FBA- & Logistik-Setup
+        - listitem [ref=e313]:
+          - generic [ref=e314]: Zentrale Steuerung
+          - generic [ref=e315]:
+            - generic [ref=e316]: Multi-Channel-System
+            - generic [ref=e317]: III
+          - heading "Plenty One." [level=3] [ref=e318]
+          - paragraph [ref=e319]:
+            - text: Wir managen Ihren E-Commerce
+            - emphasis [ref=e320]: zentral
+            - text: "mit Plenty One — ein System für alle Kanäle: Inventar, Preise, Bestellungen, Versand — vollständig synchronisiert."
+          - list [ref=e321]:
+            - listitem [ref=e322]:
+              - generic [ref=e324]: Multi-Channel-Sync (Shop + Marktplätze)
+            - listitem [ref=e325]:
+              - generic [ref=e327]: Echtzeit-Bestand über alle Kanäle
+            - listitem [ref=e328]:
+              - generic [ref=e330]: Automatisierte Auftrags- & Versand-Workflows
+            - listitem [ref=e331]:
+              - generic [ref=e333]: Buchhaltungs- & DATEV-Integration
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - generic [ref=e341]: § Zertifizierungen
+        - generic [ref=e342]:
+          - heading "Geprüfte Expertise — geförderte Beratung." [level=2] [ref=e343]:
+            - text: Geprüfte
+            - emphasis [ref=e344]: Expertise
+            - text: — geförderte Beratung.
+          - paragraph [ref=e345]:
+            - text: Akkreditierungen, die nicht nur an der Wand hängen — sondern Ihre Investition direkt um bis zu
+            - emphasis [ref=e346]: 80 %
+            - text: kleiner machen.
+      - generic [ref=e347]:
+        - generic [ref=e350]: Offiziell akkreditiert
+        - generic [ref=e352]:
+          - img "WKO · KMU.DIGITAL · Bundesministerium für Arbeit und Wirtschaft" [ref=e353]
+          - img "CeCC — Certified eCommerce & Social Media Consultant" [ref=e355]
+      - list [ref=e356]:
+        - listitem [ref=e357]:
+          - generic: I
+          - generic [ref=e360]:
+            - img [ref=e361]:
+              - generic [ref=e366]: WKO AUSTRIA
+              - generic [ref=e367]: I
+            - generic [ref=e376]: WKO Austria
+            - heading "Certified eCommerce Consultant" [level=3] [ref=e377]
+            - paragraph [ref=e378]: Akkreditierter Berater der Wirtschaftskammer Österreich für E-Commerce-Strategie und Online-Handel — geprüft nach dem WIFI-Curriculum.
+            - generic [ref=e379]:
+              - generic [ref=e380]: Direkt-Verzeichnis
+              - generic [ref=e381]: wko.at
+        - listitem [ref=e382]:
+          - generic: II
+          - generic [ref=e385]:
+            - img [ref=e386]:
+              - generic [ref=e391]: KMU DIGITAL
+              - generic [ref=e392]: II
+            - generic [ref=e401]: KMU-Digital
+            - heading "Offizieller Förderpartner" [level=3] [ref=e402]
+            - paragraph [ref=e403]: Anerkannter Partner für die KMU-Digital-Förderung der WKO — bis zu 80 % Beratungs-Förderung, bis zu € 6.000 Umsetzungs-Förderung.
+            - generic [ref=e404]:
+              - generic [ref=e405]: Förderprogramm
+              - generic [ref=e406]: kmudigital.at
+    - generic [ref=e409]:
+      - generic [ref=e410]:
+        - img [ref=e412]
+        - generic [ref=e414]: Kundenstimmen
+        - heading "Was unsere Kunden sagen." [level=2] [ref=e415]:
+          - text: Was unsere Kunden
+          - emphasis [ref=e416]: sagen
+          - text: .
+      - list [ref=e417]:
+        - listitem [ref=e418]:
+          - generic "5 von 5 Sternen" [ref=e420]:
+            - img [ref=e421]
+            - img [ref=e423]
+            - img [ref=e425]
+            - img [ref=e427]
+            - img [ref=e429]
+          - blockquote [ref=e431]: “Ein besonderes Dankeschön für deine wertvolle und geschätzte Unterstützung bei der Strategie-Ausarbeitung.”
+          - generic [ref=e432]:
+            - generic [ref=e433]: Katharina
+            - generic [ref=e434]: Steuerberaterin · Klagenfurt
+        - listitem [ref=e435]:
+          - generic "5 von 5 Sternen" [ref=e437]:
+            - img [ref=e438]
+            - img [ref=e440]
+            - img [ref=e442]
+            - img [ref=e444]
+            - img [ref=e446]
+          - blockquote [ref=e448]: “Professionell organisierter Workshop, immer erreichbar — fundierte Einschätzungen, die wir sofort umsetzen konnten.”
+          - generic [ref=e449]:
+            - generic [ref=e450]: Dana
+            - generic [ref=e451]: Social-Media-Agentur · Wien
+        - listitem [ref=e452]:
+          - generic "5 von 5 Sternen" [ref=e454]:
+            - img [ref=e455]
+            - img [ref=e457]
+            - img [ref=e459]
+            - img [ref=e461]
+            - img [ref=e463]
+          - blockquote [ref=e465]: “Sehr hochwertige Inhalte, die wirklich auf unsere Webshop-Realität zugeschnitten waren. Klarer Mehrwert.”
+          - generic [ref=e466]:
+            - generic [ref=e467]: Kirsten
+            - generic [ref=e468]: Webshop-Betreiberin · Wien
+    - generic [ref=e471]:
+      - generic [ref=e472]:
+        - img [ref=e474]
+        - generic [ref=e476]: Erstberatung sichern
+        - heading "30 Minuten reichen, um zu sehen, wo bei Ihnen der größte Hebel liegt." [level=2] [ref=e477]:
+          - text: 30 Minuten reichen, um zu sehen, wo bei Ihnen der
+          - emphasis [ref=e478]: größte Hebel
+          - text: liegt.
+        - paragraph [ref=e484]: Kostenlos und unverbindlich. WKO-zertifiziert, KMU-Digital-Partner.
+      - generic [ref=e485]:
+        - generic [ref=e486]:
+          - generic [ref=e487]:
+            - generic [ref=e489]:
+              - text: Schritt 1 von 2
+              - heading "Datum & Zeit wählen." [level=3] [ref=e490]
+            - generic [ref=e491]:
+              - generic [ref=e492]:
+                - generic [ref=e493]:
+                  - button "Vorheriger Monat" [disabled] [ref=e494]:
+                    - img [ref=e495]
+                  - generic [ref=e497]: Mai 2026
+                  - button "Nächster Monat" [ref=e498]:
+                    - img [ref=e499]
+                - generic [ref=e501]:
+                  - generic [ref=e502]: Mo
+                  - generic [ref=e503]: Di
+                  - generic [ref=e504]: Mi
+                  - generic [ref=e505]: Do
+                  - generic [ref=e506]: Fr
+                  - generic [ref=e507]: Sa
+                  - generic [ref=e508]: So
+                - generic [ref=e509]:
+                  - button "27" [disabled] [ref=e510]
+                  - button "28" [disabled] [ref=e511]
+                  - button "29" [disabled] [ref=e512]
+                  - button "30" [disabled] [ref=e513]
+                  - button "1" [disabled] [ref=e514]
+                  - button "2" [disabled] [ref=e515]
+                  - button "3" [disabled] [ref=e516]
+                  - button "4" [disabled] [ref=e517]
+                  - button "5" [ref=e518] [cursor=pointer]: "5"
+                  - button "6" [ref=e520] [cursor=pointer]
+                  - button "7" [ref=e521] [cursor=pointer]
+                  - button "8" [ref=e522] [cursor=pointer]
+                  - button "9" [disabled] [ref=e523]
+                  - button "10" [disabled] [ref=e524]
+                  - button "11" [ref=e525] [cursor=pointer]
+                  - button "12" [ref=e526] [cursor=pointer]
+                  - button "13" [ref=e527] [cursor=pointer]
+                  - button "14" [ref=e528] [cursor=pointer]
+                  - button "15" [ref=e529] [cursor=pointer]
+                  - button "16" [disabled] [ref=e530]
+                  - button "17" [disabled] [ref=e531]
+                  - button "18" [ref=e532] [cursor=pointer]
+                  - button "19" [ref=e533] [cursor=pointer]
+                  - button "20" [ref=e534] [cursor=pointer]
+                  - button "21" [ref=e535] [cursor=pointer]
+                  - button "22" [ref=e536] [cursor=pointer]
+                  - button "23" [disabled] [ref=e537]
+                  - button "24" [disabled] [ref=e538]
+                  - button "25" [ref=e539] [cursor=pointer]
+                  - button "26" [ref=e540] [cursor=pointer]
+                  - button "27" [ref=e541] [cursor=pointer]
+                  - button "28" [ref=e542] [cursor=pointer]
+                  - button "29" [ref=e543] [cursor=pointer]
+                  - button "30" [disabled] [ref=e544]
+                  - button "31" [disabled] [ref=e545]
+                - paragraph [ref=e546]: Mitteleuropäische Zeit · GMT+02:00
+              - paragraph [ref=e549]: Wählen Sie zunächst ein Datum.
+          - complementary [ref=e550]:
+            - generic [ref=e552]: Erstberatung
+            - heading "mit Glockner Digital." [level=4] [ref=e553]
+            - generic [ref=e554]:
+              - generic [ref=e555]:
+                - img [ref=e557]
+                - generic [ref=e560]:
+                  - generic [ref=e561]: Dauer
+                  - generic [ref=e562]: 30 Minuten
+              - generic [ref=e563]:
+                - img [ref=e565]
+                - generic [ref=e568]:
+                  - generic [ref=e569]: Format
+                  - generic [ref=e570]: Online · Google Meet
+              - generic [ref=e571]:
+                - img [ref=e573]
+                - generic [ref=e576]:
+                  - generic [ref=e577]: Datum
+                  - generic [ref=e578]: —
+              - generic [ref=e579]:
+                - img [ref=e581]
+                - generic [ref=e584]:
+                  - generic [ref=e585]: Uhrzeit
+                  - generic [ref=e586]: —
+            - paragraph [ref=e588]: Wir analysieren in 30 Minuten, welcher Hebel in Ihrem Online-Geschäft am schnellsten Umsatz bringt.
+        - generic [ref=e589]:
+          - generic [ref=e592]: Kein Termin parat?
+          - generic [ref=e594]:
+            - generic [ref=e596]:
+              - text: Oder einfach direkt
+              - heading "Schreiben Sie uns." [level=3] [ref=e597]
+            - generic [ref=e598]:
+              - generic [ref=e599]:
+                - generic [ref=e600]: Name*
+                - textbox "Name*" [ref=e601]:
+                  - /placeholder: Max Mustermann
+              - generic [ref=e602]:
+                - generic [ref=e603]: E-Mail*
+                - textbox "E-Mail*" [ref=e604]:
+                  - /placeholder: ihre@email.at
+            - generic [ref=e606]:
+              - generic [ref=e607]: Nachricht*
+              - textbox "Nachricht*" [ref=e608]:
+                - /placeholder: Wobei können wir helfen?
+            - generic [ref=e609]:
+              - paragraph [ref=e610]: Antwort innerhalb eines Werktages
+              - button "Nachricht senden" [disabled] [ref=e611]:
+                - generic [ref=e612]: Nachricht senden
+                - img [ref=e613]
+  - contentinfo [ref=e615]:
+    - generic [ref=e617]:
+      - generic [ref=e618]:
+        - generic [ref=e619]:
+          - link "Glockner.ai — Startseite" [ref=e620] [cursor=pointer]:
+            - /url: /
+            - img "Glockner.ai" [ref=e621]
+          - paragraph [ref=e622]:
+            - text: KI-Beratung & Implementierung
+            - text: für KMUs in Österreich.
+        - generic [ref=e623]:
+          - heading "Dienstleistungen" [level=3] [ref=e624]
+          - generic [ref=e625]:
+            - link "KI-Beratung" [ref=e626] [cursor=pointer]:
+              - /url: /leistungen/ki-beratung
+            - link "eCommerce" [ref=e627] [cursor=pointer]:
+              - /url: /leistungen/ecommerce
+            - link "Gewerbebetrieb" [ref=e628] [cursor=pointer]:
+              - /url: /leistungen/gewerbe
+            - link "Ärzte & Gesundheit" [ref=e629] [cursor=pointer]:
+              - /url: /leistungen/gesundheit
+        - generic [ref=e630]:
+          - heading "Standorte" [level=3] [ref=e631]
+          - generic [ref=e632]:
+            - generic [ref=e633]:
+              - paragraph [ref=e634]: Wien
+              - paragraph [ref=e635]: Blumauergasse 23/12, 1020 Wien
+            - generic [ref=e636]:
+              - paragraph [ref=e637]: Kärnten
+              - paragraph [ref=e638]: Sankt Ruprechter Straße 90, 9020 Klagenfurt
+        - generic [ref=e639]:
+          - heading "Kontakt" [level=3] [ref=e640]
+          - generic [ref=e641]:
+            - link "support@glocknerdigital.at" [ref=e642] [cursor=pointer]:
+              - /url: mailto:support@glocknerdigital.at
+            - link "+43 650 660 5000" [ref=e643] [cursor=pointer]:
+              - /url: tel:+436506605000
+            - link "glockner.ai" [ref=e644] [cursor=pointer]:
+              - /url: https://glockner.ai
+      - generic [ref=e645]:
+        - paragraph [ref=e646]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+        - generic [ref=e647]:
+          - link "Impressum" [ref=e648] [cursor=pointer]:
+            - /url: /impressum
+          - link "Datenschutz" [ref=e649] [cursor=pointer]:
+            - /url: /datenschutz
+  - button "Open Next.js Dev Tools" [ref=e655] [cursor=pointer]:
+    - img [ref=e656]
+  - alert [ref=e659]

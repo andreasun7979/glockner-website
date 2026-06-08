@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /v2
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic:
+          - img
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - generic [ref=e23]: Über uns
+          - heading "Wer hinter Glockner AI steht." [level=1] [ref=e24]:
+            - text: Wer hinter
+            - emphasis [ref=e25]: Glockner AI
+            - text: steht.
+          - paragraph [ref=e31]: KI, die Umsatz bringt — und gleichzeitig Effizienz steigert und Kosten senkt.
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - img "Andreas Unterkofler — Gründer Glockner AI" [ref=e39]
+          - generic [ref=e42]:
+            - generic [ref=e43]: Andreas Unterkofler
+            - generic [ref=e44]: Gründer · Glockner AI
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - img [ref=e47]
+            - generic [ref=e50]: Wer hinter Glockner AI steht
+          - heading "Andreas Unterkofler." [level=2] [ref=e51]
+          - paragraph [ref=e52]: Gründer · KI-Berater · E-Commerce-Operator
+          - paragraph [ref=e53]:
+            - text: Ich bin über E-Commerce in die KI-Welt gekommen. 15 Jahre lang habe ich Online-Geschäfte im
+            - emphasis [ref=e54]: Multi-Millionen-Bereich
+            - text: aufgebaut — und früh verstanden, dass Künstliche Intelligenz kein Spielzeug ist, sondern der nächste
+            - emphasis [ref=e55]: große Hebel
+            - text: — nach oben beim Umsatz, nach unten bei den Kosten.
+          - paragraph [ref=e56]:
+            - text: Seit
+            - emphasis [ref=e57]: drei Jahren
+            - text: "mache ich praktisch nichts anderes mehr: KI-Strategie, KI-Implementierung, KI-Agents. Dutzende Projekte umgesetzt — immer mit derselben Beobachtung: Marketing & Sales sind die Bereiche, in denen KI heute am schnellsten zu spürbarem Mehrumsatz führt. Und fast nebenbei passiert noch ein Zweites: Ist die KI einmal implementiert, steigen"
+            - emphasis [ref=e58]: Effizienz und Effektivität
+            - text: wie von selbst — Routineaufgaben erledigen sich, Prozesse werden schneller, und die
+            - emphasis [ref=e59]: Kosten sinken
+            - text: spürbar. Wachstum auf der einen, Einsparung auf der anderen Seite.
+          - paragraph [ref=e60]:
+            - text: "Mein Versprechen: Was ich Ihnen empfehle, habe ich selbst getestet. Hinter mir stehen ein zehnköpfiges Spezialisten-Team und eine"
+            - emphasis [ref=e61]: stille Armee aus KI-Agents
+            - text: ", die rund um die Uhr arbeiten — damit Ihr Projekt nicht in Monaten, sondern in"
+            - emphasis [ref=e62]: Wochen
+            - text: Realität wird.
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]: 3+
+              - generic [ref=e66]: Jahre AI-Praxis
+            - generic [ref=e67]:
+              - generic [ref=e68]: 15+
+              - generic [ref=e69]: Jahre Operator
+            - generic [ref=e70]:
+              - generic [ref=e71]: 24/7
+              - generic [ref=e72]: KI-Agents im Einsatz
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - img [ref=e78]
+          - heading "Was uns ausmacht." [level=2] [ref=e81]
+        - list [ref=e82]:
+          - listitem [ref=e83]:
+            - generic [ref=e85]: Praxisnah
+            - heading "Selbst getestet." [level=3] [ref=e86]
+            - paragraph [ref=e87]: Keine theoretischen Konzepte — wir liefern KI-Lösungen, die ab Tag eins messbaren Mehrwert bringen.
+          - listitem [ref=e88]:
+            - generic [ref=e90]: Sicher
+            - heading "100 % DSGVO-konform." [level=3] [ref=e91]
+            - paragraph [ref=e92]: Datenschutz und Security sind keine Nebensache, sondern Grundvoraussetzung. Alle Daten auf EU-Servern.
+          - listitem [ref=e93]:
+            - generic [ref=e95]: Gefördert
+            - heading "Bis zu 80 % WKO." [level=3] [ref=e96]
+            - paragraph [ref=e97]: Setup-, Strategie- & Umsetzungs-Anteile sind förderbar — wir unterstützen Sie beim Antrag.
+          - listitem [ref=e98]:
+            - generic [ref=e100]: Ganzheitlich
+            - heading "Alles aus einer Hand." [level=3] [ref=e101]
+            - paragraph [ref=e102]: Von der Strategie über die Implementierung bis zur Schulung — ein Ansprechpartner, ein Team.
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e107]: Standorte
+          - heading "Wien & Klagenfurt." [level=2] [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - heading "Wien" [level=3] [ref=e112]
+            - paragraph [ref=e113]: Blumauergasse 23/12, 1020 Wien
+            - paragraph [ref=e114]: Unser Standort im Herzen Wiens — für Kunden in der Bundeshauptstadt und Umgebung.
+          - generic [ref=e115]:
+            - heading "Klagenfurt" [level=3] [ref=e117]
+            - paragraph [ref=e118]: Sankt Ruprechter Straße 90, 9020 Klagenfurt
+            - paragraph [ref=e119]: Unser Standort in Kärnten — für Kunden im Süden Österreichs.
+      - generic [ref=e122]:
+        - img [ref=e124]
+        - heading "Lassen Sie uns zusammenarbeiten." [level=2] [ref=e130]:
+          - text: Lassen Sie uns
+          - emphasis [ref=e131]: zusammenarbeiten
+          - text: .
+        - paragraph [ref=e137]: 30 Minuten, kostenlos — wir zeigen Ihnen den schnellsten Hebel.
+        - link "Kostenloses Strategie-Gespräch" [ref=e138] [cursor=pointer]:
+          - /url: /preise#termin
+          - generic [ref=e139]: Kostenloses Strategie-Gespräch
+          - img [ref=e140]
+  - contentinfo [ref=e142]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e148]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e149]: direkt
+          - text: .
+        - paragraph [ref=e150]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e151]:
+        - complementary [ref=e152]:
+          - generic [ref=e154]: Direkter Draht
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e158] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e159]:
+              - generic [ref=e160]: Telefon
+              - link "+43 650 660 5000" [ref=e161] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e162]:
+              - generic [ref=e163]: Standorte
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]: Wien
+                  - generic [ref=e167]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e168]:
+                  - generic [ref=e169]: Klagenfurt
+                  - generic [ref=e170]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e172]:
+          - generic [ref=e174]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e175]
+          - generic [ref=e176]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e177]
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - generic [ref=e180]: Name*
+              - textbox "Name*" [ref=e181]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e182]:
+              - generic [ref=e183]: E-Mail*
+              - textbox "E-Mail*" [ref=e184]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e186]:
+            - generic [ref=e187]: Nachricht*
+            - textbox "Nachricht*" [ref=e188]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e189]:
+            - paragraph [ref=e190]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e191]:
+              - generic [ref=e192]: Nachricht senden
+              - img [ref=e193]
+    - generic [ref=e197]:
+      - generic [ref=e198]:
+        - link "Glockner.ai — Startseite" [ref=e199] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e200]
+        - paragraph [ref=e201]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e202]:
+        - heading "Glockner AI" [level=3] [ref=e203]
+        - generic [ref=e204]:
+          - link "Money Making AI" [ref=e205] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "Kosten-Killing AI" [ref=e206] [cursor=pointer]:
+            - /url: /retainer
+          - link "Training" [ref=e207] [cursor=pointer]:
+            - /url: /training
+      - generic [ref=e208]:
+        - heading "Glockner Digital" [level=3] [ref=e209]
+        - generic [ref=e210]:
+          - link "E-Commerce" [ref=e211] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e212] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e213] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e215]:
+      - paragraph [ref=e216]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e217]:
+        - link "Impressum" [ref=e218] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e219] [cursor=pointer]:
+          - /url: /datenschutz
+  - iframe [ref=e220]:
+    
+  - button "Open Next.js Dev Tools" [ref=e226] [cursor=pointer]:
+    - img [ref=e227]

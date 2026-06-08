@@ -3,6 +3,8 @@ import Link from "next/link";
 import { getServicePageById } from "../../../../sanity/lib/queries";
 
 export const metadata: Metadata = {
+  // Ältere Service-Seite, durch /digital/gesundheit abgelöst — aus dem Index halten (Duplicate Content).
+  robots: { index: false, follow: true },
   title: "Beratung Ärzte & Gesundheit",
   description:
     "KI- & Digital-Beratung für Ärzte, Praxen und Gesundheitswesen. DSGVO-konform, bis zu 80% WKO-Förderung.",

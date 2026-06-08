@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="max-w-4xl">
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full glass text-sm text-brand-cyan mb-10 border border-brand-cyan/10">
             <span className="w-2 h-2 rounded-full bg-brand-cyan animate-pulse" />
-            KI-Beratung &amp; Automatisierung
+            KI-Beratung &amp; Implementierung
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.08] mb-7 tracking-tight text-white">

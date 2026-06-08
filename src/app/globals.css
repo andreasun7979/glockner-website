@@ -1,16 +1,24 @@
 @import "tailwindcss";
 
-@theme inline {
+@theme {
   --color-brand-orange: #f0a173;
   --color-brand-orange-dark: #e08a5c;
   --color-brand-cyan: #06b6d4;
   --color-brand-blue: #3b82f6;
   --color-brand-dark: #020617;
   --color-brand-card: #0f172ae6;
+  --color-aurum: #c9a86a;
+  --color-aurum-soft: #d8bd8a;
+  --color-aurum-deep: #a88845;
+  /* Glockner Digital — Granat (deep garnet red) */
+  --color-granat: #a01629;
+  --color-granat-soft: #c63550;
+  --color-granat-deep: #6e0e1c;
 }
 
 html {
   scroll-behavior: smooth;
+  background: #020617;
 }
 
 body {
@@ -208,6 +216,21 @@ h1, h2, h3, h4, h5, h6 {
   animation: fade-up 0.6s ease-out both;
 }
 
+/* ---------- Scoped scroll reveal (neue Seiten) ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-scope > section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .reveal-scope > section.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 /* Scroll reveal */
 .fade-in-hidden {
   opacity: 0;
@@ -219,6 +242,116 @@ h1, h2, h3, h4, h5, h6 {
 .fade-in-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* ---------- Lux3 / AURUM ---------- */
+.font-serif-display {
+  font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+  font-feature-settings: 'ss01' on, 'ss02' on;
+  letter-spacing: -0.02em;
+}
+
+@keyframes aurum-breathe {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.04); }
+}
+
+.aurum-breathe {
+  animation: aurum-breathe 6.5s ease-in-out infinite;
+}
+
+/* Core pulse: bright dot at the center, slow heartbeat */
+@keyframes aurum-pulse-core {
+  0%, 100% { opacity: 0.6; transform: scale(0.9); }
+  50%      { opacity: 1;   transform: scale(1.25); }
+}
+.aurum-pulse-core {
+  animation: aurum-pulse-core 2.4s ease-in-out infinite;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+/* Halo pulse: soft outer ring, larger amplitude, offset timing */
+@keyframes aurum-pulse-halo {
+  0%, 100% { opacity: 0.18; transform: scale(0.85); }
+  50%      { opacity: 0.55; transform: scale(1.55); }
+}
+.aurum-pulse-halo {
+  animation: aurum-pulse-halo 2.4s ease-in-out infinite;
+  animation-delay: -0.6s;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+@keyframes aurum-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.aurum-rotate-slow {
+  animation: aurum-rotate 60s linear infinite;
+}
+
+.aurum-ring {
+  background:
+    radial-gradient(circle at center, rgba(201, 168, 106, 0) 56%, rgba(201, 168, 106, 0.55) 58%, rgba(201, 168, 106, 0) 64%);
+}
+
+.aurum-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    color-mix(in srgb, var(--color-aurum) 50%, transparent) 50%,
+    transparent 100%
+  );
+}
+
+.aurum-text {
+  background: linear-gradient(
+    135deg,
+    var(--color-aurum-soft) 0%,
+    var(--color-aurum) 50%,
+    var(--color-aurum-deep) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Granat theme scope — scope an element with class "theme-granat" and all
+   aurum-* utilities/classes inside it switch to granat (red) values. */
+.theme-granat {
+  --color-aurum: #c63550;
+  --color-aurum-soft: #e85770;
+  --color-aurum-deep: #8b1f30;
+}
+
+/* ---------- Glockner Digital / Granat ---------- */
+.granat-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(160, 22, 41, 0.55) 50%,
+    transparent 100%
+  );
+}
+
+.granat-text {
+  background: linear-gradient(135deg, #e85770 0%, #c63550 50%, #8b1f30 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes granat-breathe {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.04); }
+}
+
+.granat-breathe {
+  animation: granat-breathe 6.5s ease-in-out infinite;
 }
 
 /* ---------- Accent bar ---------- */

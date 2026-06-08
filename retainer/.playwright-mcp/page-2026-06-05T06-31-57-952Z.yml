@@ -1,0 +1,416 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /v2
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic:
+          - img
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - generic [ref=e23]: Glockner AI =
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - heading "Money Making AI" [level=1] [ref=e27]:
+                - text: Money
+                - emphasis [ref=e28]: Making
+                - text: AI
+              - paragraph [ref=e29]: Mehr Umsatz mit KI.
+            - generic [ref=e30]:
+              - heading "Kosten-Killer AI" [level=2] [ref=e32]:
+                - emphasis [ref=e33]: Kosten-Killer
+                - text: AI
+              - paragraph [ref=e34]: Effizienz rauf. Kosten runter.
+          - paragraph [ref=e40]: Wir machen Ihr Unternehmen zur KI-First-Organisation — und Sie wählen selbst, wie wir zusammenarbeiten.
+          - generic [ref=e41]:
+            - link "Ihren Weg wählen" [ref=e42] [cursor=pointer]:
+              - /url: "#wege"
+              - generic [ref=e43]: Ihren Weg wählen
+              - img [ref=e44]
+            - link "Kostenloses Gespräch" [ref=e46] [cursor=pointer]:
+              - /url: "#termin"
+              - generic [ref=e47]: Kostenloses Gespräch
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e55]: Das Fundament
+          - heading "Erst das KI-Betriebssystem. Dann die Magie." [level=2] [ref=e56]:
+            - text: Erst das
+            - emphasis [ref=e57]: KI-Betriebssystem
+            - text: . Dann die Magie.
+          - paragraph [ref=e58]:
+            - text: "Die alte Welt hat einzelne Prozesse automatisiert — Insellösung für Insellösung. Wir drehen das um: Zuerst bauen wir ein"
+            - emphasis [ref=e59]: KI-Betriebssystem
+            - text: für Ihr Unternehmen — eine kontextualisierte Basis, die alles über Ihr Business weiß.
+          - paragraph [ref=e60]:
+            - text: Darauf docken Ihre Systeme an — Website, Warenwirtschaft, Buchhaltung, Marketing & Verkauf. Aus dieser Basis heraus werden neue Automatisierungen nicht zum Großprojekt, sondern zur
+            - emphasis [ref=e61]: Sache von Tagen
+            - text: .
+          - blockquote [ref=e62]:
+            - paragraph [ref=e63]: „Bisher haben wir mit dem Teelöffel gegraben. Jetzt holen wir den Bagger.“
+        - generic [ref=e64]:
+          - generic [ref=e66]: So ist es aufgebaut
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - generic [ref=e69]: "01"
+              - generic [ref=e70]:
+                - generic [ref=e71]: Context OS
+                - generic [ref=e72]: Ihr gesamtes Wissen & Ihre Historie — strukturiert, an einem Ort.
+            - listitem [ref=e73]:
+              - generic [ref=e74]: "02"
+              - generic [ref=e75]:
+                - generic [ref=e76]: Integrationen
+                - generic [ref=e77]: Website, Warenwirtschaft, Buchhaltung, Marketing & Verkauf — lesend UND schreibend angebunden.
+            - listitem [ref=e78]:
+              - generic [ref=e79]: "03"
+              - generic [ref=e80]:
+                - generic [ref=e81]: KI-Agents
+                - generic [ref=e82]: Ihre stille Belegschaft, die auf dieser Basis arbeitet.
+            - listitem [ref=e83]:
+              - generic [ref=e84]: "04"
+              - generic [ref=e85]:
+                - generic [ref=e86]: Steuerung
+                - generic [ref=e87]: Sie führen alles aus einem zentralen Workspace.
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - img [ref=e93]
+          - generic [ref=e96]: Zwei Ziele
+          - heading "KI verdient Geld — oder sie spart welches. Meistens beides." [level=2] [ref=e97]:
+            - text: KI verdient Geld — oder sie
+            - emphasis [ref=e98]: spart welches
+            - text: . Meistens beides.
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading "Money Making AI." [level=3] [ref=e102]:
+              - text: Money
+              - emphasis [ref=e103]: Making
+              - text: AI.
+            - paragraph [ref=e104]: Mehr Umsatz mit KI.
+            - list [ref=e105]:
+              - listitem [ref=e106]:
+                - img [ref=e107]
+                - generic [ref=e109]: Converting Websites & Webshops, die verkaufen
+              - listitem [ref=e110]:
+                - img [ref=e111]
+                - generic [ref=e113]: KI-Chatbots & Voice-Agents, die Leads qualifizieren
+              - listitem [ref=e114]:
+                - img [ref=e115]
+                - generic [ref=e117]: E-Mail-Reaktivierung & Dream-100-Outreach
+              - listitem [ref=e118]:
+                - img [ref=e119]
+                - generic [ref=e121]: SEO & GEO — gefunden werden bei Google und ChatGPT
+            - link "Zur Money Making AI" [ref=e122] [cursor=pointer]:
+              - /url: /leistungen-lux3
+              - generic [ref=e123]: Zur Money Making AI
+              - img [ref=e124]
+          - generic [ref=e126]:
+            - heading "Kosten-Killer AI." [level=3] [ref=e128]:
+              - emphasis [ref=e129]: Kosten-Killer
+              - text: AI.
+            - paragraph [ref=e130]: Effizienz rauf. Kosten runter.
+            - list [ref=e131]:
+              - listitem [ref=e132]:
+                - img [ref=e133]
+                - generic [ref=e135]: Wiederkehrende Aufgaben laufen automatisch — 24/7
+              - listitem [ref=e136]:
+                - img [ref=e137]
+                - generic [ref=e139]: Angebote, Reports, Dateneingabe ohne Handarbeit
+              - listitem [ref=e140]:
+                - img [ref=e141]
+                - generic [ref=e143]: Mehr Output mit demselben Team
+              - listitem [ref=e144]:
+                - img [ref=e145]
+                - generic [ref=e147]: Planbare Pauschale statt teurem Personalaufbau
+            - link "Zur Kosten-Killer AI" [ref=e148] [cursor=pointer]:
+              - /url: /retainer
+              - generic [ref=e149]: Zur Kosten-Killer AI
+              - img [ref=e150]
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - generic [ref=e156]: Drei Wege
+          - heading "Wählen Sie, wie wir zusammenarbeiten." [level=2] [ref=e157]:
+            - text: Wählen Sie, wie wir
+            - emphasis [ref=e158]: zusammenarbeiten
+            - text: .
+          - paragraph [ref=e164]: Dasselbe Ziel — drei Geschwindigkeiten. Je nachdem, ob Sie selbst bauen, bauen lassen oder ein fertiges Produkt wollen.
+        - list [ref=e165]:
+          - listitem [ref=e166]:
+            - generic [ref=e169]: Weg I
+            - heading "Training." [level=3] [ref=e170]
+            - paragraph [ref=e171]: Wir bringen Ihnen das Angeln bei.
+            - paragraph [ref=e172]: Sie lernen es selbst
+            - paragraph [ref=e173]: Wir installieren Ihr KI-Betriebssystem, richten Claude Code & Ihr Agenten-System ein und schulen Sie auf die Workflows. Inklusive 3 Monate Begleitung.
+            - generic [ref=e174]:
+              - generic [ref=e175]: ab € 1.500
+              - generic [ref=e176]: pro Monat · Setup extra
+            - link "Training ansehen" [ref=e177] [cursor=pointer]:
+              - /url: /training
+              - generic [ref=e178]: Training ansehen
+              - img [ref=e179]
+          - listitem [ref=e181]:
+            - generic [ref=e183]:
+              - generic [ref=e184]: Weg II
+              - generic [ref=e185]: Beliebteste Wahl
+            - heading "Service." [level=3] [ref=e186]
+            - paragraph [ref=e187]: Ihr KI-Team im Abo.
+            - paragraph [ref=e188]: Wir bauen für Sie — laufend
+            - paragraph [ref=e189]: Jeden Monat 1–2 neue Automatisierungen, gebaut, getestet, betreut und optimiert. Ein KI-Profi an Ihrer Seite — monatlich kündbar.
+            - generic [ref=e190]:
+              - generic [ref=e191]: € 2.500
+              - generic [ref=e192]: pro Monat
+            - link "Retainer ansehen" [ref=e193] [cursor=pointer]:
+              - /url: /retainer
+              - generic [ref=e194]: Retainer ansehen
+              - img [ref=e195]
+          - listitem [ref=e197]:
+            - generic [ref=e200]: Weg III
+            - heading "Produkt." [level=3] [ref=e201]
+            - paragraph [ref=e202]: Sie bekommen den fertigen Fisch.
+            - paragraph [ref=e203]: Wir liefern das fertige Produkt
+            - paragraph [ref=e204]: Maßgeschneiderte KI-Software & Apps für Ihr Unternehmen — von Dashboards bis zur kompletten internen Anwendung. Custom Coding, fertig geliefert.
+            - generic [ref=e205]:
+              - generic [ref=e206]: Individuell
+              - generic [ref=e207]: Preis pro Projekt
+            - link "Produkt ansehen" [ref=e208] [cursor=pointer]:
+              - /url: /produkt
+              - generic [ref=e209]: Produkt ansehen
+              - img [ref=e210]
+        - paragraph [ref=e212]: Nicht sicher, welcher Weg passt? Im kostenlosen Gespräch finden wir es in 30 Minuten heraus.
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - img [ref=e218]
+            - generic [ref=e221]: Was bei uns immer mit dabei ist
+          - heading "Warum Glockner AI." [level=2] [ref=e222]
+        - list [ref=e223]:
+          - listitem [ref=e224]:
+            - generic [ref=e226]: Sicherheit
+            - heading "Bombenfest gebaut." [level=3] [ref=e227]
+            - paragraph [ref=e228]: "Abgesicherte IT-Architektur: API-Keys und Zugänge bleiben verschlüsselt unter Verschluss — statt ungeschützt in der Cloud zu schwirren. Kein Zugriff von außen, kein Leck."
+            - generic [ref=e229]: Security by Design
+          - listitem [ref=e230]:
+            - generic [ref=e232]: Compliance
+            - heading "100 % DSGVO-konform." [level=3] [ref=e233]
+            - paragraph [ref=e234]: Alle sensiblen Daten laufen ausschließlich auf europäischen Servern — heute und nach den nächsten Verschärfungen.
+            - generic [ref=e235]: EU-Server only
+          - listitem [ref=e236]:
+            - generic [ref=e238]: Know-how
+            - heading "12 Mrd. € Marketing-DNA." [level=3] [ref=e239]
+            - paragraph [ref=e240]: Wir bauen mit Frameworks, die nachweislich über 12 Mrd. € Umsatz generiert haben — eingebaut in jede Lösung.
+            - generic [ref=e241]: 12 Mrd. € validiert
+          - listitem [ref=e242]:
+            - generic [ref=e244]: Tempo
+            - heading "Wochen statt Monate." [level=3] [ref=e245]
+            - paragraph [ref=e246]: Eine stille Armee aus KI-Agents arbeitet rund um die Uhr — damit Ihr Projekt nicht in Monaten, sondern in Wochen Realität wird.
+            - generic [ref=e247]: 24/7 KI-Agents
+      - generic [ref=e250]:
+        - img [ref=e252]
+        - heading "Bis zu 80 % WKO-Förderung möglich." [level=2] [ref=e255]:
+          - text: Bis zu
+          - emphasis [ref=e256]: 80 %
+          - text: WKO-Förderung möglich.
+        - paragraph [ref=e257]: Setup-, Strategie- und Implementierungs-Anteile sind über die WKO förderfähig — wir prüfen mit Ihnen, was in Ihrem Fall infrage kommt.
+      - generic [ref=e260]:
+        - img [ref=e262]
+        - heading "Die Entwicklung wird einfacher. Jetzt beginnt der eigentliche Spaß." [level=2] [ref=e268]:
+          - text: Die Entwicklung wird einfacher. Jetzt beginnt der
+          - emphasis [ref=e269]: eigentliche Spaß
+          - text: .
+        - paragraph [ref=e275]: 30 Minuten. Wir zeigen Ihnen den schnellsten Hebel — und welcher Weg zu Ihnen passt.
+        - link "Kostenloses Strategie-Gespräch" [ref=e276] [cursor=pointer]:
+          - /url: "#termin"
+          - generic [ref=e277]: Kostenloses Strategie-Gespräch
+          - img [ref=e278]
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - img [ref=e285]
+          - generic [ref=e289]: Termin sichern
+          - heading "30 Minuten. Klarheit." [level=2] [ref=e290]:
+            - text: 30 Minuten.
+            - emphasis [ref=e291]: Klarheit.
+          - paragraph [ref=e297]: Wählen Sie ein Datum und eine Uhrzeit — kostenlos und unverbindlich.
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - generic [ref=e301]:
+              - text: Schritt 1 von 2
+              - heading "Datum & Zeit wählen." [level=3] [ref=e302]
+            - generic [ref=e303]:
+              - generic [ref=e304]:
+                - generic [ref=e305]:
+                  - button "Vorheriger Monat" [disabled] [ref=e306]:
+                    - img [ref=e307]
+                  - generic [ref=e309]: Juni 2026
+                  - button "Nächster Monat" [ref=e310]:
+                    - img [ref=e311]
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Mo
+                  - generic [ref=e315]: Di
+                  - generic [ref=e316]: Mi
+                  - generic [ref=e317]: Do
+                  - generic [ref=e318]: Fr
+                  - generic [ref=e319]: Sa
+                  - generic [ref=e320]: So
+                - generic [ref=e321]:
+                  - button "1" [disabled] [ref=e322]
+                  - button "2" [disabled] [ref=e323]
+                  - button "3" [disabled] [ref=e324]
+                  - button "4" [disabled] [ref=e325]
+                  - button "5" [ref=e326] [cursor=pointer]: "5"
+                  - button "6" [disabled] [ref=e328]
+                  - button "7" [disabled] [ref=e329]
+                  - button "8" [ref=e330] [cursor=pointer]
+                  - button "9" [ref=e331] [cursor=pointer]
+                  - button "10" [ref=e332] [cursor=pointer]
+                  - button "11" [ref=e333] [cursor=pointer]
+                  - button "12" [ref=e334] [cursor=pointer]
+                  - button "13" [disabled] [ref=e335]
+                  - button "14" [disabled] [ref=e336]
+                  - button "15" [ref=e337] [cursor=pointer]
+                  - button "16" [ref=e338] [cursor=pointer]
+                  - button "17" [ref=e339] [cursor=pointer]
+                  - button "18" [ref=e340] [cursor=pointer]
+                  - button "19" [ref=e341] [cursor=pointer]
+                  - button "20" [disabled] [ref=e342]
+                  - button "21" [disabled] [ref=e343]
+                  - button "22" [ref=e344] [cursor=pointer]
+                  - button "23" [ref=e345] [cursor=pointer]
+                  - button "24" [ref=e346] [cursor=pointer]
+                  - button "25" [ref=e347] [cursor=pointer]
+                  - button "26" [ref=e348] [cursor=pointer]
+                  - button "27" [disabled] [ref=e349]
+                  - button "28" [disabled] [ref=e350]
+                  - button "29" [ref=e351] [cursor=pointer]
+                  - button "30" [ref=e352] [cursor=pointer]
+                  - button "1" [disabled] [ref=e353]
+                  - button "2" [disabled] [ref=e354]
+                  - button "3" [disabled] [ref=e355]
+                  - button "4" [disabled] [ref=e356]
+                  - button "5" [disabled] [ref=e357]
+                - paragraph [ref=e358]: Mitteleuropäische Zeit · GMT+02:00
+              - paragraph [ref=e361]: Wählen Sie zunächst ein Datum.
+          - complementary [ref=e362]:
+            - generic [ref=e364]: Strategie-Gespräch
+            - heading "mit Glockner AI." [level=4] [ref=e365]
+            - generic [ref=e366]:
+              - generic [ref=e367]:
+                - img [ref=e369]
+                - generic [ref=e372]:
+                  - generic [ref=e373]: Dauer
+                  - generic [ref=e374]: 30 Minuten
+              - generic [ref=e375]:
+                - img [ref=e377]
+                - generic [ref=e380]:
+                  - generic [ref=e381]: Format
+                  - generic [ref=e382]: Online · Google Meet
+              - generic [ref=e383]:
+                - img [ref=e385]
+                - generic [ref=e388]:
+                  - generic [ref=e389]: Datum
+                  - generic [ref=e390]: —
+              - generic [ref=e391]:
+                - img [ref=e393]
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Uhrzeit
+                  - generic [ref=e398]: —
+            - paragraph [ref=e400]: Wir finden in 30 Minuten heraus, ob Money Making oder Kosten-Killer bei Ihnen den größten Hebel hat — und welcher Weg (Training, Service oder Produkt) zu Ihnen passt.
+  - contentinfo [ref=e401]:
+    - generic [ref=e404]:
+      - generic [ref=e405]:
+        - generic [ref=e406]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e407]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e408]: direkt
+          - text: .
+        - paragraph [ref=e409]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e410]:
+        - complementary [ref=e411]:
+          - generic [ref=e413]: Direkter Draht
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - generic [ref=e416]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e417] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e418]:
+              - generic [ref=e419]: Telefon
+              - link "+43 650 660 5000" [ref=e420] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e421]:
+              - generic [ref=e422]: Standorte
+              - generic [ref=e423]:
+                - generic [ref=e424]:
+                  - generic [ref=e425]: Wien
+                  - generic [ref=e426]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e427]:
+                  - generic [ref=e428]: Klagenfurt
+                  - generic [ref=e429]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e431]:
+          - generic [ref=e433]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e434]
+          - generic [ref=e435]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e436]
+          - generic [ref=e437]:
+            - generic [ref=e438]:
+              - generic [ref=e439]: Name*
+              - textbox "Name*" [ref=e440]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e441]:
+              - generic [ref=e442]: E-Mail*
+              - textbox "E-Mail*" [ref=e443]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e445]:
+            - generic [ref=e446]: Nachricht*
+            - textbox "Nachricht*" [ref=e447]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e448]:
+            - paragraph [ref=e449]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e450]:
+              - generic [ref=e451]: Nachricht senden
+              - img [ref=e452]
+    - generic [ref=e456]:
+      - generic [ref=e457]:
+        - link "Glockner.ai — Startseite" [ref=e458] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e459]
+        - paragraph [ref=e460]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e461]:
+        - heading "Glockner AI" [level=3] [ref=e462]
+        - generic [ref=e463]:
+          - link "Money Making AI" [ref=e464] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "Kosten-Killing AI" [ref=e465] [cursor=pointer]:
+            - /url: /retainer
+          - link "Training" [ref=e466] [cursor=pointer]:
+            - /url: /training
+      - generic [ref=e467]:
+        - heading "Glockner Digital" [level=3] [ref=e468]
+        - generic [ref=e469]:
+          - link "E-Commerce" [ref=e470] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e471] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e472] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e474]:
+      - paragraph [ref=e475]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e476]:
+        - link "Impressum" [ref=e477] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e478] [cursor=pointer]:
+          - /url: /datenschutz
+  - iframe [ref=e479]:
+    
+  - button "Open Next.js Dev Tools" [ref=e485] [cursor=pointer]:
+    - img [ref=e486]
+  - alert [ref=e489]

@@ -1,0 +1,1 @@
+- generic [ref=e2]: "User-agent: * Disallow: / # Solange diese Seite ein Preview/Stage ist, sollen keine Bots indexieren. # Sobald die Seite live gehen soll, kann diese Datei umgeschrieben werden: # User-agent: * # Allow: / # Sitemap: https://www.glockner.ai/sitemap.xml"

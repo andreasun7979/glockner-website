@@ -1,0 +1,363 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e20]:
+      - generic [ref=e21]: KI-Beratung & Automatisierung
+      - heading "Die Ära der KI ist da. Wir machen Ihr Unternehmen zukunftsfähig." [level=1] [ref=e23]:
+        - text: Die Ära der KI ist da.
+        - text: Wir machen Ihr Unternehmen zukunftsfähig.
+      - paragraph [ref=e24]: Schluss mit veralteten Prozessen. Nutzen Sie die technologische Revolution und erleben Sie, wie Qualität, Produktivität und Umsatz in Ihrem Unternehmen deutlich steigen.
+      - generic [ref=e25]:
+        - link "Jetzt informieren" [ref=e26] [cursor=pointer]:
+          - /url: /kontakt
+        - link "Unsere Leistungen" [ref=e27] [cursor=pointer]:
+          - /url: /leistungen
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Warum jetzt auf KI setzen?" [level=2] [ref=e33]
+        - paragraph [ref=e34]: Der Unterschied zwischen stehenbleiben und wachsen.
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - img [ref=e40]
+            - heading "Ohne KI-Strategie" [level=3] [ref=e42]
+          - generic [ref=e43]:
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: Geringe Automatisierung
+              - paragraph [ref=e48]: Ihr Team ertrinkt in manuellen Routineaufgaben und bremst das Wachstum.
+            - generic [ref=e51]:
+              - paragraph [ref=e52]: Ressourcenverschwendung
+              - paragraph [ref=e53]: Veraltete Workflows verschwenden Zeit und Kapital.
+            - generic [ref=e56]:
+              - paragraph [ref=e57]: Umsatzpotenziale bleiben liegen
+              - paragraph [ref=e58]: Leads werden nicht nachverfolgt, Cross-Selling verpasst.
+            - generic [ref=e61]:
+              - paragraph [ref=e62]: Anschluss verlieren
+              - paragraph [ref=e63]: Technologisch von der Konkurrenz überholt werden.
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - img [ref=e68]
+            - heading "Mit Glockner AI" [level=3] [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Smart Automation
+              - paragraph [ref=e76]: Intelligente Workflows befreien Ihr Team für wertschöpfende Arbeit.
+            - generic [ref=e79]:
+              - paragraph [ref=e80]: Maximale Effizienz & Qualität
+              - paragraph [ref=e81]: Fehler eliminieren und Kosten reduzieren — automatisch.
+            - generic [ref=e84]:
+              - paragraph [ref=e85]: Umsatz-Boost durch KI
+              - paragraph [ref=e86]: Automatisiertes Lead-Nurturing erschließt neue Umsatzquellen.
+            - generic [ref=e89]:
+              - paragraph [ref=e90]: Zukunftssicherheit
+              - paragraph [ref=e91]: Technologischer Wettbewerbsvorteil durch KI-First Strategie.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - heading "Ihr Vorteil durch Glockner AI" [level=2] [ref=e96]
+        - paragraph [ref=e97]: Messbare Ergebnisse statt leerer Versprechen.
+      - generic [ref=e98]:
+        - generic [ref=e100]:
+          - img [ref=e102]
+          - heading "Mehr Umsatz" [level=3] [ref=e104]
+          - paragraph [ref=e105]: KI identifiziert verborgene Cross-Selling-Chancen und schließt Leads präzise ab.
+        - generic [ref=e107]:
+          - img [ref=e109]
+          - heading "Mehr Zeit" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Ihr Team wird von repetitiven Aufgaben befreit und kann sich auf strategische Arbeit konzentrieren.
+        - generic [ref=e114]:
+          - img [ref=e116]
+          - heading "Weniger Fehler" [level=3] [ref=e118]
+          - paragraph [ref=e119]: Mathematische Präzision eliminiert menschliche Fehler — 24/7, ohne Pause.
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - heading "Der Konkurrenz voraus" [level=3] [ref=e125]
+          - paragraph [ref=e126]: Predictive Analytics ermöglicht es, Markttrends vorherzusehen statt hinterherzulaufen.
+        - generic [ref=e128]:
+          - img [ref=e130]
+          - heading "Höhere Produktivität" [level=3] [ref=e132]
+          - paragraph [ref=e133]: KI-Agenten beschleunigen Ihre Workflows um ein Vielfaches.
+        - generic [ref=e135]:
+          - img [ref=e137]
+          - heading "Weniger Kosten" [level=3] [ref=e139]
+          - paragraph [ref=e140]: Operative Kostenreduktion durch automatisierte Prozesse und weniger Overhead.
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - heading "Unser Konzept macht Sie zukunftsfähig" [level=2] [ref=e145]
+        - paragraph [ref=e146]: Fünf Säulen für eine ganzheitliche KI-Transformation.
+      - generic [ref=e147]:
+        - generic [ref=e149]:
+          - generic [ref=e151]: "01"
+          - heading "KI im Sales & Funnels" [level=3] [ref=e152]
+          - paragraph [ref=e153]: Bringen Sie Ihren Vertrieb durch Automatisierung & KI auf ein neues Level.
+        - generic [ref=e155]:
+          - generic [ref=e157]: "02"
+          - heading "KI im Marketing" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Das Web wandelt sich — bleiben Sie sichtbar. Mit den richtigen KI-Strategien erstellen Sie herausragenden Content effizient.
+        - generic [ref=e161]:
+          - generic [ref=e163]: "03"
+          - heading "KI in der Organisation" [level=3] [ref=e164]
+          - paragraph [ref=e165]: Maximale Effizienz durch intelligente Agenten. Eliminieren Sie Routineaufgaben und Fehlerquellen.
+        - generic [ref=e167]:
+          - generic [ref=e169]: "04"
+          - heading "Datenschutz & Security" [level=3] [ref=e170]
+          - paragraph [ref=e171]: KI, die sich Ihren Sicherheitsbedürfnissen anpasst. Ob DSGVO-konform oder On-Premise.
+        - generic [ref=e173]:
+          - generic [ref=e175]: "05"
+          - heading "KI-Schulung & Enablement" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Befähigen Sie Ihre Mitarbeiter, KI-Lösungen mit enormem Nutzen selbst zu gestalten.
+    - generic [ref=e179]:
+      - generic [ref=e180]:
+        - heading "Unsere Beratungspakete" [level=2] [ref=e181]
+        - paragraph [ref=e182]: Profitieren Sie von bis zu 80% WKO-Förderung auf unsere Beratungsleistungen.
+      - generic [ref=e183]:
+        - generic [ref=e185]:
+          - generic [ref=e186]: 80% WKO-Förderung
+          - paragraph [ref=e187]: Analyse-Modul
+          - heading "KI-Potentialanalyse" [level=3] [ref=e188]
+          - generic [ref=e189]:
+            - generic [ref=e190]: €100
+            - generic [ref=e191]: €500
+          - list [ref=e192]:
+            - listitem [ref=e193]:
+              - img [ref=e194]
+              - text: KI-Use-Case Identifikation
+            - listitem [ref=e196]:
+              - img [ref=e197]
+              - text: Datenverfügbarkeits-Assessment
+            - listitem [ref=e199]:
+              - img [ref=e200]
+              - text: Implementierungs-Roadmap
+            - listitem [ref=e202]:
+              - img [ref=e203]
+              - text: 90-minütige Strategie-Session
+          - link "Jetzt anfragen" [ref=e205] [cursor=pointer]:
+            - /url: /kontakt
+        - generic [ref=e207]:
+          - generic [ref=e208]: Beliebt
+          - generic [ref=e209]: 50% WKO-Förderung
+          - paragraph [ref=e210]: Strategie-Modul
+          - heading "KI-Strategie Beratung" [level=3] [ref=e211]
+          - generic [ref=e212]:
+            - generic [ref=e213]: €1.000
+            - generic [ref=e214]: €2.000
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - img [ref=e217]
+              - text: Individuelle KI-Roadmap
+            - listitem [ref=e219]:
+              - img [ref=e220]
+              - text: Sales & Marketing Tool-Workshop
+            - listitem [ref=e222]:
+              - img [ref=e223]
+              - text: KI-Assistenten Konzeption
+            - listitem [ref=e225]:
+              - img [ref=e226]
+              - text: ROI-Analyse Dokument
+          - link "Jetzt anfragen" [ref=e228] [cursor=pointer]:
+            - /url: /kontakt
+        - generic [ref=e230]:
+          - generic [ref=e231]: 30% WKO-Förderung
+          - paragraph [ref=e232]: Umsetzungs-Modul
+          - heading "KI-Strategie Umsetzung" [level=3] [ref=e233]
+          - generic [ref=e234]:
+            - generic [ref=e235]: €ab 4.200
+            - generic [ref=e236]: €bis 6.000
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - img [ref=e239]
+              - text: Technische Implementierung
+            - listitem [ref=e241]:
+              - img [ref=e242]
+              - text: CRM/ERP/Marketing Integration
+            - listitem [ref=e244]:
+              - img [ref=e245]
+              - text: Workflow-Automatisierung
+            - listitem [ref=e247]:
+              - img [ref=e248]
+              - text: Sales & Operations Setup
+          - link "Jetzt anfragen" [ref=e250] [cursor=pointer]:
+            - /url: /kontakt
+    - generic [ref=e251]:
+      - heading "Unsere KI Use Cases Strategisch erstellt und kombiniert, werden Sie der Konkurrenz weit voraus sein." [level=2] [ref=e253]:
+        - text: Unsere KI Use Cases
+        - text: Strategisch erstellt und kombiniert,
+        - text: werden Sie der Konkurrenz weit voraus sein.
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - generic [ref=e256]: KI Chatbot
+          - generic [ref=e257]: Video Erstellung AI
+          - generic [ref=e258]: Automatisierungen mit AI
+          - generic [ref=e259]: AI Terminbuchungen
+          - generic [ref=e260]: Autom. E-Mail Bearbeitung
+          - generic [ref=e261]: Bilder Erstellung AI
+          - generic [ref=e262]: KI SEO Agent
+          - generic [ref=e263]: Support Voice Agent
+          - generic [ref=e264]: Social Media KI Agent
+          - generic [ref=e265]: Blogartikel AI
+          - generic [ref=e266]: AI Feedback Generator
+          - generic [ref=e267]: Voice Agents Leads
+          - generic [ref=e268]: Wissenstransfer mit AI
+          - generic [ref=e269]: KI Chatbot
+          - generic [ref=e270]: Video Erstellung AI
+          - generic [ref=e271]: Automatisierungen mit AI
+          - generic [ref=e272]: AI Terminbuchungen
+          - generic [ref=e273]: Autom. E-Mail Bearbeitung
+          - generic [ref=e274]: Bilder Erstellung AI
+          - generic [ref=e275]: KI SEO Agent
+          - generic [ref=e276]: Support Voice Agent
+          - generic [ref=e277]: Social Media KI Agent
+          - generic [ref=e278]: Blogartikel AI
+          - generic [ref=e279]: AI Feedback Generator
+          - generic [ref=e280]: Voice Agents Leads
+          - generic [ref=e281]: Wissenstransfer mit AI
+        - generic [ref=e282]:
+          - generic [ref=e283]: Wissenstransfer mit AI
+          - generic [ref=e284]: Voice Agents Leads
+          - generic [ref=e285]: AI Feedback Generator
+          - generic [ref=e286]: Blogartikel AI
+          - generic [ref=e287]: Social Media KI Agent
+          - generic [ref=e288]: Support Voice Agent
+          - generic [ref=e289]: KI SEO Agent
+          - generic [ref=e290]: Bilder Erstellung AI
+          - generic [ref=e291]: Autom. E-Mail Bearbeitung
+          - generic [ref=e292]: AI Terminbuchungen
+          - generic [ref=e293]: Automatisierungen mit AI
+          - generic [ref=e294]: Video Erstellung AI
+          - generic [ref=e295]: KI Chatbot
+          - generic [ref=e296]: Wissenstransfer mit AI
+          - generic [ref=e297]: Voice Agents Leads
+          - generic [ref=e298]: AI Feedback Generator
+          - generic [ref=e299]: Blogartikel AI
+          - generic [ref=e300]: Social Media KI Agent
+          - generic [ref=e301]: Support Voice Agent
+          - generic [ref=e302]: KI SEO Agent
+          - generic [ref=e303]: Bilder Erstellung AI
+          - generic [ref=e304]: Autom. E-Mail Bearbeitung
+          - generic [ref=e305]: AI Terminbuchungen
+          - generic [ref=e306]: Automatisierungen mit AI
+          - generic [ref=e307]: Video Erstellung AI
+          - generic [ref=e308]: KI Chatbot
+    - generic [ref=e311]:
+      - generic [ref=e312]:
+        - heading "Der Weg zum Erfolg" [level=2] [ref=e313]
+        - paragraph [ref=e314]: In vier Schritten zur KI-Transformation Ihres Unternehmens.
+      - generic [ref=e315]:
+        - generic [ref=e318]:
+          - generic [ref=e319]: "01"
+          - generic [ref=e321]: "01"
+          - heading "Kostenloses Erstgespräch" [level=3] [ref=e322]
+          - paragraph [ref=e323]: Wir analysieren gemeinsam Ihre Prozesse und identifizieren KI-Potenziale in Ihrem Unternehmen.
+        - generic [ref=e326]:
+          - generic [ref=e327]: "02"
+          - generic [ref=e329]: "02"
+          - heading "Strategieentwicklung" [level=3] [ref=e330]
+          - paragraph [ref=e331]: Individuelle KI-Roadmap inkl. Tool-Auswahl und Workflow-Optimierung. Bis zu 50% WKO-Förderung.
+        - generic [ref=e334]:
+          - generic [ref=e335]: "03"
+          - generic [ref=e337]: "03"
+          - heading "Technische Umsetzung" [level=3] [ref=e338]
+          - paragraph [ref=e339]: Implementierung, Integration in bestehende Systeme und Automatisierung. Bis zu 30% WKO-Förderung.
+        - generic [ref=e342]:
+          - generic [ref=e343]: "04"
+          - generic [ref=e345]: "04"
+          - heading "Schulung & Onboarding" [level=3] [ref=e346]
+          - paragraph [ref=e347]: Ihr Team wird eingeschult und kann die neuen KI-Tools eigenständig nutzen und weiterentwickeln.
+    - generic [ref=e351]:
+      - heading "Bereit für die KI-Transformation?" [level=2] [ref=e352]
+      - paragraph [ref=e353]: Bis zu 80% WKO-Förderung möglich. Vereinbaren Sie jetzt Ihr kostenloses Erstgespräch und entdecken Sie das KI-Potenzial Ihres Unternehmens.
+      - link "Kostenloses Erstgespräch vereinbaren" [ref=e354] [cursor=pointer]:
+        - /url: /kontakt
+  - contentinfo [ref=e355]:
+    - generic [ref=e358]:
+      - generic [ref=e359]:
+        - generic [ref=e360]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e361]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e362]: direkt
+          - text: .
+        - paragraph [ref=e363]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e364]:
+        - complementary [ref=e365]:
+          - generic [ref=e367]: Direkter Draht
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - generic [ref=e370]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e371] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e372]:
+              - generic [ref=e373]: Telefon
+              - link "+43 650 660 5000" [ref=e374] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e375]:
+              - generic [ref=e376]: Standorte
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - generic [ref=e379]: Wien
+                  - generic [ref=e380]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e381]:
+                  - generic [ref=e382]: Klagenfurt
+                  - generic [ref=e383]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e385]:
+          - generic [ref=e387]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e388]
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - generic [ref=e391]: Name*
+              - textbox "Name*" [ref=e392]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e393]:
+              - generic [ref=e394]: E-Mail*
+              - textbox "E-Mail*" [ref=e395]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e397]:
+            - generic [ref=e398]: Nachricht*
+            - textbox "Nachricht*" [ref=e399]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e400]:
+            - paragraph [ref=e401]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e402]:
+              - generic [ref=e403]: Nachricht senden
+              - img [ref=e404]
+    - generic [ref=e408]:
+      - generic [ref=e409]:
+        - link "Glockner.ai — Startseite" [ref=e410] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e411]
+        - paragraph [ref=e412]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e413]:
+        - heading "Glockner AI" [level=3] [ref=e414]
+        - generic [ref=e415]:
+          - link "Money Making AI" [ref=e416] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "KI-Beratung" [ref=e417] [cursor=pointer]:
+            - /url: /leistungen-lux3#schulungen
+      - generic [ref=e418]:
+        - heading "Glockner Digital" [level=3] [ref=e419]
+        - generic [ref=e420]:
+          - link "E-Commerce" [ref=e421] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e422] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e423] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e425]:
+      - paragraph [ref=e426]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e427]:
+        - link "Impressum" [ref=e428] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e429] [cursor=pointer]:
+          - /url: /datenschutz
+  - alert [ref=e430]

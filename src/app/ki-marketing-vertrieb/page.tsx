@@ -5,17 +5,17 @@ import BookingWidget from "@/components/BookingWidget";
 
 // "Money Making AI" — Unterseite (im Menü verlinkt). Seit dem v2-Launch ist
 // /v2 die Startseite (Rewrite "/"→"/v2"); diese Seite trägt daher einen
-// eigenen Canonical auf /leistungen-lux3.
+// eigenen Canonical auf /ki-marketing-vertrieb.
 export const metadata: Metadata = {
   title: { absolute: "Money Making AI — KI für mehr Umsatz | Glockner AI" },
   description:
     "Money Making AI von Glockner AI: Wie Künstliche Intelligenz zum Umsatzmotor Ihres Unternehmens wird — Website, Webshop, Chatbot, Voice & mehr. Für KMU in Österreich, bis zu 80 % WKO-Förderung.",
-  alternates: { canonical: "/leistungen-lux3" },
+  alternates: { canonical: "/ki-marketing-vertrieb" },
   openGraph: {
     title: "Money Making AI — KI für mehr Umsatz | Glockner AI",
     description:
       "Wie Künstliche Intelligenz zum Umsatzmotor Ihres Unternehmens wird. Für KMU in Österreich.",
-    url: "/leistungen-lux3",
+    url: "/ki-marketing-vertrieb",
   },
 };
 

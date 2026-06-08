@@ -3,6 +3,8 @@ import Link from "next/link";
 import { getServicePageById } from "../../../../sanity/lib/queries";
 
 export const metadata: Metadata = {
+  // Ältere Service-Seite, durch /digital/gewerbe abgelöst — aus dem Index halten (Duplicate Content).
+  robots: { index: false, follow: true },
   title: "Beratung Gewerbebetrieb",
   description:
     "Digital-Beratung für Gewerbebetriebe. Neukunden gewinnen, Umsätze steigern — bis zu 7.400 EUR WKO-Förderung.",

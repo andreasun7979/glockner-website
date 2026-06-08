@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "G Glockner AI" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: G
+        - generic [ref=e8]: Glockner AI
+      - navigation [ref=e9]:
+        - link "Dienstleistungen" [ref=e11] [cursor=pointer]:
+          - /url: /leistungen
+          - text: Dienstleistungen
+          - img [ref=e12]
+        - link "Über uns" [ref=e14] [cursor=pointer]:
+          - /url: /ueber-uns
+        - link "Blog" [ref=e15] [cursor=pointer]:
+          - /url: /blog
+        - link "Kontakt" [ref=e16] [cursor=pointer]:
+          - /url: /kontakt
+        - link "Beratung anfragen" [ref=e17] [cursor=pointer]:
+          - /url: /kontakt
+  - main [ref=e18]:
+    - heading "Glockner AI. Money Making KI. Wie Künstliche Intelligenz zum Umsatzmotor Ihres Unternehmens wird." [level=1] [ref=e23]:
+      - generic [ref=e24]: Glockner AI.
+      - generic [ref=e25]: Money Making KI.
+      - generic [ref=e26]:
+        - text: Wie Künstliche Intelligenz zum
+        - emphasis [ref=e27]: Umsatzmotor
+        - text: Ihres Unternehmens wird.
+    - generic [ref=e30]:
+      - generic [ref=e31]: Was wir konkret für Sie tun
+      - heading "Drei Säulen, die Geld machen." [level=2] [ref=e32]:
+        - text: Drei Säulen,
+        - emphasis [ref=e33]: die Geld machen
+        - text: .
+      - paragraph [ref=e34]:
+        - text: Jede Säule für sich rechnet sich. Zusammen ersetzen sie Ihr klassisches Marketing-Team und werden zum
+        - emphasis [ref=e35]: eigenständigen Asset
+        - text: Ihres Unternehmens.
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e39]: N° 02
+          - heading "Fundament." [level=3] [ref=e40]
+          - paragraph [ref=e41]: Audit, Knowledge Base, Markenstimme.
+        - generic [ref=e42]:
+          - generic [ref=e44]: N° 03
+          - heading "Grow Design." [level=3] [ref=e45]
+          - paragraph [ref=e46]: Website, Webshop, Multi-Screen, Split Testing.
+        - generic [ref=e47]:
+          - generic [ref=e49]: N° 04
+          - heading "Grow M&S." [level=3] [ref=e50]
+          - paragraph [ref=e51]: Software, E-Mail, Dream 100, Voice, SEO & GEO.
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: N° 02 · Fundament
+        - heading "Fundament." [level=2] [ref=e57]
+        - paragraph [ref=e58]:
+          - text: Audit, Knowledge Base, Markenstimme. Alles, worauf Ihre KI
+          - emphasis [ref=e59]: aufsetzt
+          - text: .
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - generic [ref=e63]:
+            - generic [ref=e64]: F.01
+            - generic [ref=e65]: Audit
+          - heading "AI Consulting Audit & Strategie" [level=3] [ref=e66]
+          - paragraph [ref=e67]:
+            - text: Umsatz finden, der im Geschäft
+            - emphasis [ref=e68]: liegen bleibt
+            - text: .
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: Ergebnis
+              - generic [ref=e72]: 12–30 % mehr
+            - link "Anfragen" [ref=e73] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e74]
+        - listitem [ref=e76]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: F.02
+            - generic [ref=e80]: Knowledge
+          - heading "Knowledge Base" [level=3] [ref=e81]
+          - paragraph [ref=e82]:
+            - text: Die Wissensdatenbank — das
+            - emphasis [ref=e83]: Herzstück
+            - text: Ihres Unternehmens. Ihr Wissen, strukturiert für KI — die Grundlage aller KI-Agents.
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e86]: Ergebnis
+              - generic [ref=e87]: Erst durch die Wissensdatenbank ist sinnvolle Automatisierung im KI-Zeitalter möglich.
+            - link "Anfragen" [ref=e88] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e89]
+        - listitem [ref=e91]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: F.03
+            - generic [ref=e95]: Brand
+          - heading "Brand Voice Magic" [level=3] [ref=e96]
+          - paragraph [ref=e97]:
+            - text: Niemand baut eine Beziehung zu einem Unternehmen auf — sondern zu einer Person oder dem
+            - emphasis [ref=e98]: attraktiven Charakter
+            - text: einer Marke.
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: Ergebnis
+              - generic [ref=e102]: Wir geben Ihrer KI eine individuelle Stimme — jene Ihrer attraktiven Marke.
+            - link "Anfragen" [ref=e103] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e104]
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]: N° 03 · Grow Design
+        - heading "Grow Design." [level=2] [ref=e111]
+        - paragraph [ref=e112]:
+          - text: Die Verkaufsfläche. Bauen, ausspielen, testen — alles mit KI auf
+          - emphasis [ref=e113]: maximale Conversion
+          - text: getrimmt.
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: D.01
+            - generic [ref=e119]: Website
+          - heading "Converting Website" [level=3] [ref=e120]
+          - paragraph [ref=e121]:
+            - text: Eine schöne Website reicht nicht. Sie muss
+            - emphasis [ref=e122]: führen
+            - text: ": vom ersten Klick bis zur Anfrage. Wir bauen genau das — schnell, mobil, SEO-fertig."
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - generic [ref=e125]: Ergebnis
+              - generic [ref=e126]: Mehr Geld mit KI — qualifizierte Anfragen statt schöner Statistik.
+            - link "Anfragen" [ref=e127] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e128]
+        - listitem [ref=e130]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: D.02
+            - generic [ref=e134]: Webshop
+          - heading "Converting Webshop" [level=3] [ref=e135]
+          - paragraph [ref=e136]:
+            - text: Die meisten Webshops sind digitale Kataloge. Wir bauen
+            - emphasis [ref=e137]: Funnels, die verkaufen
+            - text: — vom ersten Hook bis zum Upsell. Jeder Schritt auf maximalen Warenkorbwert getrimmt.
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: Ergebnis
+              - generic [ref=e141]: Mehr Geld mit KI — höherer Warenkorb, weniger Abbruch, mehr Wiederkäufe.
+            - link "Anfragen" [ref=e142] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e143]
+        - listitem [ref=e145]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: D.03
+            - generic [ref=e149]: Multi-Screen
+          - heading "Multiple Screens Magic" [level=3] [ref=e150]
+          - paragraph [ref=e151]:
+            - text: Eine Seite kann nicht für jeden passen. Wir bauen
+            - emphasis [ref=e152]: mehrere Versionen
+            - text: — für Mobile, für Werbeklicks, für Stammkunden. Jeder Besucher sieht den Screen, der ihn abholt.
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]: Ergebnis
+              - generic [ref=e156]: Mehr Geld mit KI — höhere Conversion, weil jede Zielgruppe ihre eigene Version bekommt.
+            - link "Anfragen" [ref=e157] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e158]
+        - listitem [ref=e160]:
+          - generic [ref=e162]:
+            - generic [ref=e163]: D.04
+            - generic [ref=e164]: A/B Testing
+          - heading "Split Testing Magic" [level=3] [ref=e165]
+          - paragraph [ref=e166]:
+            - text: Hören Sie auf zu raten, was funktioniert.
+            - emphasis [ref=e167]: Wir lassen zwei Versionen gegeneinander antreten
+            - text: — der Markt entscheidet, welche gewinnt.
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - generic [ref=e170]: Ergebnis
+              - generic [ref=e171]: Mehr Geld mit KI — gleicher Traffic, mehr Verkäufe.
+            - link "Anfragen" [ref=e172] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e173]
+    - generic [ref=e177]:
+      - generic [ref=e178]:
+        - generic [ref=e179]: N° 04 · Grow Marketing & Sales
+        - heading "Grow M&S." [level=2] [ref=e180]
+        - paragraph [ref=e181]:
+          - text: Marketing & Sales aus der Zukunft. Sechs Hebel — einzeln buchbar, in Kombination
+          - emphasis [ref=e182]: wirksam
+          - text: .
+      - list [ref=e183]:
+        - listitem [ref=e184]:
+          - generic [ref=e186]:
+            - generic [ref=e187]: M.01
+            - generic [ref=e188]: Bauen
+          - heading "Custom Software Magic" [level=3] [ref=e189]
+          - paragraph [ref=e190]:
+            - text: Keine Software — oder Standard-Tools, die nicht passen? Wir bauen die KI-Software
+            - emphasis [ref=e191]: für Ihre Prozesse
+            - text: .
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e194]: Ergebnis
+              - generic [ref=e195]: Mehr Geld mit KI — Prozesse laufen von selbst, ohne mehr Personal.
+            - link "Anfragen" [ref=e196] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e197]
+        - listitem [ref=e199]:
+          - generic [ref=e201]:
+            - generic [ref=e202]: M.02
+            - generic [ref=e203]: Reaktivieren
+          - heading "E-Mail Magic" [level=3] [ref=e204]
+          - paragraph [ref=e205]:
+            - text: Alte Kunden kaufen wieder. Vergessene Leads springen endlich an. Ihre Liste hat
+            - emphasis [ref=e206]: mehr Umsatz, als Sie denken
+            - text: .
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - generic [ref=e209]: Ergebnis
+              - generic [ref=e210]: Mehr Geld mit KI — fünfstelliger Mehrumsatz, in 4–6 Wochen.
+            - link "Anfragen" [ref=e211] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e212]
+        - listitem [ref=e214]:
+          - generic [ref=e216]:
+            - generic [ref=e217]: M.03
+            - generic [ref=e218]: Vertrieb
+          - heading "Dream 100 Magic" [level=3] [ref=e219]
+          - paragraph [ref=e220]:
+            - text: 50–100 Partner mit Ihrer exakten Zielgruppe.
+            - emphasis [ref=e221]: Recherchiert von KI, angeschrieben von KI
+            - text: . Sie übernehmen erst beim qualifizierten Gespräch.
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - generic [ref=e224]: Ergebnis
+              - generic [ref=e225]: Mehr Geld mit KI — qualifizierte Leads, ohne Ad-Budget.
+            - link "Anfragen" [ref=e226] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e227]
+        - listitem [ref=e229]:
+          - generic [ref=e231]:
+            - generic [ref=e232]: M.04
+            - generic [ref=e233]: Sales · Voice
+          - heading "Voice Agents Magic" [level=3] [ref=e234]
+          - paragraph [ref=e235]:
+            - text: "Drei Anrufe, die Sie ungern selbst machen: nach Bewertungen fragen, alte Kunden zurückholen, neue Leads qualifizieren."
+            - emphasis [ref=e236]: Übernimmt jetzt die KI — in Ihrer Stimme
+            - text: .
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - generic [ref=e239]: Ergebnis
+              - generic [ref=e240]: Mehr Geld mit KI — mehr Reviews, mehr Wiederkäufe, mehr Verkäufe.
+            - link "Anfragen" [ref=e241] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e242]
+        - listitem [ref=e244]:
+          - generic [ref=e246]:
+            - generic [ref=e247]: M.05
+            - generic [ref=e248]: Sichtbarkeit
+          - heading "SEO & GEO Magic" [level=3] [ref=e249]
+          - paragraph [ref=e250]:
+            - text: Ihre Kunden fragen nicht mehr nur Google. Sie fragen ChatGPT, Perplexity, Claude.
+            - emphasis [ref=e251]: Wir sorgen dafür, dass überall Sie die Antwort sind
+            - text: .
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - generic [ref=e254]: Ergebnis
+              - generic [ref=e255]: Mehr Geld mit KI — gefunden werden, ohne Ad-Budget.
+            - link "Anfragen" [ref=e256] [cursor=pointer]:
+              - /url: /kontakt
+              - text: Anfragen
+              - img [ref=e257]
+        - listitem [ref=e259]:
+          - generic [ref=e260]:
+            - generic [ref=e261]: M.06
+            - generic [ref=e262]: Content · Demnächst
+          - heading "Social Magic" [level=3] [ref=e263]
+          - paragraph [ref=e264]:
+            - text: Voller Content-Kalender —
+            - emphasis [ref=e265]: Skripte, Captions, Hooks, Posts
+            - text: .
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - generic [ref=e268]: Status
+              - generic [ref=e269]: In Vorbereitung
+            - generic [ref=e270]: Bald verfügbar
+    - generic [ref=e273]:
+      - generic [ref=e274]:
+        - generic [ref=e275]: Was uns ausmacht
+        - heading "Was bei uns immer mit dabei ist." [level=2] [ref=e276]:
+          - text: Was bei uns
+          - emphasis [ref=e277]: immer
+          - text: mit dabei ist.
+      - list [ref=e278]:
+        - listitem [ref=e279]:
+          - generic [ref=e281]: Compliance
+          - heading "100 % DSGVO-konform." [level=3] [ref=e282]
+          - paragraph [ref=e283]: Alle sensiblen Daten laufen ausschließlich auf europäischen Servern. KI-Lösungen, die in Österreich und der EU rechtlich sauber bestehen — heute und nach den nächsten Verschärfungen.
+          - generic [ref=e284]: EU-Server only
+        - listitem [ref=e285]:
+          - generic [ref=e287]: Know-how
+          - heading "12 Mrd. € Marketing-DNA." [level=3] [ref=e288]
+          - paragraph [ref=e289]: Wir bauen nicht nur. Wir bauen mit Marketing- und Sales-Frameworks, die nachweislich über 12 Milliarden € Umsatz generiert haben — eingebaut in jede Website, jeden Funnel, jede Sequenz.
+          - generic [ref=e290]: 12 Mrd. € validiert
+    - generic [ref=e293]:
+      - generic [ref=e294]:
+        - generic [ref=e295]: Zielmarkt
+        - heading "Egal ob Ihre Kunden B2B oder B2C sind." [level=2] [ref=e296]:
+          - text: Egal ob Ihre Kunden
+          - emphasis [ref=e297]: B2B oder B2C
+          - text: sind.
+        - paragraph [ref=e298]: Unsere Leistungen funktionieren für beide Geschäftsmodelle.
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - generic [ref=e301]: B2B
+          - heading "Sie verkaufen an Unternehmen." [level=3] [ref=e302]
+          - paragraph [ref=e303]: Lead-Pipelines, Partner-Outreach, qualifizierte Sales-Gespräche — KI baut den Vertriebskanal, den Ihre Branche braucht.
+        - generic [ref=e304]:
+          - generic [ref=e305]: B2C
+          - heading "Sie verkaufen an Endkunden." [level=3] [ref=e306]
+          - paragraph [ref=e307]: Webshops, E-Mail-Reaktivierung, Markenstimme, Bewertungs-Outreach — KI macht aus Besuchern Kunden und aus Kunden Wiederkäufer.
+    - generic [ref=e311]:
+      - heading "Eine Stunde reicht, um zu sehen, welcher Pile bei Ihnen zuerst dran ist." [level=2] [ref=e312]:
+        - text: Eine Stunde reicht, um zu sehen,
+        - emphasis [ref=e313]: welcher Pile
+        - text: bei Ihnen zuerst dran ist.
+      - paragraph [ref=e314]: Bis zu 80 % WKO-Förderung möglich. Antwort innerhalb eines Werktages.
+      - link "Status-Analyse buchen · € 100" [ref=e315] [cursor=pointer]:
+        - /url: /kontakt
+  - contentinfo [ref=e316]:
+    - generic [ref=e318]:
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e323]: G
+            - generic [ref=e324]: Glockner AI
+          - paragraph [ref=e325]:
+            - text: KI-Beratung & Automatisierung
+            - text: für KMU in Österreich.
+        - generic [ref=e326]:
+          - heading "Dienstleistungen" [level=3] [ref=e327]
+          - generic [ref=e328]:
+            - link "KI-Beratung" [ref=e329] [cursor=pointer]:
+              - /url: /leistungen/ki-beratung
+            - link "eCommerce" [ref=e330] [cursor=pointer]:
+              - /url: /leistungen/ecommerce
+            - link "Gewerbebetrieb" [ref=e331] [cursor=pointer]:
+              - /url: /leistungen/gewerbe
+            - link "Ärzte & Gesundheit" [ref=e332] [cursor=pointer]:
+              - /url: /leistungen/gesundheit
+        - generic [ref=e333]:
+          - heading "Standorte" [level=3] [ref=e334]
+          - generic [ref=e335]:
+            - generic [ref=e336]:
+              - paragraph [ref=e337]: Wien
+              - paragraph [ref=e338]: Blumauergasse 23/12, 1020 Wien
+            - generic [ref=e339]:
+              - paragraph [ref=e340]: Kärnten
+              - paragraph [ref=e341]: Haraldweg 26/10, 9020 Klagenfurt
+        - generic [ref=e342]:
+          - heading "Kontakt" [level=3] [ref=e343]
+          - generic [ref=e344]:
+            - link "support@glocknerdigital.at" [ref=e345] [cursor=pointer]:
+              - /url: mailto:support@glocknerdigital.at
+            - link "+43 650 660 5000" [ref=e346] [cursor=pointer]:
+              - /url: tel:+436506605000
+            - link "glockner.ai" [ref=e347] [cursor=pointer]:
+              - /url: https://glockner.ai
+      - generic [ref=e348]:
+        - paragraph [ref=e349]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+        - generic [ref=e350]:
+          - link "Impressum" [ref=e351] [cursor=pointer]:
+            - /url: /impressum
+          - link "Datenschutz" [ref=e352] [cursor=pointer]:
+            - /url: /datenschutz

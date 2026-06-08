@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - text:  
+  - link " Submit feedback" [ref=e2] [cursor=pointer]:
+    - /url: /feedback
+    - generic [ref=e3]: 
+    - text: Submit feedback
+  - text:  
+  - navigation [ref=e4]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: /
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - 'link "Account balance: € 0.00 " [ref=e10] [cursor=pointer]':
+          - /url: ""
+          - generic [ref=e11]:
+            - text: "Account balance:"
+            - strong [ref=e13]: € 0.00
+            - generic [ref=e14]: 
+        - text: 
+      - listitem [ref=e15]:
+        - link "Support " [ref=e16] [cursor=pointer]:
+          - /url: ""
+          - text: Support
+          - generic [ref=e17]: 
+      - listitem [ref=e18]:
+        - link "Legal " [ref=e19] [cursor=pointer]:
+          - /url: ""
+          - text: Legal
+          - generic [ref=e20]: 
+      - listitem [ref=e21]:
+        - link " Add products" [ref=e22] [cursor=pointer]:
+          - /url: ""
+          - generic:
+            - generic: 
+            - text: Add products
+        - text:     
+      - text:            
+    - list [ref=e23]:
+      - text: 
+      - listitem [ref=e24]:
+        - link "" [ref=e25] [cursor=pointer]:
+          - /url: /cart/show
+          - generic [ref=e26]: 
+      - listitem [ref=e27]:
+        - link "" [ref=e28] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e29]: 
+        - text:  
+      - listitem [ref=e30]:
+        - link " 5" [ref=e31] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e32]: 
+          - generic [ref=e33]: "5"
+        - text:   
+      - listitem [ref=e34]:
+        - link " 00283091 " [ref=e35] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e36]: 
+          - generic [ref=e38]:
+            - text: "00283091"
+            - generic [ref=e39]: 
+        - text:  
+  - generic [ref=e40]:
+    - generic [ref=e41]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link " Menu" [ref=e47] [cursor=pointer]:
+            - /url: "#"
+            - text: 
+            - generic [ref=e48]: 
+            - text: Menu
+        - listitem [ref=e49]:
+          - link " Dashboard" [ref=e50] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=e51]: 
+            - text: Dashboard
+        - listitem [ref=e52]:
+          - link " Domains " [ref=e53] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e54]: 
+            - text: Domains
+            - generic [ref=e55]: 
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "My domains" [ref=e58] [cursor=pointer]:
+                - /url: /domain/list/page/1/sort/domain/stype/asc/resetfilter/0/option
+            - listitem [ref=e59]:
+              - link "Aftermarket" [ref=e60] [cursor=pointer]:
+                - /url: /domain/aftermarket
+            - listitem [ref=e61]:
+              - link "Deleted domains" [ref=e62] [cursor=pointer]:
+                - /url: /domain/deleted/page/1/sort/product_name/stype/ASC/resetfilter
+            - listitem [ref=e63]:
+              - link "DNS Sets" [ref=e64] [cursor=pointer]:
+                - /url: /dnsset/config
+            - listitem [ref=e65]:
+              - link "Whois sets" [ref=e66] [cursor=pointer]:
+                - /url: /whoisset/config
+            - listitem [ref=e67]:
+              - link "Nameserver sets" [ref=e68] [cursor=pointer]:
+                - /url: /ns_set/config
+        - listitem [ref=e69]:
+          - link " Hosting " [ref=e70] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e71]: 
+            - text: Hosting
+            - generic [ref=e72]: 
+          - list:
+            - listitem [ref=e73]:
+              - link "Hosting (cPanel)" [ref=e74] [cursor=pointer]:
+                - /url: /cpanel/accounts/list/page/1/sort/accountdomain/stype
+            - listitem [ref=e75]:
+              - link "All-inclusive packages" [ref=e76] [cursor=pointer]:
+                - /url: /bundling/list/page/1/sort/bundle/stype/DESC/resetfilter
+            - listitem [ref=e77]:
+              - link "Framesets" [ref=e78] [cursor=pointer]:
+                - /url: /frameset/list
+        - listitem [ref=e79]:
+          - link " Easy-Email " [ref=e80] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e81]: 
+            - text: Easy-Email
+            - generic [ref=e82]: 
+          - list:
+            - listitem [ref=e83]:
+              - link "My Easy Email" [ref=e84] [cursor=pointer]:
+                - /url: /easy-email/packages
+        - listitem [ref=e85]:
+          - link " SSL " [ref=e86] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e87]: 
+            - text: SSL
+            - generic [ref=e88]: 
+          - list:
+            - listitem [ref=e89]:
+              - link "SSL" [ref=e90] [cursor=pointer]:
+                - /url: /certificates/list/page/1/sort/certificate/stype/DESC/resetfilter
+        - listitem [ref=e91]:
+          - link " System jobs" [ref=e92] [cursor=pointer]:
+            - /url: /job/list/page/1/sort/timestamp/stype/DESC/resetfilter/0/option
+            - generic [ref=e93]: 
+            - text: System jobs
+        - listitem [ref=e94]:
+          - link " Contacts" [ref=e95] [cursor=pointer]:
+            - /url: /whoishandle/list/page/1/sort/contact/stype/asc/resetfilter
+            - generic [ref=e96]: 
+            - text: Contacts
+        - listitem [ref=e97]:
+          - link " Back to Website" [ref=e98] [cursor=pointer]:
+            - /url: https://www.domaindiscount24.com/en/
+            - generic [ref=e99]: 
+            - text: Back to Website
+      - generic [ref=e100]:
+        - text: © Key-Systems GmbH
+        - link "Imprint" [ref=e101] [cursor=pointer]:
+          - /url: https://www.domaindiscount24.com/en/legal/imprint
+    - generic [ref=e106]:
+      - heading "DNS settings for \"glocknerdigital.at\"" [level=1] [ref=e107]
+      - generic [ref=e109]:
+        - generic:
+          - group [ref=e111]:
+            - generic [ref=e112] [cursor=pointer]:  Web settings
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - combobox [ref=e117]:
+                  - option "Not set"
+                  - option "Redirect"
+                  - option "Link with IP (A / AAAA Record)" [selected]
+                - paragraph [ref=e120]:
+                  - text: An A/AAAA record translates a domain name into an IPv4/IPv6 address. This is used to link your domain name to a server in the internet.
+                  - link "read more" [ref=e121] [cursor=pointer]:
+                    - /url: https://simple.wikipedia.org/wiki/A_record
+              - text: 
+              - generic [ref=e126]:
+                - generic [ref=e127]: A / AAAA Record
+                - text:  
+                - textbox [ref=e128]: 34.202.63.170
+          - group [ref=e131]:
+            - generic [ref=e132] [cursor=pointer]:  Mail settings
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - combobox [ref=e137]:
+                  - option "Not set"
+                  - option "Redirect"
+                  - option "Link to mail server (MX Record)" [selected]
+                - paragraph [ref=e140]:
+                  - text: A mail exchanger record (MX record) defines the mail server used to process emails for a domain.
+                  - text: Additional details can be found
+                  - link "here (external link)" [ref=e141] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/MX_record
+                  - text: .
+              - text:  
+              - generic [ref=e145]:
+                - generic [ref=e146]: Priority / Server
+                - text:  
+                - generic [ref=e147]:
+                  - textbox [ref=e149]: "1"
+                  - textbox [ref=e151]: SMTP.GOOGLE.COM
+          - group [ref=e154]:
+            - generic [ref=e155] [cursor=pointer]:  TXT
+            - generic [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - generic [ref=e161]: TXT-Record
+                    - textbox [ref=e162]: WhALLK1DFjPPiQR5AYCT/ossdJi9zYq48KW1IkaK47o=
+                  - generic [ref=e163]:
+                    - link " Clear Record" [ref=e164] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e165]: 
+                      - text: Clear Record
+                    - link " Remove TXT record" [ref=e166] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e167]: 
+                      - text: Remove TXT record
+                    - link " Add another TXT record" [ref=e168] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e169]: 
+                      - text: Add another TXT record
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - generic [ref=e172]: TXT-Record
+                    - textbox [ref=e173]: v=spf1 a mx include:_spf.mlsend.com ?all
+                  - generic [ref=e174]:
+                    - link " Clear Record" [ref=e175] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e176]: 
+                      - text: Clear Record
+                    - link " Remove TXT record" [ref=e177] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e178]: 
+                      - text: Remove TXT record
+                    - link " Add another TXT record" [ref=e179] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e180]: 
+                      - text: Add another TXT record
+                - generic [ref=e181]:
+                  - generic [ref=e182]:
+                    - generic [ref=e183]: TXT-Record
+                    - textbox [ref=e184]: google-site-verification=JszGdoW5OLLbeyEXr4Ysf3UEp5Az82x8-BOO0clY_ms
+                  - generic [ref=e185]:
+                    - link " Clear Record" [ref=e186] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e187]: 
+                      - text: Clear Record
+                    - link " Remove TXT record" [ref=e188] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e189]: 
+                      - text: Remove TXT record
+                    - link " Add another TXT record" [ref=e190] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e191]: 
+                      - text: Add another TXT record
+              - paragraph [ref=e194]:
+                - text: With a TXT Resource Record a free definable text can be deposited in a DNS Zone. It’s often used for SPF records or DomainKeys.
+                - text: Please find additional details
+                - link "here (external link)" [ref=e195] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/TXT_record
+                - text: .
+          - group [ref=e197]:
+            - generic [ref=e198] [cursor=pointer]:  SRV
+            - text:   
+          - group [ref=e200]:
+            - generic [ref=e201] [cursor=pointer]:  NAPTR
+            - text:   
+          - group [ref=e203]:
+            - generic [ref=e204] [cursor=pointer]:  CAA
+            - text:   
+          - group [ref=e206]:
+            - generic [ref=e207] [cursor=pointer]:  TLSA
+            - text:   
+          - group [ref=e209]:
+            - generic [ref=e210] [cursor=pointer]:  SMIMEA
+            - text:  
+          - group [ref=e212]:
+            - generic [ref=e213] [cursor=pointer]:  SSHFP
+            - text:  
+          - group [ref=e215]:
+            - generic [ref=e216] [cursor=pointer]:  TTL
+            - text: 
+        - button "Save" [ref=e218] [cursor=pointer]

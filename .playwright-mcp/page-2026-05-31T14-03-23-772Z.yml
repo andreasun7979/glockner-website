@@ -1,0 +1,358 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Hauptmenü" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - link "Google Search Console" [ref=e12] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Alunatre.com
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - search [ref=e16]:
+          - generic [ref=e22]:
+            - textbox [disabled] [ref=e23]: Jede URL in "lunatre.com" prüfen
+            - combobox "Jede URL unter lunatre.com prüfen" [ref=e24]
+          - button "Suche" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - button "Hilfe" [ref=e33] [cursor=pointer]:
+              - generic [ref=e36]: 
+            - button "Nutzereinstellungen" [ref=e38] [cursor=pointer]:
+              - img [ref=e41]
+          - 'button "Ungelesene Nachrichten: 14" [ref=e45] [cursor=pointer]':
+            - generic [ref=e47]:
+              - generic [ref=e48]: 
+              - generic [ref=e50]: "14"
+      - generic [ref=e52]:
+        - button "Google-Apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - 'button "Google-Konto: Andreas Unterkofler (a.unterkofler@glocknerdigital.at)" [ref=e62] [cursor=pointer]':
+          - img [ref=e64]
+  - dialog "navigational drawer" [ref=e68]:
+    - navigation "Primär" [ref=e71]:
+      - button "Property suchen" [expanded] [ref=e75] [cursor=pointer]:
+        - generic [ref=e83]:
+          - combobox "lunatre.com" [expanded] [active] [ref=e84]:
+            - listbox [ref=e626]:
+              - generic [ref=e627]:
+                - option "sc-domain:lunatre.at" [ref=e628]:
+                  - generic [ref=e630]:
+                    - img "favicon" [ref=e631]
+                    - generic [ref=e632]:
+                      - text: lunatre.at
+                      - generic [ref=e633]: Domain-Property
+                - option "sc-domain:lunatre.ch" [ref=e634]:
+                  - generic [ref=e636]:
+                    - img "favicon" [ref=e637]
+                    - generic [ref=e638]:
+                      - text: lunatre.ch
+                      - generic [ref=e639]: Domain-Property
+                - option "sc-domain:lunatre.com" [selected] [ref=e640]:
+                  - generic [ref=e642]:
+                    - img "favicon" [ref=e643]
+                    - generic [ref=e644]:
+                      - text: lunatre.com
+                      - generic [ref=e645]: Domain-Property
+                - option "sc-domain:lunatre.de" [ref=e646]:
+                  - generic [ref=e648]:
+                    - img "favicon" [ref=e649]
+                    - generic [ref=e650]:
+                      - text: lunatre.de
+                      - generic [ref=e651]: Domain-Property
+              - generic [ref=e652]:
+                - separator [ref=e654]
+                - option "Property hinzufügen" [ref=e655]:
+                  - generic [ref=e657]:
+                    - generic [ref=e658]: 
+                    - generic [ref=e660]: Property hinzufügen
+          - generic: Property suchen
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - link "Übersicht" [ref=e90] [cursor=pointer]:
+              - /url: ./search-console?resource_id=sc-domain%3Alunatre.com
+              - generic [ref=e92]: home
+              - generic [ref=e94]: Übersicht
+            - link "Statistiken" [ref=e97] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Alunatre.com
+              - generic [ref=e99]: lightbulb_2
+              - generic [ref=e101]: Statistiken
+            - link "Leistung" [ref=e104] [cursor=pointer]:
+              - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Alunatre.com
+              - generic [ref=e106]: trending_up
+              - generic [ref=e108]: Leistung
+            - button "URL-Prüfung" [ref=e111] [cursor=pointer]:
+              - generic [ref=e113]: search
+              - generic [ref=e115]: URL-Prüfung
+          - generic [ref=e119]:
+            - button "Berichtsbereich „Indexierung“" [expanded] [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]:
+                - generic [ref=e124]: Indexierung
+                - img [ref=e128]
+            - generic [ref=e133]:
+              - link "Seiten" [ref=e135] [cursor=pointer]:
+                - /url: ./search-console/index?resource_id=sc-domain%3Alunatre.com
+                - generic [ref=e137]: file_copy
+                - generic [ref=e139]: Seiten
+              - link "Videos" [ref=e142] [cursor=pointer]:
+                - /url: ./search-console/video-index?resource_id=sc-domain%3Alunatre.com
+                - generic [ref=e144]: video_library
+                - generic [ref=e146]: Videos
+              - link "Sitemaps" [ref=e149] [cursor=pointer]:
+                - /url: ./search-console/sitemaps?resource_id=sc-domain%3Alunatre.com
+                - generic [ref=e151]: account_tree
+                - generic [ref=e153]: Sitemaps
+              - link "Entfernen" [ref=e156] [cursor=pointer]:
+                - /url: ./search-console/removals?resource_id=sc-domain%3Alunatre.com
+                - generic [ref=e158]: visibility_off
+                - generic [ref=e160]: Entfernen
+          - generic [ref=e164]:
+            - button "Berichtsbereich „Nutzerfreundlichkeit“" [expanded] [ref=e165] [cursor=pointer]:
+              - generic [ref=e166]:
+                - generic [ref=e169]: Nutzerfreundlichkeit
+                - img [ref=e173]
+            - generic [ref=e178]:
+              - link "Core Web Vitals" [ref=e180] [cursor=pointer]:
+                - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Alunatre.com
+                - generic [ref=e182]: speed
+                - generic [ref=e184]: Core Web Vitals
+              - link "HTTPS" [ref=e187] [cursor=pointer]:
+                - /url: ./search-console/https?resource_id=sc-domain%3Alunatre.com
+                - generic [ref=e189]: lock
+                - generic [ref=e191]: HTTPS
+          - generic [ref=e195]:
+            - button "Berichtsbereich „Shopping“" [expanded] [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]:
+                - generic [ref=e200]: Shopping
+                - img [ref=e204]
+            - generic [ref=e209]:
+              - link "Produkt-Snippets" [ref=e211] [cursor=pointer]:
+                - /url: ./search-console/r/product?resource_id=sc-domain%3Alunatre.com
+                - generic [ref=e213]: layers
+                - generic [ref=e215]: Produkt-Snippets
+              - link "Händlereinträge" [ref=e218] [cursor=pointer]:
+                - /url: ./search-console/r/merchant-listings?resource_id=sc-domain%3Alunatre.com
+                - generic [ref=e220]: layers
+                - generic [ref=e222]: Händlereinträge
+              - link "Händlermöglichkeiten" [ref=e225] [cursor=pointer]:
+                - /url: ./search-console/merchant-opportunities?resource_id=sc-domain:lunatre.com
+                - generic [ref=e227]: shoppingmode
+                - generic [ref=e229]: Händlermöglichkeiten
+          - button "Berichtsbereich „Sicherheit & manuelle Maßnahmen“" [ref=e234] [cursor=pointer]:
+            - generic [ref=e235]:
+              - generic [ref=e238]: Sicherheit & manuelle Maßnahmen
+              - img [ref=e242]
+          - generic [ref=e244]:
+            - link "Bericht „Links“" [ref=e246] [cursor=pointer]:
+              - /url: ./search-console/links?resource_id=sc-domain%3Alunatre.com
+              - generic [ref=e248]: link_2
+              - generic [ref=e250]: Links
+            - link "Erfolge" [ref=e253] [cursor=pointer]:
+              - /url: ./search-console/achievements?resource_id=sc-domain%3Alunatre.com
+              - generic [ref=e255]: trophy
+              - generic [ref=e257]: Erfolge
+            - link "Einstellungen" [ref=e260] [cursor=pointer]:
+              - /url: ./search-console/settings?resource_id=sc-domain%3Alunatre.com
+              - generic [ref=e262]: settings
+              - generic [ref=e264]: Einstellungen
+        - generic [ref=e266]:
+          - generic [ref=e268]:
+            - button "Feedback geben" [ref=e270] [cursor=pointer]:
+              - generic [ref=e272]: feedback
+              - generic [ref=e274]: Feedback geben
+            - button "Informationen zur Search Console" [ref=e277] [cursor=pointer]:
+              - generic [ref=e279]: info
+              - generic [ref=e281]: Informationen zur Search Console
+          - generic [ref=e285]:
+            - link "Datenschutz" [ref=e286] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=de
+            - link "Nutzungsbedingungen" [ref=e287] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=de
+  - generic [ref=e289]:
+    - navigation "Navigationspfade" [ref=e294]:
+      - heading "Übersicht" [level=1] [ref=e297]
+    - main [ref=e301]:
+      - generic [ref=e302]:
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]: lightbulb_outline
+            - generic [ref=e310]: Informationen zur Suchleistung deiner Website
+          - generic [ref=e313]:
+            - generic [ref=e315]: chevron_right
+            - generic [ref=e316]: Statistiken ansehen
+            - link "Statistiken ansehen" [ref=e317] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Alunatre.com
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - generic [ref=e321]: Leistung
+            - generic [ref=e324]:
+              - generic [ref=e326]: chevron_right
+              - generic [ref=e327]: Vollständiger Bericht
+              - link "Vollständiger Bericht" [ref=e328] [cursor=pointer]:
+                - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Alunatre.com
+          - generic [ref=e331]:
+            - generic [ref=e336]: 21 Klicks aus der Websuche insgesamt
+            - img [ref=e340]:
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - generic [ref=e344]: 01.03.26
+                  - generic [ref=e346]: 12.03.26
+                  - generic [ref=e348]: 23.03.26
+                  - generic [ref=e350]: 03.04.26
+                  - generic [ref=e352]: 14.04.26
+                  - generic [ref=e354]: 25.04.26
+                  - generic [ref=e356]: 06.05.26
+                  - generic [ref=e358]: 17.05.26
+                  - generic [ref=e360]: 28.05.26
+                - generic [ref=e361]:
+                  - generic [ref=e363]: "3"
+                  - generic [ref=e365]: "2"
+                  - generic [ref=e367]: "1"
+                  - generic [ref=e369]: "0"
+        - generic [ref=e378]:
+          - generic [ref=e380]: Indexierung
+          - generic [ref=e381]:
+            - generic [ref=e382]:
+              - img [ref=e384]
+              - text: Seiten
+              - generic [ref=e395]:
+                - generic [ref=e397]: chevron_right
+                - generic [ref=e398]: Vollständiger Bericht
+                - link "Vollständiger Bericht" [ref=e399] [cursor=pointer]:
+                  - /url: ./search-console/index?resource_id=sc-domain%3Alunatre.com
+            - generic [ref=e401]:
+              - generic [ref=e403]:
+                - generic [ref=e406]: 764 nicht indexierte Seiten
+                - generic [ref=e409]: 36 indexierte Seiten
+              - img [ref=e413]:
+                - generic [ref=e414]:
+                  - generic [ref=e415]:
+                    - generic [ref=e417]: 02.03.26
+                    - generic [ref=e419]: 13.03.26
+                    - generic [ref=e421]: 24.03.26
+                    - generic [ref=e423]: 04.04.26
+                    - generic [ref=e425]: 15.04.26
+                    - generic [ref=e427]: 26.04.26
+                    - generic [ref=e429]: 07.05.26
+                    - generic [ref=e431]: 18.05.26
+                  - generic [ref=e432]:
+                    - generic [ref=e434]: "1.500"
+                    - generic [ref=e436]: "1.000"
+                    - generic [ref=e438]: "500"
+                    - generic [ref=e440]: "0"
+            - link "Bericht zur Videoindexierung öffnen." [ref=e464] [cursor=pointer]:
+              - /url: ./search-console/video-index?resource_id=sc-domain%3Alunatre.com
+              - generic [ref=e466]:
+                - img [ref=e469]
+                - generic [ref=e472]: Videos
+                - generic [ref=e473]:
+                  - generic [ref=e474]: 2 ohne indexierte Videos
+                  - generic [ref=e475]: 0 mit indexierten Videos
+                  - img [ref=e477]
+                  - img [ref=e479]
+        - generic [ref=e482]:
+          - generic [ref=e484]: Nutzerfreundlichkeit
+          - table [ref=e488]:
+            - rowgroup [ref=e489]:
+              - row "Typ Gut Optimierung erforderlich Langsam Trend" [ref=e490]:
+                - columnheader "Typ" [ref=e491]
+                - columnheader [ref=e492]
+                - columnheader "Gut" [ref=e493]
+                - columnheader "Optimierung erforderlich" [ref=e494]
+                - columnheader "Langsam" [ref=e495]
+                - columnheader "Trend" [ref=e496]
+                - columnheader [ref=e497]
+            - rowgroup [ref=e498]:
+              - row "Core Web Vitals Mobil Computer Keine Daten Keine Daten Keine Daten Keine Daten Keine Daten Keine Daten" [ref=e499]:
+                - cell "Core Web Vitals" [ref=e500]:
+                  - generic [ref=e502]: Core Web Vitals
+                - cell "Mobil Computer" [ref=e503]:
+                  - generic [ref=e505]:
+                    - generic [ref=e506]: Mobil
+                    - generic [ref=e507]: Computer
+                - cell "Keine Daten Keine Daten" [ref=e508]:
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: Keine Daten
+                    - generic [ref=e511]: Keine Daten
+                - cell "Keine Daten Keine Daten" [ref=e512]:
+                  - generic [ref=e513]:
+                    - generic [ref=e514]: Keine Daten
+                    - generic [ref=e515]: Keine Daten
+                - cell "Keine Daten Keine Daten" [ref=e516]:
+                  - generic [ref=e517]:
+                    - generic [ref=e518]: Keine Daten
+                    - generic [ref=e519]: Keine Daten
+                - cell [ref=e520]
+              - row "HTTPS Nicht-HTTPS" [ref=e521]:
+                - columnheader [ref=e522]
+                - columnheader [ref=e523]
+                - columnheader "HTTPS" [ref=e524]
+                - columnheader [ref=e525]
+                - columnheader "Nicht-HTTPS" [ref=e526]
+                - columnheader [ref=e527]
+                - columnheader [ref=e528]
+              - row "HTTPS 0 0 Bericht öffnen" [ref=e529]:
+                - cell "HTTPS" [ref=e530]:
+                  - generic [ref=e532]: HTTPS
+                - cell [ref=e533]
+                - cell "0" [ref=e534]:
+                  - generic [ref=e536]: "0"
+                - cell [ref=e537]
+                - cell "0" [ref=e538]:
+                  - generic [ref=e540]: "0"
+                - cell [ref=e541]:
+                  - img [ref=e544]
+                - cell "Bericht öffnen" [ref=e546]:
+                  - button "Bericht öffnen" [ref=e549] [cursor=pointer]:
+                    - generic [ref=e550]: chevron_right
+        - generic [ref=e552]:
+          - generic [ref=e554]: Shopping
+          - table [ref=e558]:
+            - rowgroup [ref=e559]:
+              - row "Typ Gültig Ungültig Trend" [ref=e560]:
+                - columnheader "Typ" [ref=e561]
+                - columnheader "Gültig" [ref=e562]
+                - columnheader "Ungültig" [ref=e563]
+                - columnheader "Trend" [ref=e564]
+                - columnheader [ref=e565]
+            - rowgroup [ref=e566]:
+              - row "Produkt-Snippets 0 0 Bericht öffnen" [ref=e567]:
+                - cell "Produkt-Snippets" [ref=e568]:
+                  - generic [ref=e570]: Produkt-Snippets
+                - cell "0" [ref=e571]:
+                  - generic [ref=e573]: "0"
+                - cell "0" [ref=e574]:
+                  - generic [ref=e576]: "0"
+                - cell [ref=e577]:
+                  - img [ref=e580]
+                - cell "Bericht öffnen" [ref=e582]:
+                  - button "Bericht öffnen" [ref=e585] [cursor=pointer]:
+                    - generic [ref=e586]: chevron_right
+              - row "Händlereinträge 0 0 Bericht öffnen" [ref=e587]:
+                - cell "Händlereinträge" [ref=e588]:
+                  - generic [ref=e590]: Händlereinträge
+                - cell "0" [ref=e591]:
+                  - generic [ref=e593]: "0"
+                - cell "0" [ref=e594]:
+                  - generic [ref=e596]: "0"
+                - cell [ref=e597]:
+                  - img [ref=e600]
+                - cell "Bericht öffnen" [ref=e602]:
+                  - button "Bericht öffnen" [ref=e605] [cursor=pointer]:
+                    - generic [ref=e606]: chevron_right
+        - generic [ref=e608]:
+          - generic [ref=e610]: Verbesserungen
+          - generic [ref=e611]:
+            - table [ref=e614]:
+              - rowgroup [ref=e615]:
+                - row "Typ Gültig Ungültig Trend" [ref=e616]:
+                  - columnheader "Typ" [ref=e617]
+                  - columnheader "Gültig" [ref=e618]
+                  - columnheader "Ungültig" [ref=e619]
+                  - columnheader "Trend" [ref=e620]
+                  - columnheader [ref=e621]
+            - generic [ref=e623]:
+              - text: Noch keine Verbesserungen.
+              - link "Weitere Informationen" [ref=e624] [cursor=pointer]:
+                - /url: https://developers.google.com/search/docs/guides/search-gallery

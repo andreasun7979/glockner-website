@@ -1,0 +1,197 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - article [ref=e11]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: Rechtliches
+          - heading "Datenschutz." [level=1] [ref=e16]
+          - paragraph [ref=e18]: "Stand: Mai 2026"
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - heading "1. Einleitung & Verantwortlicher" [level=2] [ref=e21]
+            - generic [ref=e22]:
+              - paragraph [ref=e23]: Mit diesen Datenschutzhinweisen informieren wir Sie darüber, welche personenbezogenen Daten wir bei einem Besuch unserer Website, einer Kontaktaufnahme oder einer Buchung verarbeiten, auf welcher Rechtsgrundlage dies geschieht und welche Rechte Ihnen daraus zustehen.
+              - paragraph [ref=e24]: "Verantwortlicher i.S.d. DSGVO:"
+              - paragraph [ref=e25]:
+                - text: Glockner Digital — eCommerce Consulting
+                - text: Mag. Andreas Unterkofler
+                - text: Blumauergasse 23/12
+                - text: 1020 Wien
+                - text: Österreich
+              - paragraph [ref=e26]:
+                - text: "E-Mail:"
+                - link "support@glocknerdigital.at" [ref=e27] [cursor=pointer]:
+                  - /url: mailto:support@glocknerdigital.at
+                - text: "Telefon:"
+                - link "+43 650 660 5000" [ref=e28] [cursor=pointer]:
+                  - /url: tel:+436506605000
+          - generic [ref=e29]:
+            - heading "2. Datenerfassung beim Besuch dieser Website" [level=2] [ref=e30]
+            - generic [ref=e31]:
+              - paragraph [ref=e32]: "Beim rein informatorischen Aufruf unserer Website erheben wir technisch notwendige Server-Logfile-Daten, die Ihr Browser automatisch übermittelt:"
+              - list [ref=e33]:
+                - listitem [ref=e34]: aufgerufene Seite
+                - listitem [ref=e35]: Datum und Uhrzeit des Zugriffs
+                - listitem [ref=e36]: übertragene Datenmenge
+                - listitem [ref=e37]: Referrer
+                - listitem [ref=e38]: Browser-Typ und -Version
+                - listitem [ref=e39]: Betriebssystem
+                - listitem [ref=e40]: IP-Adresse (gekürzt)
+              - paragraph [ref=e41]: "Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Stabilität und Sicherheit der Website). Die Daten werden nach maximal 30 Tagen gelöscht, sofern keine sicherheitsrelevanten Ereignisse eine längere Speicherung erfordern."
+              - paragraph [ref=e42]:
+                - text: Die Übertragung erfolgt verschlüsselt (TLS), erkennbar an
+                - code [ref=e43]: https://
+                - text: in der Adresszeile.
+          - generic [ref=e44]:
+            - heading "3. Hosting (Vercel)" [level=2] [ref=e45]
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: "Unsere Website wird bei Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA gehostet. Vercel verarbeitet in unserem Auftrag die unter Punkt 2 genannten technischen Daten. Es besteht ein Auftragsverarbeitungsvertrag (Data Processing Agreement) gemäß Art. 28 DSGVO. Vercel ist nach dem EU-US Data Privacy Framework zertifiziert."
+              - paragraph [ref=e48]: "Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer leistungsfähigen, sicheren Bereitstellung der Website)."
+          - generic [ref=e49]:
+            - heading "4. Kontaktaufnahme & Lead-Erfassung" [level=2] [ref=e50]
+            - generic [ref=e51]:
+              - paragraph [ref=e52]: Über das Kontaktformular und das Buchungs-Widget für ein kostenloses Klarheitsgespräch verarbeiten wir die von Ihnen eingegebenen Daten (Name, E-Mail-Adresse, optional Telefon, Nachricht/Anliegen, gewünschter Termin) zum Zweck der Anfragebearbeitung und Terminbestätigung.
+              - paragraph [ref=e53]: "Lead-Speicherung: Die übermittelten Daten werden in unserer Lead-Datenbank bei der Supabase Inc., 970 Toa Payoh North #07-04, Singapore 318992, gespeichert. Es besteht ein Auftragsverarbeitungsvertrag. Speicherung der Server-Region: EU (Frankfurt)."
+              - paragraph [ref=e54]: "Transaktions-E-Mail: Bestätigungen und interne Benachrichtigungen versenden wir über Resend, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA. Es besteht ein Auftragsverarbeitungsvertrag; der Anbieter ist EU-US-DPF-zertifiziert."
+              - paragraph [ref=e55]: "Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage) sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer effizienten Bearbeitung Ihrer Anfrage)."
+              - paragraph [ref=e56]: "Speicherdauer: bis zum endgültigen Abschluss Ihrer Anfrage, längstens jedoch bis zum Ablauf gesetzlicher Aufbewahrungs- pflichten (in der Regel 7 Jahre nach BAO)."
+          - generic [ref=e57]:
+            - heading "5. Cookies" [level=2] [ref=e58]
+            - generic [ref=e59]:
+              - paragraph [ref=e60]: Diese Website setzt nur technisch notwendige Cookies ein (z. B. zur Sicherung der Session-Funktionalität). Marketing- oder Tracking- Cookies kommen nicht zum Einsatz. Es ist daher kein Cookie-Banner eingebunden.
+              - paragraph [ref=e61]: Sie können die Speicherung von Cookies jederzeit über die Einstellungen Ihres Browsers verhindern. In diesem Fall können einzelne Funktionen der Website eingeschränkt sein.
+              - paragraph [ref=e62]: "Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO bzw. § 165 Abs. 3 TKG 2021 (technisch notwendige Speicherung)."
+          - generic [ref=e63]:
+            - heading "6. Content-Management (Sanity)" [level=2] [ref=e64]
+            - paragraph [ref=e66]: Die redaktionellen Inhalte dieser Website werden mit Sanity (Sanity.io, c/o Sanity AS, Henrik Ibsens gate 100, 0255 Oslo, Norwegen) verwaltet. Sanity verarbeitet beim normalen Besuch unserer Website keine personenbezogenen Daten von Ihnen — die Inhalte werden serverseitig in unsere Website integriert ausgeliefert.
+          - generic [ref=e67]:
+            - heading "7. Empfänger / Weitergabe an Dritte" [level=2] [ref=e68]
+            - paragraph [ref=e70]: Eine Weitergabe Ihrer personenbezogenen Daten erfolgt ausschließlich an die unter Punkt 3 und 4 genannten Auftragsverarbeiter (Vercel, Supabase, Resend) sowie an Behörden, soweit wir dazu gesetzlich verpflichtet sind. Ein Verkauf Ihrer Daten findet nicht statt.
+          - generic [ref=e71]:
+            - heading "8. Übermittlung in Drittländer" [level=2] [ref=e72]
+            - paragraph [ref=e74]: Soweit Daten in Länder außerhalb des EWR übermittelt werden (USA), geschieht dies auf Basis von Angemessenheitsbeschlüssen der Europäischen Kommission (EU-US Data Privacy Framework) bzw. auf Basis von Standardvertragsklauseln nach Art. 46 Abs. 2 lit. c DSGVO.
+          - generic [ref=e75]:
+            - heading "9. Ihre Rechte als betroffene Person" [level=2] [ref=e76]
+            - generic [ref=e77]:
+              - paragraph [ref=e78]: "Ihnen stehen folgende Rechte zu:"
+              - list [ref=e79]:
+                - listitem [ref=e80]: Auskunft (Art. 15 DSGVO)
+                - listitem [ref=e81]: Berichtigung (Art. 16 DSGVO)
+                - listitem [ref=e82]: Löschung (Art. 17 DSGVO)
+                - listitem [ref=e83]: Einschränkung der Verarbeitung (Art. 18 DSGVO)
+                - listitem [ref=e84]: Datenübertragbarkeit (Art. 20 DSGVO)
+                - listitem [ref=e85]: Widerruf erteilter Einwilligungen (Art. 7 Abs. 3 DSGVO)
+                - listitem [ref=e86]: Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO)
+                - listitem [ref=e87]:
+                  - text: "Beschwerde bei einer Aufsichtsbehörde (Art. 77 DSGVO) — in Österreich: Österreichische Datenschutzbehörde, Barichgasse 40 – 42, 1030 Wien,"
+                  - link "www.dsb.gv.at" [ref=e88] [cursor=pointer]:
+                    - /url: https://www.dsb.gv.at
+              - paragraph [ref=e89]:
+                - text: Zur Ausübung Ihrer Rechte wenden Sie sich bitte formlos per E-Mail an
+                - link "support@glocknerdigital.at" [ref=e90] [cursor=pointer]:
+                  - /url: mailto:support@glocknerdigital.at
+                - text: .
+          - generic [ref=e91]:
+            - heading "10. Speicherdauer" [level=2] [ref=e92]
+            - paragraph [ref=e94]: "Wir speichern personenbezogene Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist bzw. eine gesetzliche Aufbewahrungsfrist (z. B. § 132 BAO: 7 Jahre für steuerlich relevante Unterlagen) besteht. Danach werden die Daten gelöscht oder anonymisiert."
+          - generic [ref=e95]:
+            - heading "11. Änderungen dieser Datenschutzerklärung" [level=2] [ref=e96]
+            - paragraph [ref=e98]: Wir behalten uns vor, diese Datenschutzerklärung anzupassen, wenn sich die Rechtslage, unsere Dienste oder die Datenverarbeitung ändern. Die jeweils aktuelle Fassung finden Sie auf dieser Seite.
+  - contentinfo [ref=e99]:
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e105]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e106]: direkt
+          - text: .
+        - paragraph [ref=e107]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e108]:
+        - complementary [ref=e109]:
+          - generic [ref=e111]: Direkter Draht
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e115] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e116]:
+              - generic [ref=e117]: Telefon
+              - link "+43 650 660 5000" [ref=e118] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e119]:
+              - generic [ref=e120]: Standorte
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]: Wien
+                  - generic [ref=e124]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e125]:
+                  - generic [ref=e126]: Klagenfurt
+                  - generic [ref=e127]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e129]:
+          - generic [ref=e131]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e132]
+          - generic [ref=e133]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: Name*
+              - textbox "Name*" [ref=e138]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e139]:
+              - generic [ref=e140]: E-Mail*
+              - textbox "E-Mail*" [ref=e141]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e143]:
+            - generic [ref=e144]: Nachricht*
+            - textbox "Nachricht*" [ref=e145]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e146]:
+            - paragraph [ref=e147]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e148]:
+              - generic [ref=e149]: Nachricht senden
+              - img [ref=e150]
+    - generic [ref=e154]:
+      - generic [ref=e155]:
+        - link "Glockner.ai — Startseite" [ref=e156] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e157]
+        - paragraph [ref=e158]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e159]:
+        - heading "Glockner AI" [level=3] [ref=e160]
+        - generic [ref=e161]:
+          - link "Money Making AI" [ref=e162] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "KI-Beratung" [ref=e163] [cursor=pointer]:
+            - /url: /leistungen-lux3#schulungen
+      - generic [ref=e164]:
+        - heading "Glockner Digital" [level=3] [ref=e165]
+        - generic [ref=e166]:
+          - link "E-Commerce" [ref=e167] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e168] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e169] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e171]:
+      - paragraph [ref=e172]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e173]:
+        - link "Impressum" [ref=e174] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e175] [cursor=pointer]:
+          - /url: /datenschutz
+  - alert [ref=e176]

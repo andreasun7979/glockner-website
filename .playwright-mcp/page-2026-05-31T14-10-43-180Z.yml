@@ -1,0 +1,188 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e331] [cursor=pointer]:
+          - img [ref=e8]
+        - link [ref=e332] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Aglockner.ai
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - search [ref=e16]:
+          - generic [ref=e22]:
+            - textbox [disabled] [ref=e23]: Jede URL in "glockner.ai" prüfen
+            - combobox [ref=e333]
+          - button [ref=e334] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - button [ref=e335] [cursor=pointer]:
+              - generic [ref=e36]: 
+            - button [ref=e336] [cursor=pointer]:
+              - img [ref=e41]
+          - button [ref=e337] [cursor=pointer]:
+            - generic [ref=e47]:
+              - generic [ref=e48]: 
+              - generic [ref=e50]: "1"
+      - generic [ref=e52]:
+        - button [ref=e338] [cursor=pointer]:
+          - img [ref=e57]
+        - button [ref=e339] [cursor=pointer]:
+          - img [ref=e64]
+  - dialog [ref=e340]:
+    - navigation [ref=e341]:
+      - button [ref=e342] [cursor=pointer]:
+        - img [ref=e343]
+        - combobox [ref=e344]: glockner.ai
+        - generic [ref=e85]: 
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - link [ref=e345] [cursor=pointer]:
+              - /url: ./search-console?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e92]: home
+              - generic [ref=e94]: Übersicht
+            - link [ref=e346] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e99]: lightbulb_2
+              - generic [ref=e101]: Statistiken
+            - link [ref=e347] [cursor=pointer]:
+              - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e106]: trending_up
+              - generic [ref=e108]: Leistung
+            - button [ref=e348] [cursor=pointer]:
+              - generic [ref=e113]: search
+              - generic [ref=e115]: URL-Prüfung
+          - generic [ref=e119]:
+            - button [expanded] [ref=e349] [cursor=pointer]:
+              - generic [ref=e121]:
+                - generic [ref=e124]: Indexierung
+                - img [ref=e128]
+            - generic [ref=e133]:
+              - link [ref=e350] [cursor=pointer]:
+                - /url: ./search-console/index?resource_id=sc-domain%3Aglockner.ai
+                - generic [ref=e137]: file_copy
+                - generic [ref=e139]: Seiten
+              - link [ref=e351] [cursor=pointer]:
+                - /url: ./search-console/sitemaps?resource_id=sc-domain%3Aglockner.ai
+                - generic [ref=e144]: account_tree
+                - generic [ref=e146]: Sitemaps
+              - link [ref=e352] [cursor=pointer]:
+                - /url: ./search-console/removals?resource_id=sc-domain%3Aglockner.ai
+                - generic [ref=e151]: visibility_off
+                - generic [ref=e153]: Entfernen
+          - generic [ref=e157]:
+            - button [expanded] [ref=e353] [cursor=pointer]:
+              - generic [ref=e159]:
+                - generic [ref=e162]: Nutzerfreundlichkeit
+                - img [ref=e166]
+            - link [ref=e354] [cursor=pointer]:
+              - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e175]: speed
+              - generic [ref=e177]: Core Web Vitals
+          - button [ref=e355] [cursor=pointer]:
+            - generic [ref=e183]:
+              - generic [ref=e186]: Sicherheit & manuelle Maßnahmen
+              - img [ref=e190]
+          - generic [ref=e192]:
+            - link [ref=e356] [cursor=pointer]:
+              - /url: ./search-console/links?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e196]: link_2
+              - generic [ref=e198]: Links
+            - link [ref=e357] [cursor=pointer]:
+              - /url: ./search-console/achievements?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e203]: trophy
+              - generic [ref=e205]: Erfolge
+            - link [ref=e358] [cursor=pointer]:
+              - /url: ./search-console/settings?resource_id=sc-domain%3Aglockner.ai
+              - generic [ref=e210]: settings
+              - generic [ref=e212]: Einstellungen
+        - generic [ref=e214]:
+          - generic [ref=e216]:
+            - button [ref=e359] [cursor=pointer]:
+              - generic [ref=e220]: feedback
+              - generic [ref=e222]: Feedback geben
+            - button [ref=e360] [cursor=pointer]:
+              - generic [ref=e227]: info
+              - generic [ref=e229]: Informationen zur Search Console
+          - generic [ref=e233]:
+            - link [ref=e361] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=de
+              - text: Datenschutz
+            - link [ref=e362] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=de
+              - text: Nutzungsbedingungen
+  - generic [ref=e237]:
+    - navigation [ref=e363]:
+      - heading [level=1] [ref=e364]: Sitemaps
+    - main [ref=e249]:
+      - generic [ref=e252]:
+        - generic [ref=e253]: Neue Sitemap hinzufügen
+        - generic [ref=e254]:
+          - textbox [ref=e365]: https://glockner.ai/sitemap.xml
+          - button [active] [ref=e366] [cursor=pointer]:
+            - generic [ref=e267]: Senden
+      - generic [ref=e370]:
+        - generic [ref=e371]:
+          - heading [level=1] [ref=e372]:
+            - generic [ref=e373]: Eingereichte Sitemaps
+          - button [ref=e376] [cursor=pointer]:
+            - generic [ref=e379]: 
+        - table [ref=e381]:
+          - rowgroup [ref=e382]:
+            - row [ref=e383]:
+              - columnheader [ref=e384]:
+                - text: Sitemap
+                - img [ref=e386] [cursor=pointer]
+              - columnheader [ref=e388]:
+                - text: Typ
+                - img [ref=e390] [cursor=pointer]
+              - columnheader [ref=e392]:
+                - text: Eingereicht
+                - img [ref=e394] [cursor=pointer]
+              - columnheader [ref=e396]:
+                - text: Zuletzt gelesen
+                - img [ref=e398] [cursor=pointer]
+              - columnheader [ref=e400]:
+                - text: Status
+                - img [ref=e402] [cursor=pointer]
+              - columnheader [ref=e404]:
+                - img [ref=e406] [cursor=pointer]
+                - text: Erkannte Seiten
+              - columnheader [ref=e408]:
+                - img [ref=e410] [cursor=pointer]
+                - text: Erkannte Videos
+              - columnheader [ref=e412]
+          - rowgroup [ref=e413]:
+            - row [ref=e414] [cursor=pointer]:
+              - cell [ref=e415]: https://glockner.ai/sitemap.xml
+              - cell [ref=e416]: Unbekannt
+              - cell [ref=e417]: 31.05.2026
+              - cell [ref=e418]
+              - cell [ref=e419]:
+                - generic [ref=e420]: Konnte nicht abgerufen werden
+              - cell [ref=e421]: "0"
+              - cell [ref=e422]: "0"
+              - cell [ref=e423]:
+                - button [ref=e425]:
+                  - generic [ref=e428]: 
+        - generic [ref=e431]:
+          - generic [ref=e433]:
+            - generic [ref=e434]: "Zeilen pro Seite:"
+            - listbox [ref=e435] [cursor=pointer]:
+              - text: "5"
+              - option [selected] [ref=e436]: "10"
+              - text: 25 50 100 250 500
+          - generic [ref=e437]:
+            - generic [ref=e438]: 1 bis 1 von 1
+            - generic [ref=e439]:
+              - generic [ref=e441]: 
+              - generic [ref=e443]: 
+  - dialog "Sitemap wurde eingereicht" [ref=e445]:
+    - generic [ref=e446]:
+      - heading "Sitemap wurde eingereicht" [level=2] [ref=e447]:
+        - generic [ref=e448]: check_circle
+        - generic [ref=e449]: Sitemap wurde eingereicht
+      - generic [ref=e450]: Google verarbeitet die Sitemap in regelmäßigen Abständen und überprüft sie auf Änderungen. Du wirst benachrichtigt, wenn ein Problem auftreten sollte.
+    - button "Schließen" [ref=e453] [cursor=pointer]:
+      - generic [ref=e455]: Schließen

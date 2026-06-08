@@ -1,0 +1,33 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: glockner.ai · intern
+        - heading "QA-Board — glockner.ai" [level=1] [ref=e6]
+        - paragraph [ref=e8]: Findings aus dem QA-Audit (Desktop + Mobile). Status setzen, kommentieren, neue Punkte hinzufügen.
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - button "DE" [ref=e11] [cursor=pointer]
+          - generic [ref=e12]: "|"
+          - button "EN" [ref=e13] [cursor=pointer]
+          - generic [ref=e14]: "|"
+          - button "Light mode" [ref=e15] [cursor=pointer]: ☀
+        - generic [ref=e16]:
+          - text: Agent
+          - button "Abmelden" [ref=e17] [cursor=pointer]
+    - generic [ref=e19]:
+      - generic [ref=e20]: 0 von 0 erledigt
+      - generic [ref=e21]: 0%
+    - generic [ref=e23]:
+      - button "Alle" [ref=e24] [cursor=pointer]
+      - button "Offen" [ref=e25] [cursor=pointer]
+      - button "Frage" [ref=e26] [cursor=pointer]
+      - button "In Arbeit" [ref=e27] [cursor=pointer]
+      - button "Agent" [ref=e28] [cursor=pointer]
+      - button "Erledigt" [ref=e29] [cursor=pointer]
+      - generic [ref=e30]:
+        - button "+ Sektion" [ref=e31] [cursor=pointer]
+        - button "+ Neuen Punkt hinzufügen" [ref=e32] [cursor=pointer]
+    - paragraph [ref=e33]: …
+    - generic [ref=e34]: Intern — Granat Apotheke · Glockner AI
+  - alert [ref=e35]

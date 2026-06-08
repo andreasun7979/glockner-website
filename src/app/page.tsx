@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import FadeIn from "@/components/FadeIn";
 import { getHomepage } from "../../sanity/lib/queries";
+
+export const metadata: Metadata = {
+  // Titel + Description kommen aus dem Layout-Default (Homepage = Brand-Default).
+  alternates: { canonical: "/" },
+};
 
 type Item = { title: string; desc: string };
 type Benefit = Item & { icon: React.ReactNode };

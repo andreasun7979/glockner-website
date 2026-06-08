@@ -1,0 +1,2 @@
+[     516ms] [LOG] {isBandwidthLimitAbove90Percent: false, isBandwidthLimitReached: false, allowedFunnels: 5, basePlan: BUSINESS_DEC2018, storageLimitReached: false} @ https://static.web-repository.com/scripts/platform.min.js?v=1184:300
+[     546ms] [LOG] loading required scripts: success @ https://static.web-repository.com/scripts/platform.min.js?v=1184:300

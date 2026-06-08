@@ -1,0 +1,411 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /v2
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic:
+          - img
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - generic [ref=e23]: Preise
+          - heading "Transparente Preise. Drei Wege." [level=1] [ref=e24]:
+            - text: Transparente Preise.
+            - emphasis [ref=e25]: Drei Wege.
+          - paragraph [ref=e31]: Training, Service oder Produkt — Sie wählen, wie wir zusammenarbeiten.
+      - generic [ref=e34]:
+        - list [ref=e35]:
+          - listitem [ref=e36]:
+            - generic [ref=e39]: Weg I
+            - heading "Training." [level=2] [ref=e40]
+            - paragraph [ref=e41]: Wir bringen Ihnen das Angeln bei.
+            - paragraph [ref=e42]: AI-OS Setup, Claude Code & Agenten-System eingerichtet, plus Schulung — inkl. 3 Monate Begleitung (oder länger).
+            - generic [ref=e43]:
+              - generic [ref=e44]: ab € 1.500
+              - generic [ref=e45]: pro Monat · Setup extra
+            - link "Training ansehen" [ref=e46] [cursor=pointer]:
+              - /url: /training
+              - generic [ref=e47]: Training ansehen
+              - img [ref=e48]
+          - listitem [ref=e50]:
+            - generic [ref=e52]:
+              - generic [ref=e53]: Weg II
+              - generic [ref=e54]: Beliebteste Wahl
+            - heading "Service." [level=2] [ref=e55]
+            - paragraph [ref=e56]: Ihr KI-Team im Abo.
+            - paragraph [ref=e57]: Jeden Monat 1–2 neue Automatisierungen — gebaut, getestet, betreut und optimiert. Monatlich kündbar.
+            - generic [ref=e58]:
+              - generic [ref=e59]: € 2.500
+              - generic [ref=e60]: pro Monat
+            - link "Retainer ansehen" [ref=e61] [cursor=pointer]:
+              - /url: /retainer
+              - generic [ref=e62]: Retainer ansehen
+              - img [ref=e63]
+          - listitem [ref=e65]:
+            - generic [ref=e68]: Weg III
+            - heading "Produkt." [level=2] [ref=e69]
+            - paragraph [ref=e70]: Sie bekommen den fertigen Fisch.
+            - paragraph [ref=e71]: Maßgeschneiderte KI-Software & Apps — von Dashboards bis zur kompletten internen Anwendung. Custom Coding, fertig geliefert.
+            - generic [ref=e72]:
+              - generic [ref=e73]: Individuell
+              - generic [ref=e74]: Festpreis pro Projekt
+            - link "Produkt ansehen" [ref=e75] [cursor=pointer]:
+              - /url: /produkt
+              - generic [ref=e76]: Produkt ansehen
+              - img [ref=e77]
+        - paragraph [ref=e79]: Alle Preise zzgl. USt. Setup-, Strategie- & Umsetzungs-Anteile sind über die WKO förderfähig — wir prüfen das mit Ihnen.
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - img [ref=e85]
+          - generic [ref=e88]: Im Service-Retainer enthalten
+          - heading "Alles drin. Eine Pauschale." [level=2] [ref=e89]
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - heading "Glockner AI Retainer" [level=3] [ref=e95]
+              - paragraph [ref=e96]: Ihr KI-Team im Abo
+            - generic [ref=e97]: Monatlich kündbar
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - img [ref=e100]
+              - generic [ref=e102]:
+                - generic [ref=e103]: KI-Audit & Opportunity-Mapping
+                - generic [ref=e104]: Laufende Analyse, wo der nächste Hebel liegt
+              - generic [ref=e105]: € 2.500
+            - listitem [ref=e106]:
+              - img [ref=e107]
+              - generic [ref=e109]:
+                - generic [ref=e110]: 1–2 neue Automatisierungen / Agents pro Monat
+                - generic [ref=e111]: Gebaut, getestet, produktiv bei Ihnen im Einsatz
+              - generic [ref=e112]: € 6.000+
+            - listitem [ref=e113]:
+              - img [ref=e114]
+              - generic [ref=e116]:
+                - generic [ref=e117]: Laufendes Management & Monitoring
+                - generic [ref=e118]: Alles, was läuft, bleibt stabil und im Blick
+              - generic [ref=e119]: € 1.500
+            - listitem [ref=e120]:
+              - img [ref=e121]
+              - generic [ref=e123]:
+                - generic [ref=e124]: Kontinuierliche Optimierung
+                - generic [ref=e125]: Ihre Systeme werden Monat für Monat besser
+              - generic [ref=e126]: € 1.000
+            - listitem [ref=e127]:
+              - img [ref=e128]
+              - generic [ref=e130]:
+                - generic [ref=e131]: Direkter Draht zu Ihrem KI-Sparringspartner
+                - generic [ref=e132]: Fragen stellen, Ideen klären — jederzeit
+              - generic [ref=e133]: unbezahlbar
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136]: Gegenwert über
+              - generic [ref=e137]: € 11.000+ / Monat
+            - generic [ref=e138]:
+              - generic [ref=e139]: € 2.500
+              - generic [ref=e140]: / Monat
+            - paragraph [ref=e141]: zzgl. USt. · monatlich kündbar
+            - link "Platz sichern — Gespräch buchen" [ref=e142] [cursor=pointer]:
+              - /url: "#termin"
+              - generic [ref=e143]: Platz sichern — Gespräch buchen
+              - img [ref=e144]
+        - paragraph [ref=e146]:
+          - text: Lieber selbst bauen oder ein fertiges Produkt? Vergleichen Sie oben die drei Wege —
+          - link "Details zum Retainer" [ref=e147] [cursor=pointer]:
+            - /url: /retainer
+          - text: .
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]: Der ehrliche Vergleich
+          - heading "Rechnen Sie selbst nach." [level=2] [ref=e153]
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]: Eigener Mitarbeiter
+            - generic [ref=e157]: € 4.500+/ Monat
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - generic [ref=e161]: + Lohnnebenkosten
+              - listitem [ref=e162]:
+                - generic [ref=e164]: Einarbeitung nötig
+              - listitem [ref=e165]:
+                - generic [ref=e167]: Urlaub & Krankheit
+              - listitem [ref=e168]:
+                - generic [ref=e170]: Eine Person, ein Tempo
+          - generic [ref=e171]:
+            - generic [ref=e172]: Marketing-Agentur
+            - generic [ref=e173]: € 3.000–4.000/ Monat
+            - list [ref=e174]:
+              - listitem [ref=e175]:
+                - generic [ref=e177]: Oft nur Reporting
+              - listitem [ref=e178]:
+                - generic [ref=e180]: Wenig Automatisierung
+              - listitem [ref=e181]:
+                - generic [ref=e183]: Kein KI-Fokus
+              - listitem [ref=e184]:
+                - generic [ref=e186]: Lange Vertragsbindung
+          - generic [ref=e187]:
+            - generic [ref=e188]: KI-Einmalprojekt
+            - generic [ref=e189]: € 20–40kvorab
+            - list [ref=e190]:
+              - listitem [ref=e191]:
+                - generic [ref=e193]: Hohe Vorabsumme
+              - listitem [ref=e194]:
+                - generic [ref=e196]: Monate Wartezeit
+              - listitem [ref=e197]:
+                - generic [ref=e199]: Starre Lösung
+              - listitem [ref=e200]:
+                - generic [ref=e202]: Danach allein
+          - generic [ref=e203]:
+            - generic [ref=e205]: Beste Wahl
+            - generic [ref=e206]: Glockner AI Retainer
+            - generic [ref=e207]: € 2.500/ Monat
+            - list [ref=e208]:
+              - listitem [ref=e209]:
+                - generic [ref=e211]: 1–2 Systeme / Monat
+              - listitem [ref=e212]:
+                - generic [ref=e214]: Start in Tagen
+              - listitem [ref=e215]:
+                - generic [ref=e217]: Wächst & optimiert
+              - listitem [ref=e218]:
+                - generic [ref=e220]: Monatlich kündbar
+        - paragraph [ref=e221]: Sie zahlen vielleicht heute schon 3–4 Tsd. an eine Agentur. Für etwa dasselbe Budget bekommen Sie einen KI-Profi, der tatsächlich baut — Monat für Monat.
+      - generic [ref=e227]:
+        - img [ref=e232]
+        - generic [ref=e238]:
+          - generic [ref=e239]: Unser Versprechen
+          - heading "Das erste System beweist seinen Wert — bevor Sie sich binden." [level=2] [ref=e240]:
+            - text: Das erste System beweist seinen Wert —
+            - emphasis [ref=e241]: bevor Sie sich binden
+            - text: .
+          - paragraph [ref=e242]:
+            - text: Wir starten mit der einen Automatisierung, die sich für Sie sofort rechnet. Sie sehen das Ergebnis live. Überzeugt es nicht, sind Sie nicht gebunden — der Retainer ist
+            - emphasis [ref=e243]: monatlich kündbar
+            - text: . Kein Risiko, das in einem Großprojekt schlummert.
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - generic [ref=e249]:
+            - img [ref=e250]
+            - generic [ref=e253]: Für wen das ist
+          - heading "Gemacht für kleine & mittlere Unternehmen." [level=2] [ref=e254]:
+            - text: Gemacht für kleine & mittlere
+            - emphasis [ref=e255]: Unternehmen
+            - text: .
+          - list [ref=e256]:
+            - listitem [ref=e257]:
+              - img [ref=e258]
+              - generic [ref=e260]: Sie führen ein KMU und wollen KI nutzen — ohne IT-Abteilung
+            - listitem [ref=e261]:
+              - img [ref=e262]
+              - generic [ref=e264]: Sie haben wiederkehrende Abläufe, die Zeit & Geld fressen
+            - listitem [ref=e265]:
+              - img [ref=e266]
+              - generic [ref=e268]: Sie wollen Ergebnisse, keine monatelangen Projekte
+            - listitem [ref=e269]:
+              - img [ref=e270]
+              - generic [ref=e272]: Sie schätzen einen festen Ansprechpartner statt Ticket-Systemen
+        - generic [ref=e273]:
+          - generic [ref=e275]: Bewusst limitiert
+          - heading "Wir nehmen nur eine Handvoll Kunden." [level=3] [ref=e276]
+          - paragraph [ref=e277]: Damit jedes Unternehmen die Tiefe bekommt, die ein Retainer braucht, arbeiten wir bewusst mit wenigen Kunden gleichzeitig. So liefern wir jeden Monat echte Ergebnisse statt Standard-Templates.
+          - generic [ref=e278]:
+            - generic [ref=e279]: "4"
+            - generic [ref=e280]:
+              - text: Neukunden pro Quartal —
+              - text: sichern Sie sich Ihren Platz
+          - link "Verfügbarkeit prüfen" [ref=e281] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e282]: Verfügbarkeit prüfen
+            - img [ref=e283]
+      - generic [ref=e287]:
+        - generic [ref=e288]:
+          - img [ref=e290]
+          - generic [ref=e294]: Termin sichern
+          - heading "30 Minuten. Klarheit." [level=2] [ref=e295]:
+            - text: 30 Minuten.
+            - emphasis [ref=e296]: Klarheit.
+          - paragraph [ref=e302]: Wählen Sie ein Datum und eine Uhrzeit — kostenlos und unverbindlich.
+        - generic [ref=e303]:
+          - generic [ref=e304]:
+            - generic [ref=e306]:
+              - text: Schritt 1 von 2
+              - heading "Datum & Zeit wählen." [level=3] [ref=e307]
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - button "Vorheriger Monat" [disabled] [ref=e311]:
+                    - img [ref=e312]
+                  - generic [ref=e314]: Juni 2026
+                  - button "Nächster Monat" [ref=e315]:
+                    - img [ref=e316]
+                - generic [ref=e318]:
+                  - generic [ref=e319]: Mo
+                  - generic [ref=e320]: Di
+                  - generic [ref=e321]: Mi
+                  - generic [ref=e322]: Do
+                  - generic [ref=e323]: Fr
+                  - generic [ref=e324]: Sa
+                  - generic [ref=e325]: So
+                - generic [ref=e326]:
+                  - button "1" [disabled] [ref=e327]
+                  - button "2" [disabled] [ref=e328]
+                  - button "3" [disabled] [ref=e329]
+                  - button "4" [disabled] [ref=e330]
+                  - button "5" [ref=e331] [cursor=pointer]: "5"
+                  - button "6" [disabled] [ref=e333]
+                  - button "7" [disabled] [ref=e334]
+                  - button "8" [ref=e335] [cursor=pointer]
+                  - button "9" [ref=e336] [cursor=pointer]
+                  - button "10" [ref=e337] [cursor=pointer]
+                  - button "11" [ref=e338] [cursor=pointer]
+                  - button "12" [ref=e339] [cursor=pointer]
+                  - button "13" [disabled] [ref=e340]
+                  - button "14" [disabled] [ref=e341]
+                  - button "15" [ref=e342] [cursor=pointer]
+                  - button "16" [ref=e343] [cursor=pointer]
+                  - button "17" [ref=e344] [cursor=pointer]
+                  - button "18" [ref=e345] [cursor=pointer]
+                  - button "19" [ref=e346] [cursor=pointer]
+                  - button "20" [disabled] [ref=e347]
+                  - button "21" [disabled] [ref=e348]
+                  - button "22" [ref=e349] [cursor=pointer]
+                  - button "23" [ref=e350] [cursor=pointer]
+                  - button "24" [ref=e351] [cursor=pointer]
+                  - button "25" [ref=e352] [cursor=pointer]
+                  - button "26" [ref=e353] [cursor=pointer]
+                  - button "27" [disabled] [ref=e354]
+                  - button "28" [disabled] [ref=e355]
+                  - button "29" [ref=e356] [cursor=pointer]
+                  - button "30" [ref=e357] [cursor=pointer]
+                  - button "1" [disabled] [ref=e358]
+                  - button "2" [disabled] [ref=e359]
+                  - button "3" [disabled] [ref=e360]
+                  - button "4" [disabled] [ref=e361]
+                  - button "5" [disabled] [ref=e362]
+                - paragraph [ref=e363]: Mitteleuropäische Zeit · GMT+02:00
+              - paragraph [ref=e366]: Wählen Sie zunächst ein Datum.
+          - complementary [ref=e367]:
+            - generic [ref=e369]: Preis- & Strategie-Gespräch
+            - heading "mit Glockner AI." [level=4] [ref=e370]
+            - generic [ref=e371]:
+              - generic [ref=e372]:
+                - img [ref=e374]
+                - generic [ref=e377]:
+                  - generic [ref=e378]: Dauer
+                  - generic [ref=e379]: 30 Minuten
+              - generic [ref=e380]:
+                - img [ref=e382]
+                - generic [ref=e385]:
+                  - generic [ref=e386]: Format
+                  - generic [ref=e387]: Online · Google Meet
+              - generic [ref=e388]:
+                - img [ref=e390]
+                - generic [ref=e393]:
+                  - generic [ref=e394]: Datum
+                  - generic [ref=e395]: —
+              - generic [ref=e396]:
+                - img [ref=e398]
+                - generic [ref=e401]:
+                  - generic [ref=e402]: Uhrzeit
+                  - generic [ref=e403]: —
+            - paragraph [ref=e405]: Wir finden in 30 Minuten heraus, welcher Weg (Training, Service oder Produkt) bei Ihnen den größten Hebel hat — und was er konkret kostet.
+  - contentinfo [ref=e406]:
+    - generic [ref=e409]:
+      - generic [ref=e410]:
+        - generic [ref=e411]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e412]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e413]: direkt
+          - text: .
+        - paragraph [ref=e414]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e415]:
+        - complementary [ref=e416]:
+          - generic [ref=e418]: Direkter Draht
+          - generic [ref=e419]:
+            - generic [ref=e420]:
+              - generic [ref=e421]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e422] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e423]:
+              - generic [ref=e424]: Telefon
+              - link "+43 650 660 5000" [ref=e425] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e426]:
+              - generic [ref=e427]: Standorte
+              - generic [ref=e428]:
+                - generic [ref=e429]:
+                  - generic [ref=e430]: Wien
+                  - generic [ref=e431]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e432]:
+                  - generic [ref=e433]: Klagenfurt
+                  - generic [ref=e434]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e436]:
+          - generic [ref=e438]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e439]
+          - generic [ref=e440]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e441]
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - generic [ref=e444]: Name*
+              - textbox "Name*" [ref=e445]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e446]:
+              - generic [ref=e447]: E-Mail*
+              - textbox "E-Mail*" [ref=e448]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e450]:
+            - generic [ref=e451]: Nachricht*
+            - textbox "Nachricht*" [ref=e452]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e453]:
+            - paragraph [ref=e454]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e455]:
+              - generic [ref=e456]: Nachricht senden
+              - img [ref=e457]
+    - generic [ref=e461]:
+      - generic [ref=e462]:
+        - link "Glockner.ai — Startseite" [ref=e463] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e464]
+        - paragraph [ref=e465]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e466]:
+        - heading "Glockner AI" [level=3] [ref=e467]
+        - generic [ref=e468]:
+          - link "Money Making AI" [ref=e469] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "Kosten-Killing AI" [ref=e470] [cursor=pointer]:
+            - /url: /retainer
+          - link "Training" [ref=e471] [cursor=pointer]:
+            - /url: /training
+      - generic [ref=e472]:
+        - heading "Glockner Digital" [level=3] [ref=e473]
+        - generic [ref=e474]:
+          - link "E-Commerce" [ref=e475] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e476] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e477] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e479]:
+      - paragraph [ref=e480]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e481]:
+        - link "Impressum" [ref=e482] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e483] [cursor=pointer]:
+          - /url: /datenschutz
+  - iframe [ref=e484]:
+    
+  - button "Open Next.js Dev Tools" [ref=e490] [cursor=pointer]:
+    - img [ref=e491]
+  - alert [ref=e494]

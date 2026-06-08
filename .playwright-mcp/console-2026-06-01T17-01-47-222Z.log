@@ -1,0 +1,7 @@
+[     212ms] TypeError: Cannot read properties of undefined (reading 'WEBSITE_SUBSCRIBED')
+    at https://easy2.de/login?backto=/me/website/home&sub=aunterkofler:934:44
+[     538ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://easy2.de/login?backto=/me/website/home&sub=aunterkofler:0
+[     539ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://easy2.de/login?backto=/me/website/home&sub=aunterkofler:0
+[     539ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://easy2.de/login?backto=/me/website/home&sub=aunterkofler:0
+[  743627ms] [LOG] {isBandwidthLimitAbove90Percent: false, isBandwidthLimitReached: false, allowedFunnels: 5, basePlan: BUSINESS_DEC2018, storageLimitReached: false} @ https://static.web-repository.com/scripts/platform.min.js?v=1184:300
+[  743658ms] [LOG] loading required scripts: success @ https://static.web-repository.com/scripts/platform.min.js?v=1184:300

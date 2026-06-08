@@ -3,9 +3,11 @@ import Link from "next/link";
 import { getServicePageById } from "../../../../sanity/lib/queries";
 
 export const metadata: Metadata = {
+  // Ältere Service-Seite, durch /leistungen-lux3 abgelöst — aus dem Index halten (Duplicate Content).
+  robots: { index: false, follow: true },
   title: "Beratung Künstliche Intelligenz",
   description:
-    "KI-Beratung & Automatisierung für KMU. Sales, Marketing, Organisation — bis zu 80% WKO-Förderung.",
+    "KI-Beratung & Implementierung für KMU. Sales, Marketing, Organisation — bis zu 80% WKO-Förderung.",
 };
 
 const withoutKI = [

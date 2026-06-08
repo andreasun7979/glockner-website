@@ -1,0 +1,8 @@
+[    2675ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rY (https://test.glockner.ai/_next/static/chunks/0rwwge57xnfls.js:1:40207)
+    at iu (https://test.glockner.ai/_next/static/chunks/0rwwge57xnfls.js:1:91248)
+    at sd (https://test.glockner.ai/_next/static/chunks/0rwwge57xnfls.js:1:131938)
+    at https://test.glockner.ai/_next/static/chunks/0rwwge57xnfls.js:1:126824
+    at se (https://test.glockner.ai/_next/static/chunks/0rwwge57xnfls.js:1:126925)
+    at sH (https://test.glockner.ai/_next/static/chunks/0rwwge57xnfls.js:1:153489)
+    at MessagePort._ (https://test.glockner.ai/_next/static/chunks/0rwwge57xnfls.js:1:1647)

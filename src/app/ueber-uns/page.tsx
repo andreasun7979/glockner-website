@@ -1,48 +1,49 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
+import {
+  Triquetra,
+  VesicaSeal,
+  GoldDivider,
+  FlowerOfLifeBackdrop,
+  ArrowRight,
+  goldBtn,
+} from "@/components/aurum/Ornaments";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "Über uns",
+  title: { absolute: "Über uns — Andreas Unterkofler & Glockner AI" },
   description:
-    "Glockner AI — KI-Beratung & Automatisierung für KMU in Österreich. Standorte in Wien und Klagenfurt.",
+    "Wer hinter Glockner AI steht: Andreas Unterkofler, KI-Berater & E-Commerce-Operator aus Wien und Klagenfurt. KI, die Umsatz bringt — und gleichzeitig Effizienz steigert und Kosten senkt.",
+  alternates: { canonical: "/ueber-uns" },
+  openGraph: {
+    title: "Über uns — Andreas Unterkofler & Glockner AI",
+    description:
+      "Wer hinter Glockner AI steht: Andreas Unterkofler, KI-Berater & E-Commerce-Operator aus Wien und Klagenfurt.",
+    url: "/ueber-uns",
+  },
 };
 
 const values = [
   {
-    title: "Praxisnah",
-    desc: "Keine theoretischen Konzepte — wir liefern KI-Lösungen, die ab Tag eins Mehrwert bringen.",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
-    ),
+    tag: "Praxisnah",
+    title: "Selbst getestet.",
+    desc: "Keine theoretischen Konzepte — wir liefern KI-Lösungen, die ab Tag eins messbaren Mehrwert bringen.",
   },
   {
-    title: "Sicher",
-    desc: "DSGVO-Konformität und Datenschutz sind bei uns keine Nebensache, sondern Grundvoraussetzung.",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-      </svg>
-    ),
+    tag: "Sicher",
+    title: "100 % DSGVO-konform.",
+    desc: "Datenschutz und Security sind keine Nebensache, sondern Grundvoraussetzung. Alle Daten auf EU-Servern.",
   },
   {
-    title: "Gefördert",
-    desc: "Bis zu 80% WKO-Förderung — wir helfen beim Antrag und machen KI-Beratung leistbar.",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
+    tag: "Gefördert",
+    title: "Bis zu 80 % WKO.",
+    desc: "Setup-, Strategie- & Umsetzungs-Anteile sind förderbar — wir unterstützen Sie beim Antrag.",
   },
   {
-    title: "Ganzheitlich",
-    desc: "Von der Strategie über die Implementierung bis zur Schulung — alles aus einer Hand.",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
+    tag: "Ganzheitlich",
+    title: "Alles aus einer Hand.",
+    desc: "Von der Strategie über die Implementierung bis zur Schulung — ein Ansprechpartner, ein Team.",
   },
 ];
 
@@ -53,152 +54,307 @@ const locations = [
     desc: "Unser Standort im Herzen Wiens — für Kunden in der Bundeshauptstadt und Umgebung.",
   },
   {
-    city: "Kärnten",
-    address: "Haraldweg 26/10, 9020 Klagenfurt",
-    desc: "Unser Standort in Klagenfurt — für Kunden im Süden Österreichs.",
+    city: "Klagenfurt",
+    address: "Sankt Ruprechter Straße 90, 9020 Klagenfurt",
+    desc: "Unser Standort in Kärnten — für Kunden im Süden Österreichs.",
   },
 ];
 
 export default function UeberUnsPage() {
   return (
-    <>
-      {/* Hero */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-cyan/5 to-brand-dark" />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-sm text-brand-cyan mb-6">
-            <span className="w-2 h-2 rounded-full bg-brand-cyan animate-pulse" />
+    <div className="reveal-scope">
+      {/* ───────── HERO ───────── */}
+      <section className="relative pt-24 pb-16 md:pt-32 md:pb-20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark via-[#040b1a] to-brand-dark" />
+        <div
+          className="absolute top-[12%] left-1/2 -translate-x-1/2 w-[80vw] max-w-[900px] aspect-square rounded-full opacity-70 aurum-breathe"
+          style={{
+            background:
+              "radial-gradient(circle, rgba(201,168,106,0.16) 0%, rgba(6,182,212,0.10) 35%, transparent 70%)",
+            filter: "blur(60px)",
+          }}
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <FlowerOfLifeBackdrop className="w-[800px] max-w-[110vw] aurum-rotate-slow opacity-60" />
+        </div>
+
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="flex justify-center mb-7">
+            <Triquetra size={42} glowing />
+          </div>
+          <div className="font-mono text-[10.5px] tracking-[0.32em] uppercase text-aurum/85 font-semibold mb-5">
             Über uns
           </div>
-          <h1
-            className="text-4xl md:text-5xl font-bold text-white mb-4"
-                     >
-            Wir machen KMU{" "}
-            <span className="gradient-text">zukunftsfähig</span>
+          <h1 className="font-serif-display font-medium text-white text-4xl sm:text-5xl md:text-6xl leading-[1.05] tracking-[-0.025em] m-0">
+            Wer hinter{" "}
+            <em className="aurum-text not-italic font-medium">Glockner AI</em>{" "}
+            steht.
           </h1>
-          <p className="text-lg text-slate-400 max-w-2xl">
-            Glockner AI ist spezialisiert auf KI-Beratung und Automatisierung
-            für kleine und mittlere Unternehmen in Österreich.
+          <div className="mt-8 mb-7">
+            <GoldDivider width="wide" />
+          </div>
+          <p className="font-serif-display italic text-slate-200 text-lg md:text-xl max-w-2xl mx-auto m-0">
+            KI, die Umsatz bringt &mdash; und gleichzeitig Effizienz steigert
+            und Kosten senkt.
           </p>
         </div>
       </section>
 
-      {/* Mission */}
-      <section className="py-16 md:py-20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="glass rounded-2xl p-8 md:p-12">
-            <div className="max-w-3xl space-y-6 text-slate-300 leading-relaxed">
-              <p className="text-lg text-white font-medium">
-                Die Ära der Agentic AI ist da — und wir helfen Ihrem
-                Unternehmen, diese Chance zu nutzen.
+      {/* ───────── ANDREAS — FOUNDER BIO ───────── */}
+      <section
+        id="andreas"
+        className="relative py-16 md:py-24 overflow-hidden border-t border-white/5"
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark via-[#08050f] to-brand-dark" />
+        <div
+          className="absolute inset-0 pointer-events-none opacity-40"
+          style={{
+            background:
+              "radial-gradient(ellipse at 25% 50%, rgba(201,168,106,0.10), transparent 50%)",
+          }}
+          aria-hidden="true"
+        />
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-[400px_1fr] gap-10 lg:gap-16 items-center">
+            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-aurum/20 bg-brand-card">
+              <div aria-hidden="true" className="absolute inset-0 flex items-center justify-center">
+                <div
+                  className="aspect-square w-[88%] rounded-full"
+                  style={{
+                    background:
+                      "radial-gradient(circle at 50% 38%, #d8bd8a 0%, #c9a86a 55%, #a88845 100%)",
+                  }}
+                />
+              </div>
+              <Image
+                src="/team/andreas-unterkofler.webp"
+                alt="Andreas Unterkofler — Gründer Glockner AI"
+                width={960}
+                height={1200}
+                priority
+                className="absolute inset-0 h-full w-full object-cover"
+                sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
+              />
+              <div
+                aria-hidden="true"
+                className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-brand-dark/80 via-brand-dark/30 to-transparent"
+              />
+              <span
+                aria-hidden="true"
+                className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-aurum/60 to-transparent opacity-60"
+              />
+              <div className="absolute bottom-5 left-5 right-5 text-left">
+                <div className="font-serif-display text-white text-lg font-medium tracking-tight">
+                  Andreas Unterkofler
+                </div>
+                <div className="font-mono text-[10px] tracking-[0.22em] uppercase text-aurum/85 font-semibold mt-1">
+                  Gründer &middot; Glockner AI
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="flex items-center gap-3 mb-5">
+                <VesicaSeal size={22} />
+                <span className="font-mono text-[11px] tracking-[0.28em] uppercase text-aurum/85 font-semibold">
+                  Wer hinter Glockner AI steht
+                </span>
+              </div>
+
+              <h2 className="font-serif-display font-medium text-white text-4xl md:text-5xl lg:text-6xl tracking-[-0.02em] leading-[1.05] m-0">
+                Andreas Unterkofler<span className="text-aurum">.</span>
+              </h2>
+
+              <p className="font-serif-display italic text-aurum/90 text-lg md:text-xl mt-4 leading-snug">
+                Gründer &middot; KI-Berater &middot; E-Commerce-Operator
               </p>
-              <p>
-                Von der strategischen Beratung über die Tool-Auswahl bis zur
-                konkreten Umsetzung und Schulung Ihrer Mitarbeiter — wir
-                begleiten Sie auf dem gesamten Weg der KI-Transformation.
+
+              <p className="mt-7 text-slate-300 text-[16px] md:text-[17px] leading-relaxed">
+                Ich bin über E-Commerce in die KI-Welt gekommen. 15 Jahre lang
+                habe ich Online-Geschäfte im{" "}
+                <em className="aurum-text not-italic font-semibold">
+                  Multi-Millionen-Bereich
+                </em>{" "}
+                aufgebaut &mdash; und früh verstanden, dass Künstliche
+                Intelligenz kein Spielzeug ist, sondern der nächste{" "}
+                <em className="aurum-text not-italic font-semibold">
+                  große Hebel
+                </em>{" "}
+                &mdash; nach oben beim Umsatz, nach unten bei den Kosten.
               </p>
-              <p>
-                Unser Schwerpunkt liegt auf praxisnahen Lösungen, die sofort
-                Mehrwert bringen: in Sales, Marketing, Organisation und darüber
-                hinaus. Dabei legen wir höchsten Wert auf Datenschutz und
-                Sicherheit.
+
+              <p className="mt-4 text-slate-300 text-[16px] md:text-[17px] leading-relaxed">
+                Seit{" "}
+                <em className="aurum-text not-italic font-semibold">drei Jahren</em>{" "}
+                mache ich praktisch nichts anderes mehr: KI-Strategie,
+                KI-Implementierung, KI-Agents. Dutzende Projekte umgesetzt
+                &mdash; immer mit derselben Beobachtung: Marketing &amp; Sales
+                sind die Bereiche, in denen KI heute am schnellsten zu spürbarem
+                Mehrumsatz führt. Und fast nebenbei passiert noch ein Zweites:
+                Ist die KI einmal implementiert, steigen{" "}
+                <em className="aurum-text not-italic font-semibold">
+                  Effizienz und Effektivität
+                </em>{" "}
+                wie von selbst &mdash; Routineaufgaben erledigen sich, Prozesse
+                werden schneller, und die{" "}
+                <em className="aurum-text not-italic font-semibold">
+                  Kosten sinken
+                </em>{" "}
+                spürbar. Wachstum auf der einen, Einsparung auf der anderen
+                Seite.
               </p>
-              <p>
-                Dank der WKO-Förderung können bis zu{" "}
-                <span className="text-brand-cyan font-semibold">80% der Kosten</span>{" "}
-                für KI-Beratung gefördert werden — wir unterstützen Sie auch
-                beim Förderantrag.
+
+              <p className="mt-4 text-slate-400 text-[15px] leading-relaxed">
+                Mein Versprechen: Was ich Ihnen empfehle, habe ich selbst
+                getestet. Hinter mir stehen ein zehnköpfiges Spezialisten-Team
+                und eine{" "}
+                <em className="aurum-text not-italic font-semibold">
+                  stille Armee aus KI-Agents
+                </em>
+                , die rund um die Uhr arbeiten &mdash; damit Ihr Projekt nicht
+                in Monaten, sondern in{" "}
+                <em className="aurum-text not-italic font-semibold">Wochen</em>{" "}
+                Realität wird.
               </p>
+
+              <div className="grid grid-cols-3 gap-6 mt-9 pt-8 border-t border-white/10">
+                <div>
+                  <div className="font-serif-display aurum-text text-3xl md:text-4xl font-medium leading-none">
+                    3+
+                  </div>
+                  <div className="font-mono text-[10px] tracking-[0.18em] uppercase text-slate-500 mt-2 leading-tight">
+                    Jahre AI-Praxis
+                  </div>
+                </div>
+                <div>
+                  <div className="font-serif-display aurum-text text-3xl md:text-4xl font-medium leading-none">
+                    15+
+                  </div>
+                  <div className="font-mono text-[10px] tracking-[0.18em] uppercase text-slate-500 mt-2 leading-tight">
+                    Jahre Operator
+                  </div>
+                </div>
+                <div>
+                  <div className="font-serif-display aurum-text text-3xl md:text-4xl font-medium leading-none">
+                    24/7
+                  </div>
+                  <div className="font-mono text-[10px] tracking-[0.18em] uppercase text-slate-500 mt-2 leading-tight">
+                    KI-Agents im Einsatz
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values */}
-      <section className="py-16 md:py-20 relative">
+      {/* ───────── WAS UNS AUSMACHT ───────── */}
+      <section className="relative py-16 md:py-24 overflow-hidden border-t border-white/5">
         <div className="absolute inset-0 bg-gradient-to-b from-brand-dark via-slate-900/30 to-brand-dark" />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
-                     >
-            Was uns ausmacht
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <header className="text-center max-w-3xl mx-auto mb-12 md:mb-14">
+            <div className="flex justify-center mb-6">
+              <VesicaSeal size={26} />
+            </div>
+            <h2 className="font-serif-display font-medium text-white text-3xl md:text-4xl lg:text-5xl leading-[1.08] tracking-[-0.02em] m-0">
+              Was uns ausmacht<span className="text-aurum">.</span>
+            </h2>
+          </header>
+
+          <ol className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 list-none m-0 p-0">
             {values.map((v) => (
-              <div key={v.title} className="glass glass-hover rounded-2xl p-6 transition-all duration-300">
-                <div className="w-12 h-12 rounded-xl bg-brand-cyan/10 flex items-center justify-center text-brand-cyan mb-4">
-                  {v.icon}
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">{v.title}</h3>
-                <p className="text-slate-400 text-sm leading-relaxed">{v.desc}</p>
-              </div>
+              <li
+                key={v.tag}
+                className="relative flex flex-col gap-3 p-6 md:p-7 rounded-2xl border border-white/10 bg-brand-card hover:border-aurum/40 hover:-translate-y-1 transition-all duration-500 overflow-hidden"
+              >
+                <span
+                  aria-hidden="true"
+                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-aurum/60 to-transparent opacity-50"
+                />
+                <span className="font-mono text-[10.5px] tracking-[0.2em] uppercase text-aurum/85 font-semibold">
+                  {v.tag}
+                </span>
+                <h3 className="font-serif-display font-medium text-white text-xl md:text-2xl tracking-[-0.02em] m-0 leading-tight">
+                  {v.title}
+                </h3>
+                <p className="text-slate-300 text-[14px] leading-relaxed m-0">{v.desc}</p>
+              </li>
             ))}
-          </div>
+          </ol>
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-16 md:py-20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl md:text-4xl font-bold text-white mb-4"
-                     >
-            Unser Team
-          </h2>
-          <p className="text-slate-400 mb-8">
-            Team-Mitglieder werden über das CMS verwaltet.
-          </p>
-        </div>
-      </section>
+      {/* ───────── STANDORTE ───────── */}
+      <section className="relative py-16 md:py-24 overflow-hidden border-t border-white/5">
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark via-[#050d1f] to-brand-dark" />
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <header className="text-center max-w-3xl mx-auto mb-12">
+            <div className="font-mono text-[10.5px] tracking-[0.32em] uppercase text-aurum/85 font-semibold mb-5">
+              Standorte
+            </div>
+            <h2 className="font-serif-display font-medium text-white text-3xl md:text-4xl lg:text-5xl leading-[1.08] tracking-[-0.02em] m-0">
+              Wien &amp; Klagenfurt<span className="text-aurum">.</span>
+            </h2>
+          </header>
 
-      {/* Locations */}
-      <section className="py-16 md:py-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark via-slate-900/20 to-brand-dark" />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
-                     >
-            Unsere Standorte
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
             {locations.map((loc) => (
-              <div key={loc.city} className="glass glass-hover rounded-2xl p-8 transition-all duration-300">
-                <div className="flex items-center gap-3 mb-4">
-                  <svg className="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  <h3 className="text-xl font-semibold text-white">{loc.city}</h3>
-                </div>
-                <p className="text-brand-cyan text-sm mb-2">{loc.address}</p>
-                <p className="text-slate-400 text-sm">{loc.desc}</p>
+              <div
+                key={loc.city}
+                className="relative p-7 md:p-8 rounded-2xl border border-white/10 bg-brand-card hover:border-aurum/40 hover:-translate-y-1 transition-all duration-500 overflow-hidden"
+              >
+                <span
+                  aria-hidden="true"
+                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-aurum/60 to-transparent opacity-50"
+                />
+                <h3 className="font-serif-display font-medium text-white text-2xl md:text-3xl tracking-[-0.02em] m-0">
+                  {loc.city}
+                </h3>
+                <p className="font-mono text-[11px] tracking-[0.08em] text-aurum/85 mt-3">
+                  {loc.address}
+                </p>
+                <p className="text-slate-400 text-[14px] leading-relaxed mt-3">{loc.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-orange/5 via-brand-dark to-brand-cyan/5" />
-        <div className="relative max-w-4xl mx-auto px-4 text-center">
-          <h2
-            className="text-3xl md:text-4xl font-bold text-white mb-4"
-                     >
+      {/* ───────── CTA ───────── */}
+      <section className="relative py-24 md:py-32 overflow-hidden border-t border-white/5">
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-dark via-[#070f23] to-brand-dark" />
+        <div
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] max-w-[95vw] aspect-square rounded-full aurum-breathe pointer-events-none"
+          style={{
+            background:
+              "radial-gradient(circle, rgba(201,168,106,0.22) 0%, rgba(6,182,212,0.10) 35%, transparent 70%)",
+            filter: "blur(50px)",
+          }}
+          aria-hidden="true"
+        />
+        <div className="relative max-w-3xl mx-auto px-4 text-center">
+          <div className="flex justify-center mb-7">
+            <Triquetra size={36} glowing />
+          </div>
+          <h2 className="font-serif-display font-medium text-white text-3xl md:text-4xl lg:text-5xl leading-[1.08] tracking-[-0.02em] m-0">
             Lassen Sie uns{" "}
-            <span className="gradient-text-orange">zusammenarbeiten</span>
+            <em className="aurum-text not-italic font-medium">zusammenarbeiten</em>.
           </h2>
-          <p className="text-slate-400 text-lg mb-8">
-            Vereinbaren Sie jetzt Ihr kostenloses Erstgespräch.
+          <div className="mt-10 mb-8">
+            <GoldDivider width="wide" />
+          </div>
+          <p className="font-serif-display italic text-slate-300 text-lg md:text-xl mb-10 max-w-xl mx-auto">
+            30 Minuten, kostenlos &mdash; wir zeigen Ihnen den schnellsten Hebel.
           </p>
-          <Link
-            href="/kontakt"
-            className="inline-block bg-gradient-to-r from-brand-blue to-brand-cyan text-white px-10 py-4 rounded-xl font-semibold hover:shadow-xl hover:shadow-brand-cyan/25 transition-all"
-          >
-            Kontakt aufnehmen
+          <Link href="/preise#termin" className={`${goldBtn} px-10 py-4 text-base`}>
+            <span>Kostenloses Strategie-Gespräch</span>
+            <ArrowRight />
           </Link>
         </div>
       </section>
-    </>
+      <ScrollReveal />
+    </div>
   );
 }

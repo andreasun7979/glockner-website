@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Glockner.ai" [ref=e6]
+      - button "Menü" [ref=e7]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e13]:
+      - generic [ref=e14]: Kontakt
+      - heading "Sprechen Sie mit uns" [level=1] [ref=e16]
+      - paragraph [ref=e17]: Lassen Sie sich kostenlos beraten. Wir melden uns innerhalb von 24 Stunden bei Ihnen — Formular und direkter Draht finden Sie gleich hier unten.
+  - contentinfo [ref=e18]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: Kontakt aufnehmen
+        - heading "Schreiben Sie uns direkt." [level=2] [ref=e24]:
+          - text: Schreiben Sie uns
+          - emphasis [ref=e25]: direkt
+          - text: .
+        - paragraph [ref=e26]: Persönliche Antwort innerhalb eines Werktages.
+      - generic [ref=e27]:
+        - complementary [ref=e28]:
+          - generic [ref=e30]: Direkter Draht
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - generic [ref=e33]: E-Mail
+              - link "support@glocknerdigital.at" [ref=e34] [cursor=pointer]:
+                - /url: mailto:support@glocknerdigital.at
+            - generic [ref=e35]:
+              - generic [ref=e36]: Telefon
+              - link "+43 650 660 5000" [ref=e37] [cursor=pointer]:
+                - /url: tel:+436506605000
+            - generic [ref=e38]:
+              - generic [ref=e39]: Standorte
+              - generic [ref=e40]:
+                - generic [ref=e41]:
+                  - generic [ref=e42]: Wien
+                  - generic [ref=e43]:
+                    - text: Blumauergasse 23/12
+                    - text: 1020 Wien
+                - generic [ref=e44]:
+                  - generic [ref=e45]: Klagenfurt
+                  - generic [ref=e46]:
+                    - text: Sankt Ruprechter Straße 90
+                    - text: 9020 Klagenfurt
+        - generic [ref=e48]:
+          - generic [ref=e50]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e51]
+          - generic [ref=e52]:
+            - text: Bitte dieses Feld leer lassen
+            - textbox [ref=e53]
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]: Name*
+              - textbox "Name*" [ref=e57]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e58]:
+              - generic [ref=e59]: E-Mail*
+              - textbox "E-Mail*" [ref=e60]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e62]:
+            - generic [ref=e63]: Nachricht*
+            - textbox "Nachricht*" [ref=e64]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e67]:
+              - generic [ref=e68]: Nachricht senden
+              - img [ref=e69]
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - link "Glockner.ai — Startseite" [ref=e75] [cursor=pointer]:
+          - /url: /
+          - img "Glockner.ai" [ref=e76]
+        - paragraph [ref=e77]:
+          - text: KI-Beratung & Implementierung
+          - text: für KMUs in Österreich.
+      - generic [ref=e78]:
+        - heading "Glockner AI" [level=3] [ref=e79]
+        - generic [ref=e80]:
+          - link "Money Making AI" [ref=e81] [cursor=pointer]:
+            - /url: /leistungen-lux3
+          - link "KI-Beratung" [ref=e82] [cursor=pointer]:
+            - /url: /leistungen-lux3#schulungen
+      - generic [ref=e83]:
+        - heading "Glockner Digital" [level=3] [ref=e84]
+        - generic [ref=e85]:
+          - link "E-Commerce" [ref=e86] [cursor=pointer]:
+            - /url: /digital/ecommerce
+          - link "Gewerbebetrieb" [ref=e87] [cursor=pointer]:
+            - /url: /digital/gewerbe
+          - link "Ärzte, Kliniken & Apotheken" [ref=e88] [cursor=pointer]:
+            - /url: /digital/gesundheit
+    - generic [ref=e90]:
+      - paragraph [ref=e91]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+      - generic [ref=e92]:
+        - link "Impressum" [ref=e93] [cursor=pointer]:
+          - /url: /impressum
+        - link "Datenschutz" [ref=e94] [cursor=pointer]:
+          - /url: /datenschutz
+  - alert [ref=e95]

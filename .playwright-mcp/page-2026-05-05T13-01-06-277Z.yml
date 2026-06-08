@@ -1,0 +1,356 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Glockner.ai — Startseite" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Glockner.ai" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Dienstleistungen" [ref=e9] [cursor=pointer]:
+          - /url: /leistungen
+          - text: Dienstleistungen
+          - img [ref=e10]
+        - link "Über uns" [ref=e12] [cursor=pointer]:
+          - /url: /ueber-uns
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: /blog
+        - link "Kontakt" [ref=e14] [cursor=pointer]:
+          - /url: /kontakt
+        - link "Beratung sichern" [ref=e15] [cursor=pointer]:
+          - /url: /leistungen-lux3#termin
+  - main [ref=e16]:
+    - generic [ref=e20]:
+      - img [ref=e22]
+      - generic [ref=e24]: Glockner Digital
+      - generic [ref=e25]: Beratung · E-Commerce
+      - heading "Für Marken, die verkaufen." [level=1] [ref=e26]:
+        - text: Für Marken, die
+        - emphasis [ref=e27]: verkaufen
+        - text: .
+      - paragraph [ref=e33]: Strategische E-Commerce-Beratung von einem Operator, der selbst ein Multi-Millionen-Geschäft aufgebaut hat — 15 Jahre hands-on.
+      - generic [ref=e34]:
+        - generic [ref=e35]: WKO eCommerce Consultant
+        - generic [ref=e36]: CeCC Certified
+        - generic [ref=e37]: KMU-Digital Partner
+    - generic [ref=e40]:
+      - img [ref=e42]
+      - generic [ref=e45]: Unser Versprechen
+      - blockquote [ref=e46]:
+        - text: “Wir setzen auf nachhaltige Strategien, die
+        - emphasis [ref=e47]: neue Kunden
+        - text: bringen,
+        - emphasis [ref=e48]: Umsätze steigern
+        - text: und Beziehungen zu Stammkunden
+        - emphasis [ref=e49]: vertiefen
+        - text: .”
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - img [ref=e55]
+        - generic [ref=e58]: Drei Stufen
+        - heading "Bis zu 80 % WKO-Förderung." [level=2] [ref=e59]:
+          - text: Bis zu
+          - emphasis [ref=e60]: 80 %
+          - text: WKO-Förderung.
+        - paragraph [ref=e66]: Vom Status-Audit bis zur Umsetzungs-Begleitung — geförderte Beratung von einem zertifizierten WKO-Berater.
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: 80 % WKO-Förderung
+            - generic [ref=e72]: I
+          - generic [ref=e73]:
+            - heading "Status & Potenzial." [level=3] [ref=e74]
+            - paragraph [ref=e75]: Website-Audit mit Optimierungs-Roadmap. 2-stündige Beratung.
+          - generic [ref=e76]:
+            - generic [ref=e77]: € 500
+            - generic [ref=e78]: € 100
+          - generic [ref=e79]: nach Förderung
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - generic [ref=e83]: Website- & Shop-Audit
+            - listitem [ref=e84]:
+              - generic [ref=e86]: Optimierungs-Empfehlungen
+            - listitem [ref=e87]:
+              - generic [ref=e89]: Conversion-Hebel identifizieren
+            - listitem [ref=e90]:
+              - generic [ref=e92]: 2-stündige Strategie-Session
+          - link "Anfragen" [ref=e93] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e94]: Anfragen
+            - img [ref=e95]
+        - listitem [ref=e97]:
+          - generic [ref=e99]:
+            - generic [ref=e100]: 50 % WKO-Förderung
+            - generic [ref=e101]: II
+          - generic [ref=e102]:
+            - heading "Online-Strategie." [level=3] [ref=e103]
+            - paragraph [ref=e104]: Tagesworkshop oder zwei 4-Stunden-Sessions. Strategie-Dokument inkl.
+          - generic [ref=e105]:
+            - generic [ref=e106]: € 2.000
+            - generic [ref=e107]: € 1.000
+          - generic [ref=e108]: nach Förderung
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - generic [ref=e112]: Individuelle Online-Roadmap
+            - listitem [ref=e113]:
+              - generic [ref=e115]: Channel- & Funnel-Konzept
+            - listitem [ref=e116]:
+              - generic [ref=e118]: Marketing- & Sales-Setup
+            - listitem [ref=e119]:
+              - generic [ref=e121]: Schriftliche Strategie-Dokumentation
+          - link "Anfragen" [ref=e122] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e123]: Anfragen
+            - img [ref=e124]
+        - listitem [ref=e126]:
+          - generic [ref=e128]:
+            - generic [ref=e129]: WKO-Förderung
+            - generic [ref=e130]: III
+          - generic [ref=e131]:
+            - heading "Umsetzung." [level=3] [ref=e132]
+            - paragraph [ref=e133]: Begleitete Strategie-Umsetzung — mit unserem Team oder Ihrem Wunsch-Partner.
+          - generic [ref=e134]:
+            - generic [ref=e135]: bis zu
+            - generic [ref=e136]: € 6.000
+            - generic [ref=e137]: Förderung möglich
+          - list [ref=e138]:
+            - listitem [ref=e139]:
+              - generic [ref=e141]: Technische Umsetzung
+            - listitem [ref=e142]:
+              - generic [ref=e144]: Shop- & CMS-Integration
+            - listitem [ref=e145]:
+              - generic [ref=e147]: Conversion-Optimierung
+            - listitem [ref=e148]:
+              - generic [ref=e150]: Marketing- & Sales-Aktivierung
+          - link "Anfragen" [ref=e151] [cursor=pointer]:
+            - /url: "#termin"
+            - generic [ref=e152]: Anfragen
+            - img [ref=e153]
+    - generic [ref=e157]:
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - img [ref=e160]
+          - generic [ref=e163]: Was Sie davon haben
+        - heading "Drei Hebel, die ziehen." [level=2] [ref=e164]:
+          - text: Drei Hebel,
+          - emphasis [ref=e165]: die ziehen
+          - text: .
+      - list [ref=e166]:
+        - listitem [ref=e167]:
+          - generic [ref=e169]: N° 01
+          - heading "Neue Kunden, planbar." [level=3] [ref=e170]
+          - paragraph [ref=e171]: Wir bauen den Funnel, der konstant qualifizierte Anfragen generiert — statt Glücks-Kampagnen.
+        - listitem [ref=e172]:
+          - generic [ref=e174]: N° 02
+          - heading "Höhere Umsätze pro Besucher." [level=3] [ref=e175]
+          - paragraph [ref=e176]: "Jeder Klick aufs Maximum ausgereizt: Conversion, Warenkorbwert, Wiederkäufe."
+        - listitem [ref=e177]:
+          - generic [ref=e179]: N° 03
+          - heading "Bestandskunden, die bleiben." [level=3] [ref=e180]
+          - paragraph [ref=e181]: "Funnel-Logik nach dem Kauf: Reaktivierung, Bewertungen, Cross-Sell — automatisiert."
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - img [ref=e187]
+        - generic [ref=e189]: Kundenstimmen
+        - heading "Was unsere Kunden sagen." [level=2] [ref=e190]:
+          - text: Was unsere Kunden
+          - emphasis [ref=e191]: sagen
+          - text: .
+      - list [ref=e192]:
+        - listitem [ref=e193]:
+          - generic "5 von 5 Sternen" [ref=e195]:
+            - img [ref=e196]
+            - img [ref=e198]
+            - img [ref=e200]
+            - img [ref=e202]
+            - img [ref=e204]
+          - blockquote [ref=e206]: “Ein besonderes Dankeschön für deine wertvolle und geschätzte Unterstützung bei der Strategie-Ausarbeitung.”
+          - generic [ref=e207]:
+            - generic [ref=e208]: Katharina
+            - generic [ref=e209]: Steuerberaterin · Klagenfurt
+        - listitem [ref=e210]:
+          - generic "5 von 5 Sternen" [ref=e212]:
+            - img [ref=e213]
+            - img [ref=e215]
+            - img [ref=e217]
+            - img [ref=e219]
+            - img [ref=e221]
+          - blockquote [ref=e223]: “Professionell organisierter Workshop, immer erreichbar — fundierte Einschätzungen, die wir sofort umsetzen konnten.”
+          - generic [ref=e224]:
+            - generic [ref=e225]: Dana
+            - generic [ref=e226]: Social-Media-Agentur · Wien
+        - listitem [ref=e227]:
+          - generic "5 von 5 Sternen" [ref=e229]:
+            - img [ref=e230]
+            - img [ref=e232]
+            - img [ref=e234]
+            - img [ref=e236]
+            - img [ref=e238]
+          - blockquote [ref=e240]: “Sehr hochwertige Inhalte, die wirklich auf unsere Webshop-Realität zugeschnitten waren. Klarer Mehrwert.”
+          - generic [ref=e241]:
+            - generic [ref=e242]: Kirsten
+            - generic [ref=e243]: Webshop-Betreiberin · Wien
+    - generic [ref=e246]:
+      - generic [ref=e247]:
+        - img [ref=e249]
+        - generic [ref=e251]: Erstberatung sichern
+        - heading "30 Minuten reichen, um zu sehen, wo bei Ihnen der größte Hebel liegt." [level=2] [ref=e252]:
+          - text: 30 Minuten reichen, um zu sehen, wo bei Ihnen der
+          - emphasis [ref=e253]: größte Hebel
+          - text: liegt.
+        - paragraph [ref=e259]: Kostenlos und unverbindlich. WKO-zertifiziert, KMU-Digital-Partner.
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - generic [ref=e263]:
+            - text: Schritt 1 von 2
+            - heading "Datum & Zeit wählen." [level=3] [ref=e264]
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - button "Vorheriger Monat" [disabled] [ref=e268]:
+                  - img [ref=e269]
+                - generic [ref=e271]: Mai 2026
+                - button "Nächster Monat" [ref=e272]:
+                  - img [ref=e273]
+              - generic [ref=e275]:
+                - generic [ref=e276]: Mo
+                - generic [ref=e277]: Di
+                - generic [ref=e278]: Mi
+                - generic [ref=e279]: Do
+                - generic [ref=e280]: Fr
+                - generic [ref=e281]: Sa
+                - generic [ref=e282]: So
+              - generic [ref=e283]:
+                - button "27" [disabled] [ref=e284]
+                - button "28" [disabled] [ref=e285]
+                - button "29" [disabled] [ref=e286]
+                - button "30" [disabled] [ref=e287]
+                - button "1" [disabled] [ref=e288]
+                - button "2" [disabled] [ref=e289]
+                - button "3" [disabled] [ref=e290]
+                - button "4" [disabled] [ref=e291]
+                - button "5" [ref=e292] [cursor=pointer]: "5"
+                - button "6" [ref=e294] [cursor=pointer]
+                - button "7" [ref=e295] [cursor=pointer]
+                - button "8" [ref=e296] [cursor=pointer]
+                - button "9" [disabled] [ref=e297]
+                - button "10" [disabled] [ref=e298]
+                - button "11" [ref=e299] [cursor=pointer]
+                - button "12" [ref=e300] [cursor=pointer]
+                - button "13" [ref=e301] [cursor=pointer]
+                - button "14" [ref=e302] [cursor=pointer]
+                - button "15" [ref=e303] [cursor=pointer]
+                - button "16" [disabled] [ref=e304]
+                - button "17" [disabled] [ref=e305]
+                - button "18" [ref=e306] [cursor=pointer]
+                - button "19" [ref=e307] [cursor=pointer]
+                - button "20" [ref=e308] [cursor=pointer]
+                - button "21" [ref=e309] [cursor=pointer]
+                - button "22" [ref=e310] [cursor=pointer]
+                - button "23" [disabled] [ref=e311]
+                - button "24" [disabled] [ref=e312]
+                - button "25" [ref=e313] [cursor=pointer]
+                - button "26" [ref=e314] [cursor=pointer]
+                - button "27" [ref=e315] [cursor=pointer]
+                - button "28" [ref=e316] [cursor=pointer]
+                - button "29" [ref=e317] [cursor=pointer]
+                - button "30" [disabled] [ref=e318]
+                - button "31" [disabled] [ref=e319]
+              - paragraph [ref=e320]: Mitteleuropäische Zeit · GMT+02:00
+            - paragraph [ref=e323]: Wählen Sie zunächst ein Datum.
+        - complementary [ref=e324]:
+          - generic [ref=e326]: Klarheitsgespräch
+          - heading "mit Glockner AI." [level=4] [ref=e327]
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - img [ref=e331]
+              - generic [ref=e334]:
+                - generic [ref=e335]: Dauer
+                - generic [ref=e336]: 30 Minuten
+            - generic [ref=e337]:
+              - img [ref=e339]
+              - generic [ref=e342]:
+                - generic [ref=e343]: Format
+                - generic [ref=e344]: Online · Google Meet
+            - generic [ref=e345]:
+              - img [ref=e347]
+              - generic [ref=e350]:
+                - generic [ref=e351]: Datum
+                - generic [ref=e352]: —
+            - generic [ref=e353]:
+              - img [ref=e355]
+              - generic [ref=e358]:
+                - generic [ref=e359]: Uhrzeit
+                - generic [ref=e360]: —
+          - paragraph [ref=e362]: Wir analysieren in 20 Minuten, welche Säule bei Ihnen den schnellsten Hebel auf Umsatz hat.
+      - generic [ref=e363]:
+        - generic [ref=e365]: Kein Termin parat?
+        - generic [ref=e366]:
+          - generic [ref=e368]:
+            - text: Oder einfach direkt
+            - heading "Schreiben Sie uns." [level=3] [ref=e369]
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - generic [ref=e372]: Name*
+              - textbox "Name*" [ref=e373]:
+                - /placeholder: Max Mustermann
+            - generic [ref=e374]:
+              - generic [ref=e375]: E-Mail*
+              - textbox "E-Mail*" [ref=e376]:
+                - /placeholder: ihre@email.at
+          - generic [ref=e378]:
+            - generic [ref=e379]: Nachricht*
+            - textbox "Nachricht*" [ref=e380]:
+              - /placeholder: Wobei können wir helfen?
+          - generic [ref=e381]:
+            - paragraph [ref=e382]: Antwort innerhalb eines Werktages
+            - button "Nachricht senden" [disabled] [ref=e383]:
+              - generic [ref=e384]: Nachricht senden
+              - img [ref=e385]
+  - contentinfo [ref=e387]:
+    - generic [ref=e389]:
+      - generic [ref=e390]:
+        - generic [ref=e391]:
+          - link "Glockner.ai — Startseite" [ref=e392] [cursor=pointer]:
+            - /url: /
+            - img "Glockner.ai" [ref=e393]
+          - paragraph [ref=e394]:
+            - text: KI-Beratung & Implementierung
+            - text: für KMUs in Österreich.
+        - generic [ref=e395]:
+          - heading "Dienstleistungen" [level=3] [ref=e396]
+          - generic [ref=e397]:
+            - link "KI-Beratung" [ref=e398] [cursor=pointer]:
+              - /url: /leistungen/ki-beratung
+            - link "eCommerce" [ref=e399] [cursor=pointer]:
+              - /url: /leistungen/ecommerce
+            - link "Gewerbebetrieb" [ref=e400] [cursor=pointer]:
+              - /url: /leistungen/gewerbe
+            - link "Ärzte & Gesundheit" [ref=e401] [cursor=pointer]:
+              - /url: /leistungen/gesundheit
+        - generic [ref=e402]:
+          - heading "Standorte" [level=3] [ref=e403]
+          - generic [ref=e404]:
+            - generic [ref=e405]:
+              - paragraph [ref=e406]: Wien
+              - paragraph [ref=e407]: Blumauergasse 23/12, 1020 Wien
+            - generic [ref=e408]:
+              - paragraph [ref=e409]: Kärnten
+              - paragraph [ref=e410]: Sankt Ruprechter Straße 90, 9020 Klagenfurt
+        - generic [ref=e411]:
+          - heading "Kontakt" [level=3] [ref=e412]
+          - generic [ref=e413]:
+            - link "support@glocknerdigital.at" [ref=e414] [cursor=pointer]:
+              - /url: mailto:support@glocknerdigital.at
+            - link "+43 650 660 5000" [ref=e415] [cursor=pointer]:
+              - /url: tel:+436506605000
+            - link "glockner.ai" [ref=e416] [cursor=pointer]:
+              - /url: https://glockner.ai
+      - generic [ref=e417]:
+        - paragraph [ref=e418]: © 2026 Glockner Digital. Alle Rechte vorbehalten.
+        - generic [ref=e419]:
+          - link "Impressum" [ref=e420] [cursor=pointer]:
+            - /url: /impressum
+          - link "Datenschutz" [ref=e421] [cursor=pointer]:
+            - /url: /datenschutz
+  - button "Open Next.js Dev Tools" [ref=e427] [cursor=pointer]:
+    - img [ref=e428]
+  - alert [ref=e431]

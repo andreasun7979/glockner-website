@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next:*)",
+      "Bash(npx vercel:*)",
+      "WebFetch(domain:glockner-digital.at)",
+      "WebFetch(domain:glockner.ai)",
+      "WebFetch(domain:glocknerdigital.at)",
+      "WebFetch(domain:glockner-website.vercel.app)",
+      "WebSearch",
+      "WebFetch(domain:www.sanity.io)",
+      "Bash(npx sanity:*)",
+      "Bash(printf 'pdjtv2pg')",
+      "Bash(ls node_modules/next-sanity/dist/studio*)",
+      "Bash(grep -r NextStudio node_modules/next-sanity/dist/ --include=*.d.ts -l)",
+      "Bash(nslookup:*)",
+      "Bash(curl -sI https://test.glockner.ai)",
+      "Bash(curl -sI -m 10 http://test.glockner.ai)",
+      "Bash(curl -v -m 10 https://test.glockner.ai)",
+      "Bash(ipconfig:*)",
+      "Bash(cmd.exe /c \"ipconfig /flushdns\" 2>&1)",
+      "Bash(curl -sI -m 10 --resolve test.glockner.ai:443:76.76.21.21 https://test.glockner.ai)",
+      "Bash(curl -s -L -o /tmp/glockner_full.html \"https://glockner.ai\")",
+      "Read(//tmp/**)",
+      "Bash(curl -s -L --compressed \"https://glockner.ai\" -o /c/Users/aunte/Desktop/workspace/Glocknerai/projects/glockner-website/glockner_full.html)"
+    ]
+  }
+}
