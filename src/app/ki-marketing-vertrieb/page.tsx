@@ -9,7 +9,7 @@ import BookingWidget from "@/components/BookingWidget";
 export const metadata: Metadata = {
   title: { absolute: "Money Making AI — KI für mehr Umsatz | Glockner AI" },
   description:
-    "Money Making AI von Glockner AI: Wie Künstliche Intelligenz zum Umsatzmotor Ihres Unternehmens wird — Website, Webshop, Chatbot, Voice & mehr. Für KMU in Österreich, bis zu 80 % WKO-Förderung.",
+    "Money Making AI: Wie Künstliche Intelligenz zum Umsatzmotor Ihres Unternehmens wird — Website, Webshop, Chatbot & Voice. Für KMU in Österreich.",
   alternates: { canonical: "/ki-marketing-vertrieb" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],

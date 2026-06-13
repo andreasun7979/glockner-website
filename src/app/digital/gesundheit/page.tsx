@@ -5,7 +5,7 @@ import BookingWidget from "@/components/BookingWidget";
 export const metadata: Metadata = {
   title: { absolute: "Digital-Marketing für Ärzte & Gesundheit | Glockner Digital" },
   description:
-    "Digital-Marketing für Ärzte, Praxen & Gesundheitsbetriebe: Vertrauen aufbauen, regional sichtbar werden, Telefonarbeit reduzieren. DSGVO-konform, WKO-gefördert.",
+    "Digital-Marketing für Ärzte, Praxen & Gesundheitsbetriebe: regional sichtbar werden, Vertrauen aufbauen, Telefonarbeit reduzieren. DSGVO-konform.",
   alternates: { canonical: "/digital/gesundheit" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],

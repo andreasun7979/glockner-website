@@ -14,7 +14,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: { absolute: "Über uns — Andreas Unterkofler & Glockner AI" },
   description:
-    "Wer hinter Glockner AI steht: Andreas Unterkofler, KI-Berater & E-Commerce-Operator aus Wien und Klagenfurt. KI, die Umsatz bringt — und gleichzeitig Effizienz steigert und Kosten senkt.",
+    "Hinter Glockner AI steht Andreas Unterkofler — KI-Berater & E-Commerce-Operator aus Wien und Klagenfurt. KI, die Umsatz bringt und Kosten senkt.",
   alternates: { canonical: "/ueber-uns" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],

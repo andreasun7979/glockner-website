@@ -16,7 +16,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: { absolute: "Preise — Training, Service & Produkt | Glockner AI" },
   description:
-    "Transparente Preise für KI mit Glockner AI: Training (ab € 1.500/Monat), Service-Retainer (€ 2.500/Monat) oder Produkt (individueller Festpreis). Alles drin, eine Pauschale.",
+    "Transparente Preise für KI-Beratung: Training ab € 1.500/Monat, Service-Retainer € 2.500/Monat oder Produkt zum Festpreis. Eine Pauschale, alles drin.",
   alternates: { canonical: "/preise" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],

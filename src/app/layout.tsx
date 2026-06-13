@@ -5,7 +5,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Analytics from "@/components/Analytics";
 import { SITE_URL, SITE_NAME, SITE_LIVE, organizationJsonLd } from "@/lib/seo";
+import { DM_Sans, Fraunces, Montserrat } from "next/font/google";
 import "./globals.css";
+
+// Self-hosted Schriften via next/font — kein render-blocking Request an Google Fonts.
+const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans", display: "swap" });
+const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces", display: "swap" });
+const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -53,18 +59,16 @@ export default async function RootLayout({
   const isLuxOnly = h.get("x-lux-only") === "1";
 
   return (
-    <html lang="de-AT" className="h-full antialiased">
+    <html
+      lang="de-AT"
+      className={`h-full antialiased ${dmSans.variable} ${fraunces.variable} ${montserrat.variable}`}
+    >
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd()) }}
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Montserrat:wght@600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
+        {/* Schriften kommen self-hosted via next/font (siehe layout-Imports) */}
       </head>
       <body className="min-h-full flex flex-col">
         {/* Cookiebot consent (auto-blocking) MUST load before any tracker.

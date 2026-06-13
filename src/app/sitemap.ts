@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes: Array<{ path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] }> = [
     { path: "/", priority: 1.0, changeFrequency: "weekly" },
     { path: "/preise", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/foerderung", priority: 0.9, changeFrequency: "monthly" },
     { path: "/ki-marketing-vertrieb", priority: 0.8, changeFrequency: "monthly" },
     { path: "/ki-automatisierung", priority: 0.8, changeFrequency: "monthly" },
     { path: "/ki-schulungen", priority: 0.8, changeFrequency: "monthly" },

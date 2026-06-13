@@ -64,15 +64,15 @@ export function organizationJsonLd() {
             addressCountry: "AT",
           },
         ],
-        founder: {
-          "@type": "Person",
-          name: "Mag. Andreas Unterkofler",
-        },
+        founder: { "@id": `${SITE_URL}/#andreas` },
         areaServed: {
           "@type": "Country",
           name: "Österreich",
         },
-        sameAs: ["https://glockner.ai", "https://glocknerdigital.at"],
+        sameAs: [
+          "https://glocknerdigital.at",
+          "https://www.linkedin.com/in/andreas-unterkofler-334b17157/",
+        ],
       },
       {
         "@type": "WebSite",
@@ -81,6 +81,18 @@ export function organizationJsonLd() {
         name: SITE_NAME,
         inLanguage: "de-AT",
         publisher: { "@id": `${SITE_URL}/#organization` },
+      },
+      {
+        "@type": "Person",
+        "@id": `${SITE_URL}/#andreas`,
+        name: "Mag. Andreas Unterkofler",
+        jobTitle: "KI-Berater & Gründer",
+        url: `${SITE_URL}/ueber-uns`,
+        worksFor: { "@id": `${SITE_URL}/#organization` },
+        sameAs: [
+          "https://www.linkedin.com/in/andreas-unterkofler-334b17157/",
+          "https://glocknerdigital.at",
+        ],
       },
     ],
   };

@@ -168,6 +168,24 @@ export default function Footer() {
                 >
                   Training
                 </Link>
+                <Link
+                  href="/ki-software"
+                  className="block text-slate-400 hover:text-white transition-colors duration-200"
+                >
+                  KI-Software
+                </Link>
+                <Link
+                  href="/preise"
+                  className="block text-slate-400 hover:text-white transition-colors duration-200"
+                >
+                  Preise
+                </Link>
+                <Link
+                  href="/foerderung"
+                  className="block text-slate-400 hover:text-white transition-colors duration-200"
+                >
+                  KI-Förderung
+                </Link>
               </div>
             </div>
 

@@ -21,7 +21,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: { absolute: "KI-Training & AI-OS Setup — Ihr Team baut selbst | Glockner AI" },
   description:
-    "Wir installieren Ihr KI-Betriebssystem, richten Claude Code & Ihr Agenten-System ein und schulen Ihr Team auf die Workflows — inkl. 3 Monate Begleitung. Bis zu 80 % WKO-Förderung.",
+    "KI-Schulung für Ihr Team: Wir richten Ihr KI-Betriebssystem & Agenten-System ein und schulen die Workflows — inkl. 3 Monate Begleitung.",
   alternates: { canonical: "/ki-schulungen" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],

@@ -153,6 +153,7 @@ export function middleware(request: NextRequest) {
     path === "/ki-automatisierung" ||
     path === "/ki-software" ||
     path === "/ki-schulungen" ||
+    path === "/foerderung" ||
     path === "/preise" ||
     path === "/ueber-uns" ||
     path === "/kontakt" ||

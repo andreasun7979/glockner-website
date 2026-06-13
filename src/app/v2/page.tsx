@@ -25,7 +25,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: { absolute: "KI-Beratung & Implementierung für KMU in Österreich | Glockner AI" },
   description:
-    "Glockner AI macht Ihr Unternehmen zur KI-First-Organisation: mehr Umsatz und weniger Kosten mit KI — als Training, Service-Retainer oder fertiges Produkt. KI-Beratung & Implementierung für KMU in Österreich. Bis zu 80 % WKO-Förderung.",
+    "KI-Beratung & Implementierung für KMU in Österreich: mehr Umsatz und weniger Kosten mit KI — als Training, Service-Retainer oder fertiges Produkt.",
   alternates: { canonical: "/" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],

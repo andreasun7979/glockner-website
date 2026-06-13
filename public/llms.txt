@@ -1,0 +1,22 @@
+# Glockner AI
+
+> KI-Beratung & Implementierung für KMU in Österreich. Glockner AI macht Unternehmen zur KI-First-Organisation: mehr Umsatz und weniger Kosten mit KI — als Training, Service-Retainer oder fertiges Produkt. Standorte: Wien und Klagenfurt. Gründer: Mag. Andreas Unterkofler.
+
+## Leistungen
+- [Money Making AI (KI für Umsatz)](https://glockner.ai/ki-marketing-vertrieb): Website, Webshop, Chatbot, Voice & SEO/GEO.
+- [Kosten-Killer AI (Automatisierung)](https://glockner.ai/ki-automatisierung): monatlicher KI-Retainer, neue Automatisierungen ohne Großprojekt.
+- [KI-Schulung / Training](https://glockner.ai/ki-schulungen): KI-Betriebssystem, Claude Code & Agenten-System einrichten + Team schulen.
+- [KI-Software](https://glockner.ai/ki-software): maßgeschneiderte Apps, Dashboards, produktisierte AI-OS-Lösungen.
+
+## Förderung
+- [KI-Förderung für KMU](https://glockner.ai/foerderung): KMU.DIGITAL erklärt; 2026 ausgeschöpft. Eigene Glockner-AI-Förderung von 30 % auf KI-Projekte.
+
+## Weitere Seiten
+- [Preise](https://glockner.ai/preise): Training ab € 1.500/Monat, Service-Retainer € 2.500/Monat, Produkt zum Festpreis.
+- [Über uns](https://glockner.ai/ueber-uns): Andreas Unterkofler, KI-Berater & E-Commerce-Operator.
+- [Kontakt](https://glockner.ai/kontakt)
+
+## Kontakt
+- E-Mail: support@glocknerdigital.at
+- Telefon: +43 650 660 5000
+- Web: https://glockner.ai

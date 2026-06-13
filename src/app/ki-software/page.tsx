@@ -21,7 +21,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: { absolute: "Custom KI-Software & Apps — fertig geliefert | Glockner AI" },
   description:
-    "Maßgeschneiderte KI-Software für Ihr Unternehmen: Dashboards, interne Apps, produktisierte AI-OS-Lösungen. Sie erzählen uns Ihr Business — wir liefern das fertige Produkt. Bis zu 80 % WKO-Förderung.",
+    "Maßgeschneiderte KI-Software für Ihr Unternehmen: Dashboards, interne Apps & produktisierte AI-OS-Lösungen. Sie erzählen es uns, wir liefern das Produkt.",
   alternates: { canonical: "/ki-software" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],

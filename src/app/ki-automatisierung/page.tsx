@@ -14,7 +14,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: { absolute: "Ihr AI-Team für € 2.500/Monat — der Glockner AI Retainer" },
   description:
-    "Mehr Effizienz, mehr Effektivität, weniger Kosten: Mit dem Glockner-AI-Retainer bekommen KMU jeden Monat neue KI-Automatisierungen — ohne Großprojekt, ohne Personal aufzubauen. Ab € 2.500/Monat, monatlich kündbar.",
+    "KI-Automatisierung für KMU mit dem Glockner-AI-Retainer: jeden Monat neue Automatisierungen, ohne Großprojekt. Ab € 2.500/Monat, monatlich kündbar.",
   alternates: { canonical: "/ki-automatisierung" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
