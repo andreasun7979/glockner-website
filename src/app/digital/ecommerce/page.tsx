@@ -6,13 +6,13 @@ import BookingWidget from "@/components/BookingWidget";
 export const metadata: Metadata = {
   title: { absolute: "E-Commerce-Beratung & Webshop-Marketing | Glockner Digital" },
   description:
-    "Strategische E-Commerce-Beratung für Webshops, Marken & Händler: AI-Performance-Marketing, Conversion-Webshops, 15 Jahre Praxis. Bis zu 80 % WKO-Förderung.",
+    "E-Commerce-Beratung für Webshops, Marken & Händler: AI-Performance-Marketing, Conversion-Webshops, 15 Jahre Praxis. 30 % Glockner Förderrabatt.",
   alternates: { canonical: "/digital/ecommerce" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "E-Commerce-Beratung & Webshop-Marketing | Glockner Digital",
     description:
-      "Strategische E-Commerce-Beratung für Webshops, Marken & Händler: AI-Performance-Marketing, Conversion-Webshops, 15 Jahre Praxis. Bis zu 80 % WKO-Förderung.",
+      "E-Commerce-Beratung für Webshops, Marken & Händler: AI-Performance-Marketing, Conversion-Webshops, 15 Jahre Praxis. 30 % Glockner Förderrabatt.",
     url: "/digital/ecommerce",
     siteName: "Glockner Digital",
   },

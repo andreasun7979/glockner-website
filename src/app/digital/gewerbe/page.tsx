@@ -5,13 +5,13 @@ import BookingWidget from "@/components/BookingWidget";
 export const metadata: Metadata = {
   title: { absolute: "Digital-Marketing für Gewerbe & Handwerk | Glockner Digital" },
   description:
-    "Mehr Neukunden für Gewerbe & Handwerk: nachhaltige Digital-Strategien, Local SEO und Conversion-Websites. Bis zu 80 % WKO-Förderung.",
+    "Mehr Neukunden für Gewerbe & Handwerk: nachhaltige Digital-Strategien, Local SEO und Conversion-Websites. 30 % Glockner Förderrabatt.",
   alternates: { canonical: "/digital/gewerbe" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Digital-Marketing für Gewerbe & Handwerk | Glockner Digital",
     description:
-      "Mehr Neukunden für Gewerbe & Handwerk: nachhaltige Digital-Strategien, Local SEO und Conversion-Websites. Bis zu 80 % WKO-Förderung.",
+      "Mehr Neukunden für Gewerbe & Handwerk: nachhaltige Digital-Strategien, Local SEO und Conversion-Websites. 30 % Glockner Förderrabatt.",
     url: "/digital/gewerbe",
     siteName: "Glockner Digital",
   },
@@ -170,7 +170,7 @@ export default function DigitalGewerbePage() {
               KMU-Digital Partner
             </span>
             <span className="px-3 py-1.5 border border-aurum/30 rounded-full bg-aurum/5">
-              Bis zu 80&thinsp;% Förderung
+              30&thinsp;% Förderrabatt
             </span>
           </div>
         </div>
