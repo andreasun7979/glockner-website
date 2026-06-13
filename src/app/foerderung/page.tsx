@@ -165,7 +165,7 @@ export default function FoerderungPage() {
             Der bessere Hebel
           </div>
           <h2 className="font-serif-display font-medium text-white text-3xl md:text-5xl leading-[1.06] tracking-[-0.02em] m-0">
-            Die Glockner-AI-Förderung:{" "}
+            Die Glockner-AI-Förderung:<br />
             <span className="aurum-text">30 %</span>
           </h2>
           <p className="mt-6 text-slate-300 text-lg md:text-xl leading-relaxed">
