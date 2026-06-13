@@ -38,8 +38,8 @@ const values = [
   },
   {
     tag: "Gefördert",
-    title: "Bis zu 80 % WKO.",
-    desc: "Setup-, Strategie- & Umsetzungs-Anteile sind förderbar — wir unterstützen Sie beim Antrag.",
+    title: "30 % Förderung.",
+    desc: "Über die Glockner-AI-Förderung bekommen Sie 30 % auf Ihr KI-Projekt — sofort, ohne Antragsmarathon.",
   },
   {
     tag: "Ganzheitlich",

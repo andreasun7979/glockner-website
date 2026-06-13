@@ -992,8 +992,8 @@ export default function RetainerPage() {
                 a: "Dann fließt die Kapazität in Optimierung und Wartung Ihrer bestehenden Systeme — oder wir bringen proaktiv neue Ideen ein. Ihr Budget arbeitet immer für Sie.",
               },
               {
-                q: "Ist das WKO-förderfähig?",
-                a: "Einmalige Setup-, Strategie- und Implementierungsanteile sind bis zu 80 % über die WKO förderbar. Welche Teile in Ihrem Fall infrage kommen, klären wir gemeinsam.",
+                q: "Gibt es eine Förderung?",
+                a: "Ja — über die Glockner-AI-Förderung erhalten Sie 30 % auf Ihr KI-Projekt. Die staatliche KMU.DIGITAL-Förderung ist für 2026 ausgeschöpft. Details klären wir gemeinsam.",
               },
             ].map((f) => (
               <details

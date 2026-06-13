@@ -97,7 +97,7 @@ export default function TrainingPage() {
           </div>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-x-7 gap-y-2 text-slate-400">
-            {["Setup vor Ort oder remote", "3 Monate Begleitung", "Bis zu 80 % WKO-Förderung"].map((t) => (
+            {["Setup vor Ort oder remote", "3 Monate Begleitung", "30 % Glockner-AI-Förderung"].map((t) => (
               <span key={t} className="inline-flex items-center gap-2 text-[13px] font-medium">
                 <Check className="text-aurum/80" />
                 {t}

@@ -96,7 +96,7 @@ export default function ProduktPage() {
           </div>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-x-7 gap-y-2 text-slate-400">
-            {["Maßgeschneidert", "Fertig geliefert", "Bis zu 80 % WKO-Förderung"].map((t) => (
+            {["Maßgeschneidert", "Fertig geliefert", "30 % Glockner-AI-Förderung"].map((t) => (
               <span key={t} className="inline-flex items-center gap-2 text-[13px] font-medium">
                 <Check className="text-aurum/80" />
                 {t}
@@ -246,7 +246,7 @@ export default function ProduktPage() {
             </span>
           </div>
           <p className="font-mono text-[10.5px] tracking-[0.14em] uppercase text-slate-500 mt-4">
-            Festpreis pro Projekt · zzgl. USt. · bis zu 80&thinsp;% WKO-förderfähig
+            Festpreis pro Projekt · zzgl. USt. · inkl. 30&thinsp;% Glockner-AI-Förderung
           </p>
           <p className="mt-6 text-slate-300 text-base md:text-lg leading-relaxed">
             Jedes Produkt ist anders &mdash; den genauen Festpreis legen wir nach

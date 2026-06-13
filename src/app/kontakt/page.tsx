@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Kontakt & kostenloses KI-Erstgespräch",
   description:
-    "Vereinbaren Sie Ihr kostenloses KI-Erstgespräch mit Glockner AI. KI-Beratung & Implementierung für KMU in Österreich — bis zu 80 % WKO-Förderung.",
+    "Vereinbaren Sie Ihr kostenloses KI-Erstgespräch mit Glockner AI. KI-Beratung & Implementierung für KMU in Österreich — mit 30 % Glockner-AI-Förderung.",
   alternates: { canonical: "/kontakt" },
   openGraph: {
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Kontakt & kostenloses KI-Erstgespräch | Glockner AI",
     description:
-      "Vereinbaren Sie Ihr kostenloses KI-Erstgespräch mit Glockner AI. KI-Beratung & Implementierung für KMU in Österreich — bis zu 80 % WKO-Förderung.",
+      "Vereinbaren Sie Ihr kostenloses KI-Erstgespräch mit Glockner AI. KI-Beratung & Implementierung für KMU in Österreich — mit 30 % Glockner-AI-Förderung.",
     url: "/kontakt",
   },
 };

@@ -84,7 +84,7 @@ export default function OpengraphImage() {
         >
           <div style={{ display: "flex", alignItems: "center", fontSize: 28, color: "#e2e8f0" }}>
             <div style={{ display: "flex", width: 14, height: 14, borderRadius: 14, background: CYAN, marginRight: 16 }} />
-            Bis zu 80 % WKO-Förderung
+            30 % Glockner-AI-Förderung
           </div>
           <div style={{ display: "flex", fontSize: 28, fontWeight: 700, color: GOLD }}>glockner.ai</div>
         </div>

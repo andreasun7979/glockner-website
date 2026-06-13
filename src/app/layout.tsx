@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s | Glockner AI",
   },
   description:
-    "Glockner AI macht Ihr Unternehmen mit Agentic AI zukunftsfähig: KI-Beratung, Implementierung & Schulung für KMU in Österreich. Bis zu 80 % WKO-Förderung.",
+    "Glockner AI: KI-Beratung, Implementierung & Schulung für KMU in Österreich — mit 30 % Glockner-AI-Förderung.",
   applicationName: SITE_NAME,
   openGraph: {
     type: "website",

@@ -514,14 +514,16 @@ export default function GlocknerV2Page() {
             <VesicaSeal size={24} />
           </div>
           <h2 className="font-serif-display font-medium text-white text-2xl md:text-3xl lg:text-4xl leading-[1.1] tracking-[-0.02em] m-0">
-            Bis zu{" "}
-            <em className="aurum-text not-italic font-medium">80&thinsp;%</em>{" "}
-            WKO-Förderung möglich<span className="text-aurum">.</span>
+            <em className="aurum-text not-italic font-medium">30&thinsp;%</em>{" "}
+            Glockner-AI-Förderung<span className="text-aurum">.</span>
           </h2>
           <p className="mt-5 text-slate-300 text-base md:text-lg leading-relaxed">
-            Setup-, Strategie- und Implementierungs-Anteile sind über die WKO
-            förderfähig &mdash; wir prüfen mit Ihnen, was in Ihrem Fall infrage
-            kommt.
+            Die staatliche KMU.DIGITAL-Förderung ist für 2026 ausgeschöpft &mdash;
+            dafür gibt es unsere eigene Förderung von 30&thinsp;% auf Ihr
+            KI-Projekt.{" "}
+            <Link href="/foerderung" className="text-aurum hover:underline">
+              Mehr zur Förderung
+            </Link>
           </p>
         </div>
       </section>

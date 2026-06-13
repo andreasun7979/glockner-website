@@ -183,8 +183,9 @@ export default function PreisePage() {
           </ol>
 
           <p className="text-center font-serif-display italic text-slate-400 text-sm md:text-base mt-10 max-w-2xl mx-auto">
-            Alle Preise zzgl. USt. Setup-, Strategie- &amp; Umsetzungs-Anteile
-            sind über die WKO förderfähig &mdash; wir prüfen das mit Ihnen.
+            Alle Preise zzgl. USt. Mit der Glockner-AI-Förderung sparen Sie
+            30&thinsp;% auf Ihr Projekt &mdash; mehr dazu auf der{" "}
+            <Link href="/foerderung" className="text-aurum hover:underline">Förderseite</Link>.
           </p>
         </div>
       </section>

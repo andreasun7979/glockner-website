@@ -44,7 +44,7 @@ export function organizationJsonLd() {
         logo: `${SITE_URL}/logo@2x.webp`,
         image: `${SITE_URL}/logo@2x.webp`,
         description:
-          "KI-Beratung & Implementierung für KMU in Österreich. Bis zu 80 % WKO-Förderung möglich.",
+          "KI-Beratung & Implementierung für KMU in Österreich. Inkl. 30 % Glockner-AI-Förderung.",
         email: "support@glocknerdigital.at",
         telephone: "+436506605000",
         address: [
