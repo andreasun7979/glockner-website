@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Was ist die KMU.DIGITAL-Förderung?",
-    a: "KMU.DIGITAL ist die Digitalisierungs-Förderinitiative des Bundes (BMAW & WKÖ, abgewickelt über die aws – Austria Wirtschaftsservice). Sie besteht aus zwei Bausteinen: geförderte Beratung (Status- und Potenzialanalyse durch zertifizierte Beraterinnen und Berater) und ein Investitionszuschuss für die Umsetzung konkreter Digitalisierungs-, E-Commerce- und KI-Projekte. Zielgruppe sind kleine und mittlere Unternehmen in Österreich.",
+    a: "KMU.DIGITAL ist die Digitalisierungs-Förderinitiative des Bundes (BMAW & WKÖ, abgewickelt über die aws – Austria Wirtschaftsservice). Sie besteht aus zwei Bausteinen: der geförderten Beratung — mit zwei Modulen, der Status- und Potenzialanalyse und der Strategieberatung — sowie einem Investitionszuschuss für die Umsetzung konkreter Digitalisierungs-, E-Commerce- und KI-Projekte. Zielgruppe sind kleine und mittlere Unternehmen in Österreich.",
   },
   {
     q: "Wie hoch ist die KMU.DIGITAL-Förderung?",
@@ -105,11 +105,13 @@ export default function FoerderungPage() {
               <div className="font-mono text-[10.5px] tracking-[0.24em] uppercase text-aurum/85 font-semibold mb-3">
                 Baustein 1
               </div>
-              <h3 className="font-serif-display text-white text-xl m-0">Beratung</h3>
+              <h3 className="font-serif-display text-white text-xl m-0">Beratung — 2 Module</h3>
               <p className="mt-3 text-slate-400 text-sm leading-relaxed">
-                Geförderte Status- und Potenzialanalyse durch zertifizierte
-                Beraterinnen und Berater — der strukturierte Blick darauf, wo KI
-                und Digitalisierung im Unternehmen den größten Hebel haben.
+                Zwei geförderte Beratungs-Module durch zertifizierte Beraterinnen
+                und Berater: die <span className="text-white">Status- und
+                Potenzialanalyse</span> (Standortbestimmung) und die{" "}
+                <span className="text-white">Strategieberatung</span> (konkreter
+                Umsetzungs-Fahrplan).
               </p>
             </div>
             <div className="rounded-2xl border border-aurum/25 bg-brand-card/70 p-6">
