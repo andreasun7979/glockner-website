@@ -226,17 +226,16 @@ export default function DigitalGesundheitPage() {
               Drei Stufen
             </div>
             <h2 className="font-serif-display font-medium text-white text-4xl md:text-5xl lg:text-6xl leading-[1.06] tracking-[-0.02em] m-0">
-              Bis zu{" "}
-              <em className="aurum-text not-italic font-medium">80&thinsp;%</em>{" "}
-              WKO-Förderung
+              <em className="aurum-text not-italic font-medium">30&thinsp;%</em>{" "}
+              Glockner Förderrabatt
               <span className="text-aurum">.</span>
             </h2>
             <div className="mt-8">
               <AurumDivider />
             </div>
             <p className="font-serif-display italic text-slate-300 text-lg md:text-xl mt-8 leading-relaxed">
-              Vom Status-Audit bis zur Umsetzungs-Begleitung &mdash; geförderte
-              Beratung von einem zertifizierten WKO-Berater.
+              Vom Status-Audit bis zur Umsetzungs-Begleitung &mdash; mit 30 %
+              Glockner Förderrabatt auf jedes Modul.
             </p>
           </header>
 
@@ -249,7 +248,7 @@ export default function DigitalGesundheitPage() {
               />
               <div className="flex items-center justify-between">
                 <span className="inline-flex items-center font-mono text-[10.5px] tracking-[0.20em] uppercase font-semibold text-aurum bg-aurum/15 border border-aurum/40 px-3 py-1.5 rounded-full">
-                  80&thinsp;% WKO-Förderung
+                  30&thinsp;% Glockner Förderrabatt
                 </span>
                 <span className="font-mono text-[10px] tracking-[0.18em] uppercase text-slate-500">
                   I
@@ -273,11 +272,11 @@ export default function DigitalGesundheitPage() {
                     €&thinsp;500
                   </span>
                   <span className="font-serif-display aurum-text text-5xl md:text-6xl font-medium leading-none">
-                    €&thinsp;100
+                    €&thinsp;350
                   </span>
                 </div>
                 <span className="font-mono text-[10px] tracking-[0.16em] uppercase text-slate-500">
-                  nach Förderung
+                  nach Rabatt
                 </span>
               </div>
               <ul className="text-slate-300 text-[14px] leading-relaxed list-none m-0 p-0 space-y-1.5 flex-grow">
@@ -321,7 +320,7 @@ export default function DigitalGesundheitPage() {
               />
               <div className="flex items-center justify-between">
                 <span className="inline-flex items-center font-mono text-[10.5px] tracking-[0.20em] uppercase font-semibold text-aurum bg-aurum/15 border border-aurum/40 px-3 py-1.5 rounded-full">
-                  50&thinsp;% WKO-Förderung
+                  30&thinsp;% Glockner Förderrabatt
                 </span>
                 <span className="font-mono text-[10px] tracking-[0.18em] uppercase text-slate-500">
                   II
@@ -345,11 +344,11 @@ export default function DigitalGesundheitPage() {
                     €&thinsp;2.000
                   </span>
                   <span className="font-serif-display aurum-text text-5xl md:text-6xl font-medium leading-none">
-                    €&thinsp;1.000
+                    €&thinsp;1.400
                   </span>
                 </div>
                 <span className="font-mono text-[10px] tracking-[0.16em] uppercase text-slate-500">
-                  nach Förderung
+                  nach Rabatt
                 </span>
               </div>
               <ul className="text-slate-300 text-[14px] leading-relaxed list-none m-0 p-0 space-y-1.5 flex-grow">
@@ -393,7 +392,7 @@ export default function DigitalGesundheitPage() {
               />
               <div className="flex items-center justify-between">
                 <span className="inline-flex items-center font-mono text-[10.5px] tracking-[0.20em] uppercase font-semibold text-aurum bg-aurum/15 border border-aurum/40 px-3 py-1.5 rounded-full">
-                  WKO-Förderung
+                  30&thinsp;% Glockner Förderrabatt
                 </span>
                 <span className="font-mono text-[10px] tracking-[0.18em] uppercase text-slate-500">
                   III
@@ -409,14 +408,14 @@ export default function DigitalGesundheitPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-1 pt-2 border-t border-white/10">
-                <span className="font-mono text-[10px] tracking-[0.16em] uppercase text-slate-500">
-                  bis zu
+                <span aria-hidden="true" className="font-mono text-[10px] tracking-[0.16em] uppercase text-slate-500 invisible select-none">
+                  Rabatt
                 </span>
                 <span className="font-serif-display aurum-text text-5xl md:text-6xl font-medium leading-none">
-                  €&thinsp;6.000
+                  30&thinsp;%
                 </span>
                 <span className="font-mono text-[10px] tracking-[0.16em] uppercase text-slate-500">
-                  Förderung möglich
+                  Glockner Förderrabatt
                 </span>
               </div>
               <ul className="text-slate-300 text-[14px] leading-relaxed list-none m-0 p-0 space-y-1.5 flex-grow">
@@ -620,7 +619,7 @@ export default function DigitalGesundheitPage() {
               <AurumDivider />
             </div>
             <p className="font-serif-display italic text-slate-300 text-lg md:text-xl mt-7 leading-relaxed">
-              Kostenlos und unverbindlich. WKO-zertifiziert, KMU-Digital-Partner.
+              Kostenlos und unverbindlich · 30 % Glockner Förderrabatt.
             </p>
           </header>
 
