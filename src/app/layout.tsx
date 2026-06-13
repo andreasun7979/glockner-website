@@ -4,7 +4,7 @@ import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Analytics from "@/components/Analytics";
-import { SITE_URL, SITE_NAME, SITE_LIVE, DEFAULT_OG_IMAGE, organizationJsonLd } from "@/lib/seo";
+import { SITE_URL, SITE_NAME, SITE_LIVE, organizationJsonLd } from "@/lib/seo";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -21,11 +21,12 @@ export const metadata: Metadata = {
     locale: "de_AT",
     siteName: SITE_NAME,
     url: "/",
-    images: [{ url: DEFAULT_OG_IMAGE }],
+    // Dynamisch generiert via app/opengraph-image.tsx (1200×630, im Glockner-CD).
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: SITE_NAME }],
   },
   twitter: {
-    card: "summary",
-    images: [DEFAULT_OG_IMAGE],
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
   },
   // Master-Schalter in src/lib/seo.ts. Solange SITE_LIVE === false bleibt die
   // gesamte Seite auf noindex (Preview/Staging-Schutz). Beim Launch: SITE_LIVE = true.

@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     "Glockner AI macht Ihr Unternehmen zur KI-First-Organisation: mehr Umsatz und weniger Kosten mit KI — als Training, Service-Retainer oder fertiges Produkt. KI-Beratung & Implementierung für KMU in Österreich. Bis zu 80 % WKO-Förderung.",
   alternates: { canonical: "/" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Glockner AI — KI für mehr Umsatz & weniger Kosten",
     description:
       "Zwei Ziele, drei Wege. Mehr Umsatz und weniger Kosten mit KI — als Training, Service-Retainer oder fertiges Produkt.",
@@ -105,6 +106,10 @@ export default function GlocknerV2Page() {
           <div className="mt-10 mb-8">
             <GoldDivider width="wide" />
           </div>
+
+          <h2 className="font-serif-display font-medium text-white text-xl md:text-2xl lg:text-3xl leading-snug max-w-3xl mx-auto mb-5 m-0">
+            <span className="aurum-text">KI-Beratung &amp; Automatisierung</span> für KMU in Österreich
+          </h2>
 
           <p className="text-slate-300 text-base md:text-xl leading-relaxed max-w-2xl mx-auto m-0">
             Wir machen Ihr Unternehmen zur{" "}

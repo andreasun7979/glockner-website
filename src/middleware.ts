@@ -54,6 +54,42 @@ function mayIndex(host: string) {
 export function middleware(request: NextRequest) {
   const host = (request.headers.get("host") || "").toLowerCase();
 
+  // Preview-Subdomain ist NICHT für die Öffentlichkeit: HTTP-Basic-Auth-Gate.
+  // Passwort = Zugangscode (beliebiger Benutzername). Greift nur auf dem
+  // Preview-Host; Produktion (glockner.ai) bleibt unberührt.
+  if (bareHost(host) === LUX_HOST) {
+    const PREVIEW_CODE = "9898";
+    const auth = request.headers.get("authorization") ?? "";
+    let authorized = false;
+    if (auth.startsWith("Basic ")) {
+      try {
+        authorized = (atob(auth.slice(6)).split(":")[1] ?? "") === PREVIEW_CODE;
+      } catch {
+        authorized = false;
+      }
+    }
+    if (!authorized) {
+      return new NextResponse("Zugang geschützt.", {
+        status: 401,
+        headers: {
+          "WWW-Authenticate": 'Basic realm="Glockner Preview", charset="UTF-8"',
+          "X-Robots-Tag": ROBOTS_TAG,
+        },
+      });
+    }
+  }
+
+  // www → apex: consolidate the www subdomain onto the bare primary domain so
+  // there is one canonical host (no duplicate content, signals consolidate).
+  // 308 keeps method + path/query; glockner.ai then applies the lux logic.
+  if (bareHost(host) === `www.${PRIMARY_HOST}`) {
+    const target = request.nextUrl.clone();
+    target.protocol = "https:";
+    target.hostname = PRIMARY_HOST;
+    target.port = "";
+    return NextResponse.redirect(target, 308);
+  }
+
   // Glockner-Digital domains consolidate onto the primary brand domain.
   // 308 keeps method + path/query; glockner.ai then applies the lux logic.
   if (REDIRECT_TO_PRIMARY.has(bareHost(host))) {
@@ -83,10 +119,12 @@ export function middleware(request: NextRequest) {
   const url = request.nextUrl;
   const path = url.pathname;
 
-  // Assets / Next.js internals / API: never redirect.
+  // Assets / Next.js internals / API / Metadata-Routen: never redirect.
   if (
     path.startsWith("/_next") ||
     path.startsWith("/api/") ||
+    path === "/opengraph-image" ||
+    path === "/twitter-image" ||
     /\.[a-zA-Z0-9]+$/.test(path)
   ) {
     return tag(NextResponse.next({ request: { headers: requestHeaders } }));

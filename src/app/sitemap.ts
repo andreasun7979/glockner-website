@@ -27,7 +27,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   return routes.map(({ path, priority, changeFrequency }) => ({
-    url: `${SITE_URL}${path}`,
+    // Root ohne abschließenden Slash, damit er exakt dem Canonical (SITE_URL) entspricht.
+    url: path === "/" ? SITE_URL : `${SITE_URL}${path}`,
     lastModified,
     changeFrequency,
     priority,

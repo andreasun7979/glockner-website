@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "Money Making AI von Glockner AI: Wie Künstliche Intelligenz zum Umsatzmotor Ihres Unternehmens wird — Website, Webshop, Chatbot, Voice & mehr. Für KMU in Österreich, bis zu 80 % WKO-Förderung.",
   alternates: { canonical: "/ki-marketing-vertrieb" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Money Making AI — KI für mehr Umsatz | Glockner AI",
     description:
       "Wie Künstliche Intelligenz zum Umsatzmotor Ihres Unternehmens wird. Für KMU in Österreich.",

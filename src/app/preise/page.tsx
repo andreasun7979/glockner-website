@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     "Transparente Preise für KI mit Glockner AI: Training (ab € 1.500/Monat), Service-Retainer (€ 2.500/Monat) oder Produkt (individueller Festpreis). Alles drin, eine Pauschale.",
   alternates: { canonical: "/preise" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Preise — Training, Service & Produkt | Glockner AI",
     description:
       "Training, Service-Retainer oder Produkt — transparente Preise. Sie wählen, wie wir zusammenarbeiten.",

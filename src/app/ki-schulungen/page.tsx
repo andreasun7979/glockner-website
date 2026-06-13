@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "Wir installieren Ihr KI-Betriebssystem, richten Claude Code & Ihr Agenten-System ein und schulen Ihr Team auf die Workflows — inkl. 3 Monate Begleitung. Bis zu 80 % WKO-Förderung.",
   alternates: { canonical: "/ki-schulungen" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "KI-Training & AI-OS Setup — Ihr Team baut selbst",
     description:
       "AI-OS Setup, Claude Code, Agenten-System + Schulung. Inkl. 3 Monate Begleitung.",

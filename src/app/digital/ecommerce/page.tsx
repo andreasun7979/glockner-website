@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "Strategische E-Commerce-Beratung für Webshops, Marken & Händler: AI-Performance-Marketing, Conversion-Webshops, 15 Jahre Praxis. Bis zu 80 % WKO-Förderung.",
   alternates: { canonical: "/digital/ecommerce" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "E-Commerce-Beratung & Webshop-Marketing | Glockner Digital",
     description:
       "Strategische E-Commerce-Beratung für Webshops, Marken & Händler: AI-Performance-Marketing, Conversion-Webshops, 15 Jahre Praxis. Bis zu 80 % WKO-Förderung.",

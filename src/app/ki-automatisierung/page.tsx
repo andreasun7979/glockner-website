@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     "Mehr Effizienz, mehr Effektivität, weniger Kosten: Mit dem Glockner-AI-Retainer bekommen KMU jeden Monat neue KI-Automatisierungen — ohne Großprojekt, ohne Personal aufzubauen. Ab € 2.500/Monat, monatlich kündbar.",
   alternates: { canonical: "/ki-automatisierung" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Ihr AI-Team für € 2.500/Monat — der Glockner AI Retainer",
     description:
       "Jeden Monat neue KI-Automatisierungen, die in Ihrem Unternehmen arbeiten. Mehr Effizienz & Effektivität, weniger Kosten. Ab € 2.500/Monat.",

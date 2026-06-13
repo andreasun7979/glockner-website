@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Digital-Marketing für Ärzte, Praxen & Gesundheitsbetriebe: Vertrauen aufbauen, regional sichtbar werden, Telefonarbeit reduzieren. DSGVO-konform, WKO-gefördert.",
   alternates: { canonical: "/digital/gesundheit" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Digital-Marketing für Ärzte & Gesundheit | Glockner Digital",
     description:
       "Digital-Marketing für Ärzte, Praxen & Gesundheitsbetriebe: Vertrauen aufbauen, regional sichtbar werden, Telefonarbeit reduzieren. DSGVO-konform, WKO-gefördert.",

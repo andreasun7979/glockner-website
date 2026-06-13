@@ -6,6 +6,7 @@ export const metadata: Metadata = {
     "Einblicke und Neuigkeiten rund um Künstliche Intelligenz, Automatisierung und digitale Transformation für KMU in Österreich.",
   alternates: { canonical: "/blog" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Blog: KI, Automatisierung & digitale Transformation | Glockner AI",
     description:
       "Einblicke und Neuigkeiten rund um Künstliche Intelligenz, Automatisierung und digitale Transformation für KMU in Österreich.",

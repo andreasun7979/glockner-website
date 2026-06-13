@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Mehr Neukunden für Gewerbe & Handwerk: nachhaltige Digital-Strategien, Local SEO und Conversion-Websites. Bis zu 80 % WKO-Förderung.",
   alternates: { canonical: "/digital/gewerbe" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Digital-Marketing für Gewerbe & Handwerk | Glockner Digital",
     description:
       "Mehr Neukunden für Gewerbe & Handwerk: nachhaltige Digital-Strategien, Local SEO und Conversion-Websites. Bis zu 80 % WKO-Förderung.",

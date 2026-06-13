@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "Maßgeschneiderte KI-Software für Ihr Unternehmen: Dashboards, interne Apps, produktisierte AI-OS-Lösungen. Sie erzählen uns Ihr Business — wir liefern das fertige Produkt. Bis zu 80 % WKO-Förderung.",
   alternates: { canonical: "/ki-software" },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Custom KI-Software & Apps — fertig geliefert",
     description:
       "Maßgeschneiderte KI-Software, Dashboards und interne Apps. Sie erzählen, wir liefern.",
