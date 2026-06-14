@@ -17,8 +17,11 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      // Alternativ-Designs & Studio nicht crawlen (Duplicate Content / Backend).
-      disallow: ["/studio", "/leistungen-lux", "/leistungen-lux2"],
+      // KEIN Disallow für /studio, /leistungen-lux, /leistungen-lux2:
+      // diese Pfade leiten per 301/302 weiter bzw. tragen noindex. Ein
+      // robots.txt-Disallow würde Google daran hindern, Redirect/Noindex zu
+      // sehen → GSC-Fehler „Indexiert, obwohl durch robots.txt blockiert".
+      // Offen lassen, damit Google sie crawlen und sauber fallen lassen kann.
     },
     sitemap: `${SITE_URL}/sitemap.xml`,
     host: SITE_URL,
