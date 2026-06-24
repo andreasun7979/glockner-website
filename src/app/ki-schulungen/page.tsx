@@ -408,7 +408,7 @@ export default function TrainingPage() {
                 <div className="flex items-baseline justify-center gap-2 mt-1">
                   <span className="font-mono text-sm text-slate-400">ab</span>
                   <span className="font-serif-display aurum-text text-5xl md:text-6xl font-medium leading-none">
-                    € 1.500
+                    € 1.900
                   </span>
                   <span className="font-mono text-sm text-slate-400">/ Monat</span>
                 </div>

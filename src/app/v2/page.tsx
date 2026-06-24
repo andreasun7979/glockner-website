@@ -342,7 +342,7 @@ export default function GlocknerV2Page() {
                 name: "Training",
                 tagline: "Wir bringen Ihnen Agentic AI bei.",
                 body: "Wir installieren Ihr KI-Betriebssystem, richten Claude Code & Ihr Agenten-System ein und schulen Sie auf die Workflows. Inklusive 3 Monate Begleitung.",
-                price: "ab € 1.500",
+                price: "ab € 1.900",
                 priceNote: "pro Monat · Setup extra",
                 href: "/ki-schulungen",
                 cta: "Training ansehen",
